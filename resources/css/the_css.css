@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+body {
+    color: white;
+}
+
+.boxPic {
+    width: 512px;
+    height: 512px;
+}
+
+ul.inlineUl {
+    list-style: none;
+    overflow: hidden;
+}
+
+.cutB {
+    border-radius: 20px 20px 20px 20px;
+}
+
+li.inlineUl {
+    /*
+    border: 5px solid #e67c25;
+    background-color: ;*/
+    background: linear-gradient(to bottom, rgb(0, 17, 255), rgb(12, 0, 173));
+    color: #04be14;
+    text-shadow: 2px 2px 2px #1f8dc0;
+    font-size: 100%;
+    text-align: center;
+    line-height: 1;
+    display: inline-block;
+}
+
+nav {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
