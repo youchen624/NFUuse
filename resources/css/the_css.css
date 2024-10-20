@@ -27,6 +27,29 @@ ul {
     max-width: 100%;
     height: auto;
 }
+
+.h2_001 {
+    text-align: center;
+    /* margin: 0 0 0 20px; */
+    /* display: inline-block; */
+    width: 12vw;
+    height: 1vw;
+    line-height: 1vw;
+    font-size: 2vw;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 0 20px 20px 0;
+}
+
+.inlineDiv_01 {
+    display: table;
+    background-color: rgb(26, 127, 93);
+    /* align-items: normal; */
+    /* border-radius: 10px; */
+    border: 5px solid #d5d5d5;
+    margin: 10px;
+}
+
 .bala1 h2 {
     /* max: 100%; */
     font-size: 2vw;

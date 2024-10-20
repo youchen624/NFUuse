@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圓餅圖和七個按鈕</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* 使用 CSS Grid 佈局 */
+        .container {
+            /* display: grid; */
+            display: flex;
+            grid-template-columns: auto 1fr; /* 左邊是按鈕區域，右邊是圓餅圖 */
+            gap: 20px; /* 按鈕區域和圖表之間的距離 */
+            align-items: center; /* 垂直居中 */
+        }
+        .button-row {
+            display: flex; /* 使用 Flexbox 使按鈕並排 */
+            gap: 10px; /* 按鈕之間的間距 */
+        }
+        /* #myPieChart {
+            width: 20px;
+            height: 20px;
+        } */
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="buttons">
+        <div class="button-row">
+            <button id="button1">增加按鈕 1</button>
+            <button id="button1Decrease">減少按鈕 1</button>
+        </div>
+        <div class="button-row">
+            <button id="button2">增加按鈕 2</button>
+            <button id="button2Decrease">減少按鈕 2</button>
+        </div>
+        <div class="button-row">
+            <button id="button3">增加按鈕 3</button>
+            <button id="button3Decrease">減少按鈕 3</button>
+        </div>
+        <div>
+            <button id="resetButton">重置所有計數</button>
+        </div>
+    </div>
+    <canvas id="myPieChart" width="60" height="60"></canvas>
+</div>
+
+<script src="resources/js/pie_chart.js"></script>
+
+</body>
+</html>
