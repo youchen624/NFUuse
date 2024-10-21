@@ -6,6 +6,15 @@ body {
 }
 
 
+nav#here {
+    right: 0;
+    position: fixed;
+}
+
+#noneDis {
+    padding-top: 60px;
+}
+
 /* ul.inlineUl {
     list-style: none;
     overflow: hidden;
@@ -96,4 +105,27 @@ nav a {
     text-decoration: none;
     color: #333;
     padding: 5px 10px;
+}
+
+ul#otherSites {
+    padding: 1vw;
+    margin: 0;
+    align-items: center;
+    background-color: aqua;
+}
+ul#otherSites h2 {
+    margin: 0;
+}
+ul#otherSites li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 8vw;
+    height: 3vw;
+    text-align: center;
+    line-height: 3vw;
+    background-color: lightblue;
+    border: 2px solid blue;
+}
+ul#otherSites li {
+    display: inline-block;
 }
