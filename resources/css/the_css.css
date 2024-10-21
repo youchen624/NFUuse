@@ -1,23 +1,19 @@
 body {
     background-color: black;
-}
-body {
     color: white;
 }
+
 
 nav#here {
     right: 0;
     position: fixed;
+    z-index: 10;
 }
 
 #noneDis {
     padding-top: 60px;
 }
 
-/* ul.inlineUl {
-    list-style: none;
-    overflow: hidden;
-} */
 ul {
     list-style: none;
 }
@@ -38,8 +34,6 @@ ul {
 
 .h2_001 {
     text-align: center;
-    /* margin: 0 0 0 20px; */
-    /* display: inline-block; */
     width: 12vw;
     height: 1vw;
     line-height: 1vw;
@@ -52,8 +46,6 @@ ul {
 .inlineDiv_01 {
     display: table;
     background-color: rgb(26, 127, 93);
-    /* align-items: normal; */
-    /* border-radius: 10px; */
     border: 5px solid #d5d5d5;
     margin: 10px;
 }
@@ -106,7 +98,14 @@ nav a {
     padding: 5px 10px;
 }
 
+
+#pie_chart {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
 ul#otherSites {
+    display: inline-block;
     padding: 1vw;
     margin: 0;
     align-items: center;
@@ -127,4 +126,8 @@ ul#otherSites li a {
 }
 ul#otherSites li {
     display: inline-block;
+}
+
+.setCenter {
+    text-align: center;
 }
