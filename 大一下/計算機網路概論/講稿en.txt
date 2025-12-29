@@ -1,0 +1,77 @@
+//
+// Slide 1 - Tittle
+Hello everyone.
+We are the Group 21.
+My name is "陳宥儒". My teammate is "陳柏勳".
+Our topic is the IEEE 802 LAN/MAN Standards Committee and Ethernet.
+I will be introducing the IEEE 802 LAN and MAN Standards Committee, also known as the LMSC.
+
+
+// Slide 2 - IEEE 802 LMSC
+The committee was established in February nineteen eighteen.
+Its name, IEEE 802, comes from the IEEE committee numbering system.
+It is not based on the date of establishment, but the number does help people remember it.
+
+The committee develops standards for Local Area Networks (LANs), Metropolitan Area Networks (MANs), and high-speed networks.
+These two links provide more information about IEEE 802.
+
+To handle this broad task, the committee is divided into several working groups.
+Each group focuses on a specific area of networking technology.
+
+
+// Slide 3 - Working Groups (tables)
+These tables show the main IEEE 802 standards, which cover both wired and wireless local and metropolitan area networks.
+The IEEE 802 family includes many networking standards, but here are the most important ones:
+
+- **IEEE 802.3 (Ethernet)**: The most widely used wired LAN standard.
+- **IEEE 802.11 (Wi-Fi)**: The foundation of nearly all wireless LANs.
+
+Others like .1 (network management), .15 (Bluetooth), and .16 (WiMAX) also exist, but are either more technical or less common today.
+
+
+// Slide 4 - Working Groups (tables)
+
+// Slide 5 - Working Groups (tables)
+
+
+// Slide 6 - IEEE 802 and OSI Model
+IEEE 802 standards mostly operate at the first two layers of the OSI model:  
+- **Layer 1**, the Physical Layer  
+- **Layer 2**, the Data Link Layer
+
+For example, IEEE 802.3 (Ethernet) and IEEE 802.11 (Wi-Fi) define how devices connect and how data is transferred over the network.  
+Higher layers, like the Network and Transport layers, are handled by other protocols such as IP and TCP.
+
+
+// Slide 7 - Typical LAN Architecture (典型網路架構)
+This slide shows typical LAN architecture. It includes components like routers, switches, and hosts. IEEE 802 standards define how these devices communicate within the LAN.
+
+
+
+
+
+
+
+
+
+
+/* ******** ******** ******** ******** ******** ******** ******** ******** */
+
+/// deleted
+/// deleted
+/// deleted
+
+- **IEEE 802.15** supports wireless personal area networks, such as Bluetooth.  
+- **IEEE 802.16**, or WiMAX, was once a major wireless MAN standard, though it's now less common.  
+- **IEEE 802.19** focuses on wireless coexistence, helping multiple wireless systems work together.  
+- **IEEE 802.1** manages the overall IEEE 802 architecture, including VLANs, bridging, and network security.  
+- **IEEE 802.3**, or Ethernet, is the most widely used wired LAN standard in the world.  
+- **IEEE 802.11**, also known as Wi-Fi, is the foundation of nearly all wireless LANs.
+- **IEEE 802.18** advises on radio regulations to ensure standards meet global spectrum laws.
+
+Together, these standards support the networking technologies we use every day and continue to evolve for future needs.
+
+
+
+
+802.15 (Bluetooth), change to `Bluetooth SIG`

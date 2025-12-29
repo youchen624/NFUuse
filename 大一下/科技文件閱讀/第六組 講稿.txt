@@ -1,0 +1,106 @@
+// Slide 1 - 開頭
+
+Hello everyone! We are Group 6.
+Have you ever wondered how different software applications communicate with each other seamlessly?
+Our topic is the API,
+the invisible bridge that makes this communication possible.
+\
+
+// Slide 2 - 目錄
+\
+
+// Slide 3 - 影片的主要目的
+What is the main purpose of this video?
+\
+
+// Slide 4 - 目的
+The main purpose of this video is to explain what an API is, how it works, and why it's important in modern software development. It uses both technical explanations and real-life analogies to make the concept easier to understand.
+\
+
+// Slide 5 - 技術術語 & 複合名詞 (能辨識)
+
+What technical terms or compound nouns can we identify?
+\
+
+// Slide 6 - list
+
+The video includes several technical terms and compound nouns, such as:
+Application Programming Interface (API)
+Software Systems
+Data and Functionality
+Consistent format
+weather service
+Payment Processing
+Social media integration
+Travel booking
+User authentication
+\
+
+// Slide 7 - 被動語態
+Did the speaker use passive voice?
+Yes, passive voice is used. For example:
+\
+
+// Slide 8 - 被動語態範例
+“An API is a set of rules that allows programs to talk to each other…”
+
+“Data and functionality [are] exposed across the internet…”
+
+“The kitchen is the system that processes your request and returns the result.”
+\
+
+// Slide 9
+If this were a documentation page, which parts would you skim or scan?
+\
+
+// Slide 10
+I would skim or scan:
+
+The definition section at the beginning
+
+The comparison between API and ABI
+
+The practical example about booking a flight
+
+The summary near the end that explains the role of APIs in connecting devices and applications
+\
+
+// Slide 11 - 關鍵句子
+Can you paraphrase one key sentence from the video?
+Here's a key sentence from the video, and how I paraphrased it.
+\
+
+// Slide 12 - 解釋關鍵句子
+The original line was:
+“An API is the messenger that runs and delivers your request to the provider you’re requesting it from, and then delivers the response back to you.”
+
+And in simpler words, I’d say:
+
+“An API is like a middleman — it takes your request, sends it to the system, and brings back the result.”
+\
+
+// Slide 13 - 說明&定義
+Did the video include instructions or definitions?
+\
+
+// Slide 14 - 
+Yes, the video includes both definitions and explanations. For example, it defines what an API is, what it does, and how it differs from an ABI. It also explains how APIs work using an analogy with a waiter in a restaurant.
+\
+
+// Slide 15
+What was the most difficult sentence to understand, and why?
+\
+
+// Slide 16
+One of the harder sentences from the video might be:
+“APIs expose data and functionality across the internet in a consistent format.”
+
+This can be a bit tricky to understand, especially if you're new to APIs, because it uses some abstract terms.
+For example, what does it mean to “expose data” or “functionality”? And what exactly is a “consistent format”?
+
+Without clear examples, it’s not immediately obvious. So for someone unfamiliar with APIs, this sentence could feel a bit too technical or unclear at first.
+\
+
+// Slide 17
+This concludes our presentation. Thank you for your attention.
+\
