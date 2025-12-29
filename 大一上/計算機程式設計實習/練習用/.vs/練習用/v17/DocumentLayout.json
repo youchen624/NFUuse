@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\\u5927\u5B78\\\u4F5C\u696D\\\u8A08\u7B97\u6A5F\u7A0B\u5F0F\u8A2D\u8A08\u5BE6\u7FD2\\\u7DF4\u7FD2\u7528\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D568415-EE18-4B2B-9D1A-AEB529BD15A8}|1128CPE\u7DF4\u7FD210170\\1128CPE\u7DF4\u7FD210170.vcxproj|C:\\Users\\user\\Desktop\\\u5927\u5B78\\\u4F5C\u696D\\\u8A08\u7B97\u6A5F\u7A0B\u5F0F\u8A2D\u8A08\u5BE6\u7FD2\\\u7DF4\u7FD2\u7528\\1128CPE\u7DF4\u7FD210170\\1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2D568415-EE18-4B2B-9D1A-AEB529BD15A8}|1128CPE\u7DF4\u7FD210170\\1128CPE\u7DF4\u7FD210170.vcxproj|solutionrelative:1128CPE\u7DF4\u7FD210170\\1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC2ABEAB-CA4D-45A8-87B4-993C0E08E8FE}|1120\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94\\1120\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94.vcxproj|C:\\Users\\user\\Desktop\\\u5927\u5B78\\\u4F5C\u696D\\\u8A08\u7B97\u6A5F\u7A0B\u5F0F\u8A2D\u8A08\u5BE6\u7FD2\\\u7DF4\u7FD2\u7528\\1120\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94\\\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DC2ABEAB-CA4D-45A8-87B4-993C0E08E8FE}|1120\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94\\1120\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94.vcxproj|solutionrelative:1120\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94\\\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "1.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u5927\u5B78\\\u4F5C\u696D\\\u8A08\u7B97\u6A5F\u7A0B\u5F0F\u8A2D\u8A08\u5BE6\u7FD2\\\u7DF4\u7FD2\u7528\\1128CPE\u7DF4\u7FD210170\\1.cpp",
+              "RelativeDocumentMoniker": "1128CPE\u7DF4\u7FD210170\\1.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u5927\u5B78\\\u4F5C\u696D\\\u8A08\u7B97\u6A5F\u7A0B\u5F0F\u8A2D\u8A08\u5BE6\u7FD2\\\u7DF4\u7FD2\u7528\\1128CPE\u7DF4\u7FD210170\\1.cpp",
+              "RelativeToolTip": "1128CPE\u7DF4\u7FD210170\\1.cpp",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-28T11:08:03.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u5927\u5B78\\\u4F5C\u696D\\\u8A08\u7B97\u6A5F\u7A0B\u5F0F\u8A2D\u8A08\u5BE6\u7FD2\\\u7DF4\u7FD2\u7528\\1120\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94\\\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94.c",
+              "RelativeDocumentMoniker": "1120\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94\\\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u5927\u5B78\\\u4F5C\u696D\\\u8A08\u7B97\u6A5F\u7A0B\u5F0F\u8A2D\u8A08\u5BE6\u7FD2\\\u7DF4\u7FD2\u7528\\1120\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94\\\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94.c",
+              "RelativeToolTip": "1120\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94\\\u5B57\u5143\u9663\u5217\u70BA\u53C3\u6578\u7DF4\u7FD2\u6A94.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-20T03:40:42.457Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

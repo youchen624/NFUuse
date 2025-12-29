@@ -1,0 +1,59 @@
+1
+nano data01.txt
+Ctrl + K 剪下 | Ctrl + U 貼上 | Ctrl + O 儲存 | Ctrl + X 離開
+
+2
+vi data02.txt
+i (插入模式) | Esc (回命令模式) | yy (複製整行) | p (貼上行) | dd (刪除行) | :wq (儲存)
+
+3
+sudo useradd -m -s /bin/tcsh john
+sudo passwd john
+
+4
+cat /etc/passwd | grep john
+john:x:1001:1001::/home/john:/bin/tcsh
+使用者名稱:密碼:使用者ID(UID):群組ID(GID)::家目錄路徑:使用者默認Shell
+
+5
+su - john
+id -un
+
+6
+sudo groupadd classroom
+cat /etc/group | grep classroom
+
+7
+sudo usermod -aG classroom john
+cat /etc/group | grep classroom
+
+8
+sudo gpasswd -d john classroom
+cat /etc/group | grep classroom
+
+9
+sudo groupdel classroom
+cat /etc/group | grep classroom
+
+11
+/*
+sudo apt update
+sudo apt install openssh-server
+*/
+sudo systemctl start ssh
+ssh john@localhost
+
+12
+scp john@localhost:/home/john/test01.txt .
+
+13
+scp test02.txt john@localhost:/home/john/
+
+14
+15
+16
+sudo userdel -r john
+sudo kill -9 <id>
+cat /etc/passwd | grep john
+cat /etc/group | grep john
+

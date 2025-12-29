@@ -1,0 +1,4 @@
+﻿  2所有位數和b.cpp
+C:\Users\user\Desktop\考試\2所有位數和b\2所有位數和b\2所有位數和b.cpp(8,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\Desktop\考試\2所有位數和b\2所有位數和b\2所有位數和b.cpp(11,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  2所有位數和b.vcxproj -> C:\Users\user\Desktop\考試\2所有位數和b\x64\Debug\2所有位數和b.exe

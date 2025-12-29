@@ -1,0 +1,6 @@
+﻿  字元陣列為參數練習檔.c
+C:\Users\user\Desktop\大學\作業\計算機程式設計實習\練習用\1120字元陣列為參數練習檔\字元陣列為參數練習檔.c(14,6): warning C4013: 'gets' 未定義; 假設 extern 傳回整數
+C:\Users\user\Desktop\大學\作業\計算機程式設計實習\練習用\1120字元陣列為參數練習檔\字元陣列為參數練習檔.c(31,5): warning C4013: 'system' 未定義; 假設 extern 傳回整數
+C:\Users\user\Desktop\大學\作業\計算機程式設計實習\練習用\1120字元陣列為參數練習檔\字元陣列為參數練習檔.c(20,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\user\Desktop\大學\作業\計算機程式設計實習\練習用\1120字元陣列為參數練習檔\字元陣列為參數練習檔.c(43,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  1120字元陣列為參數練習檔.vcxproj -> C:\Users\user\Desktop\大學\作業\計算機程式設計實習\練習用\x64\Debug\1120字元陣列為參數練習檔.exe

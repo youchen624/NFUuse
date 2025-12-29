@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\\u8003\u8A66\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E21E79DF-7E4D-4D5F-87CC-2A231DA87EF2}|t\\t.vcxproj|C:\\Users\\user\\source\\repos\\\u8003\u8A66\\t\\t.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E21E79DF-7E4D-4D5F-87CC-2A231DA87EF2}|t\\t.vcxproj|solutionrelative:t\\t.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D280AD-19CD-4A87-90A6-48C6D9E49AC7}|4Crap\u904A\u6232\\4Crap\u904A\u6232.vcxproj|C:\\Users\\user\\source\\repos\\\u8003\u8A66\\4Crap\u904A\u6232\\4Crap\u904A\u6232.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{57D280AD-19CD-4A87-90A6-48C6D9E49AC7}|4Crap\u904A\u6232\\4Crap\u904A\u6232.vcxproj|solutionrelative:4Crap\u904A\u6232\\4Crap\u904A\u6232.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F980BB-C764-46C4-B679-0924A0C4FE47}|3\u4E2D\u4F4D\u6578\\3\u4E2D\u4F4D\u6578.vcxproj|C:\\Users\\user\\source\\repos\\\u8003\u8A66\\3\u4E2D\u4F4D\u6578\\3\u4E2D\u4F4D\u6578.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{06F980BB-C764-46C4-B679-0924A0C4FE47}|3\u4E2D\u4F4D\u6578\\3\u4E2D\u4F4D\u6578.vcxproj|solutionrelative:3\u4E2D\u4F4D\u6578\\3\u4E2D\u4F4D\u6578.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F273332-99C5-42F3-BDEE-8E11BBB2F0B1}|2\u96DE\u5154\u540C\u7C60\uFF0C\u51FD\u5F0F\\2\u96DE\u5154\u540C\u7C60\uFF0C\u51FD\u5F0F.vcxproj|C:\\Users\\user\\source\\repos\\\u8003\u8A66\\2\u96DE\u5154\u540C\u7C60\uFF0C\u51FD\u5F0F\\2\u96DE\u5154\u540C\u7C60.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F273332-99C5-42F3-BDEE-8E11BBB2F0B1}|2\u96DE\u5154\u540C\u7C60\uFF0C\u51FD\u5F0F\\2\u96DE\u5154\u540C\u7C60\uFF0C\u51FD\u5F0F.vcxproj|solutionrelative:2\u96DE\u5154\u540C\u7C60\uFF0C\u51FD\u5F0F\\2\u96DE\u5154\u540C\u7C60.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE2093C-6B11-4237-9D21-F8A53DB807FF}|\u8003\u8A66\\\u8003\u8A66.vcxproj|C:\\Users\\user\\source\\repos\\\u8003\u8A66\\\u8003\u8A66\\1\u4E09\u89D2\u5F62.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BCE2093C-6B11-4237-9D21-F8A53DB807FF}|\u8003\u8A66\\\u8003\u8A66.vcxproj|solutionrelative:\u8003\u8A66\\1\u4E09\u89D2\u5F62.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "t.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\\u8003\u8A66\\t\\t.cpp",
+              "RelativeDocumentMoniker": "t\\t.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\\u8003\u8A66\\t\\t.cpp",
+              "RelativeToolTip": "t\\t.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-06T03:01:48.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "4Crap\u904A\u6232.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\\u8003\u8A66\\4Crap\u904A\u6232\\4Crap\u904A\u6232.cpp",
+              "RelativeDocumentMoniker": "4Crap\u904A\u6232\\4Crap\u904A\u6232.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\\u8003\u8A66\\4Crap\u904A\u6232\\4Crap\u904A\u6232.cpp",
+              "RelativeToolTip": "4Crap\u904A\u6232\\4Crap\u904A\u6232.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-06T01:39:31.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "3\u4E2D\u4F4D\u6578.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\\u8003\u8A66\\3\u4E2D\u4F4D\u6578\\3\u4E2D\u4F4D\u6578.cpp",
+              "RelativeDocumentMoniker": "3\u4E2D\u4F4D\u6578\\3\u4E2D\u4F4D\u6578.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\\u8003\u8A66\\3\u4E2D\u4F4D\u6578\\3\u4E2D\u4F4D\u6578.cpp",
+              "RelativeToolTip": "3\u4E2D\u4F4D\u6578\\3\u4E2D\u4F4D\u6578.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-06T01:39:19.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "2\u96DE\u5154\u540C\u7C60.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\\u8003\u8A66\\2\u96DE\u5154\u540C\u7C60\uFF0C\u51FD\u5F0F\\2\u96DE\u5154\u540C\u7C60.cpp",
+              "RelativeDocumentMoniker": "2\u96DE\u5154\u540C\u7C60\uFF0C\u51FD\u5F0F\\2\u96DE\u5154\u540C\u7C60.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\\u8003\u8A66\\2\u96DE\u5154\u540C\u7C60\uFF0C\u51FD\u5F0F\\2\u96DE\u5154\u540C\u7C60.cpp",
+              "RelativeToolTip": "2\u96DE\u5154\u540C\u7C60\uFF0C\u51FD\u5F0F\\2\u96DE\u5154\u540C\u7C60.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-06T01:38:36.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "1\u4E09\u89D2\u5F62.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\\u8003\u8A66\\\u8003\u8A66\\1\u4E09\u89D2\u5F62.cpp",
+              "RelativeDocumentMoniker": "\u8003\u8A66\\1\u4E09\u89D2\u5F62.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\\u8003\u8A66\\\u8003\u8A66\\1\u4E09\u89D2\u5F62.cpp",
+              "RelativeToolTip": "\u8003\u8A66\\1\u4E09\u89D2\u5F62.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-06T01:37:00.14Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+請利用linux指令操作下列功能，一題10分
+1.在使用者家目錄，建立「學號」目錄 
+2.在「學號」目錄內，利用touch建立 text01.txt檔案
+3.text01.txt 複製成 text02.txt
+4.查詢 shutdown 指令說明
+5.將查詢 shutdown 指令結果，重導寫入 text03.txt
+6.利用cat 顯示text03.txt管線輸出給grep指令過濾off文字
+7.將指令cp -R 別名為 copydir
+8.利用新建指令copydir複製「學號」目錄為tmp目錄
+9.在使用者家目錄，建立「exe」目錄，並其加入PATH環境變數內
+10. 3分鐘後關機
+
+
+mkdir <目錄名>
+touch <檔名>
+cp <from> <to>
+man <指令>
+man <指令> > <目標>
+cat <檔案> | grep "off"
+
+mkdir <目錄名>
+nano ~/.bashrc
+alias copydir='cp -R'
+export PATH=$PATH:<路徑>
+source ~/.bashrc
+
+copydir <from> <to>
+
+sudo shutdown -h +3

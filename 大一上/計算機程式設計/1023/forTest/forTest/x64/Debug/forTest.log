@@ -1,0 +1,5 @@
+﻿  forTest.cpp
+C:\Users\user\Desktop\考試\forTest\forTest\forTest.cpp(5,10): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\user\Desktop\考試\forTest\forTest\forTest.cpp(5,20): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\user\Desktop\考試\forTest\forTest\forTest.cpp(5,30): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  forTest.vcxproj -> C:\Users\user\Desktop\考試\forTest\x64\Debug\forTest.exe
