@@ -1,0 +1,19 @@
+body{
+    font-size: 20px;
+}
+table{
+    border: 20px;
+    border-width: 40px;
+    /* border-collapse:initial; */
+    /* border-style:inherit; */
+    border-color: black;
+    background-color:rgb(202, 202, 202);
+}
+
+td{
+    color: black;
+    text-align: center;
+}
+.theBlue{
+    color: blue;
+}

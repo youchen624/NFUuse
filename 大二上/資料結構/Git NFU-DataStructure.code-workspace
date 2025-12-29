@@ -1,0 +1,73 @@
+{
+	"folders": [
+		{
+			"path": "GitHub/NFU-DataStructure"
+		},
+		{
+			"path": "GitHub/Homework-template"
+		},
+		{
+			"path": "../../../../../../../__C__/___Project/20251108-youchen624-Number_class-cpp"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ostream": "cpp",
+			"iostream": "cpp",
+			"utility": "cpp",
+			"cmath": "cpp",
+			"compare": "cpp",
+			"format": "cpp",
+			"memory": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"xmemory": "cpp",
+			"xtr1common": "cpp",
+			"xutility": "cpp",
+			"iosfwd": "cpp",
+			"initializer_list": "cpp",
+			"random": "cpp",
+			"vector": "cpp",
+			"xstring": "cpp",
+			"exception": "cpp",
+			"fstream": "cpp",
+			"ios": "cpp",
+			"istream": "cpp",
+			"iterator": "cpp",
+			"optional": "cpp",
+			"sstream": "cpp",
+			"streambuf": "cpp",
+			"xiosbase": "cpp",
+			"string": "cpp",
+			"iomanip": "cpp",
+			"algorithm": "cpp",
+			"system_error": "cpp",
+			"xlocmon": "cpp",
+			"atomic": "cpp",
+			"bit": "cpp",
+			"cctype": "cpp",
+			"charconv": "cpp",
+			"clocale": "cpp",
+			"concepts": "cpp",
+			"cstddef": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"limits": "cpp",
+			"locale": "cpp",
+			"new": "cpp",
+			"stdexcept": "cpp",
+			"typeinfo": "cpp",
+			"xfacet": "cpp",
+			"xlocale": "cpp",
+			"xlocbuf": "cpp",
+			"xlocinfo": "cpp",
+			"xlocmes": "cpp",
+			"xlocnum": "cpp",
+			"xloctime": "cpp"
+		}
+	}
+}
