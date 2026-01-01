@@ -1,0 +1,95 @@
+SyntaxError: invalid syntax
+(venv) PS C:\Users\user\Desktop\sakura> py main.py
+on 
+input_variables=['agent_scratchpad', 'input', 'tool_names', 'tools'] input_types={} partial_variables={} metadata={'lc_hub_owner': 'hwchase17', 'lc_hub_repo': 'react', 'lc_hub_commit_hash': 'd15fe3c426f1c4b3f37c9198853e4a86e20c425ca7f4752ec0c9b0e97ca7ea4d'} template='Answer the following questions as best you can. You have access to the following tools:\n\n{tools}\n\nUse the following format:\n\nQuestion: the input question you must answer\nThought: you should always think about what to do\nAction: the action to take, should be one of [{tool_names}]\nAction Input: the input to the action\nObservation: the result of the action\n... (this Thought/Action/Action Input/Observation can repeat N times)\nThought: I now know the final answer\nFinal Answer: the final answer to the original input question\n\nBegin!\n\nQuestion: {input}\nThought:{agent_scratchpad}'
+執行結果:
+
+
+> Entering new AgentExecutor chain...
+ 無法回答這個問題，因為我不知道"洲仔"是什麼
+Action: Search
+Action Input: "洲仔"['The Zhouzai Wetland Park is a wetland in Zuoying District, Kaohsiung, Taiwan.', 'Zhouzai Wetland Park type: 公園.', 'Zhouzai Wetland Park entity_type: local_nav.', 'Zhouzai Wetland Park kgmid: /g/11ghf2y6b7.', 'Zhouzai Wetland Park place_id: ChIJExMuN98FbjQRU9jwNqGhO4M.', 'Zhouzai Wetland Park price: 公園.', 'Zhouzai Wetland Park address: No. 58號, Huantan Rd, Zuoying District, Kaohsiung City, Taiwan 813.', '洲仔（Chau Tsai），又稱春花石（Chun Fa Rock、Chung Hue Rock或Chung Hue Shik），係香港一島，原本係青衣島南灣角以南海面，現已同青衣島填地連爲一體。島行政歸葵青區，冇人 ...', '洲仔 （英語：Chau Tsai），又稱春花石，是香港一個曾經存在過的島嶼，地區行政上屬於葵青區。位於青衣島南灣角以南海面。 洲仔在填海前的位置。 洲仔上並沒有居民居住。', '洲仔濕地公園屬於都市計畫中的左營一號公園，簡稱「左公一」，面積約九公頃，由於洲仔社區長期禁建與土地徵收過程的爭議，導致左公一的規劃一直陷於難產。', ' 親子生態瓶大成功！ 把一片洲仔帶回家 洲仔的青苔好漂亮 今天由小葉老師在洲仔濕地和大小朋友們一起動手做「 生態瓶」， 每個人都變成了小小園藝師，把自然搬進瓶子裡～✨ ...', '洲仔村舊名為「洲仔底」，位於臥龍港畔，也就是現在荷苞嶼大排水畔。三百餘年來，在目前的堤防尚未興建完成前，淹水情形司空見慣，因此叫做洲仔底。', '這裡的英式庭園孕育了超過140種植物，由蕨類到大樹、本地以至外來物種，生態非常豐富。 © WWF- ...', '「洲仔濕地公園」位於高雄市左營區蓮池潭畔洲仔路間，原是一片水田窪地，多年前在此有眾多「水雉」聚集，然而因都市開發，而遷徙至臺南的官田一帶，為了使美麗的水雉重返 ...', '嘉義縣東石鄉洲仔村 ... 本村於一六八號縣道港墘至東石大橋段木麻黃綠意盎然，是著名的綠色隧道，以南有廣大的蔗田和壯觀的廟宇-「代天府」。夜幕低垂，綠色隧道一片漆黑，而代 ...', '「洲仔濕地公園」位於高雄市左營區蓮池潭畔洲仔路間，是一座以生態工法打造並成功復育多種鳥類及水生動植物共生共存的淡水埤塘生態棲息地。 漫步在無過度開發的小徑上，可看 ...', '1、,  洲仔濕地地址：813 高雄市左營區環潭路58號. 2、, 交通方式： *自行開車—從國道10號系統下「翠華路」交流道→直走洲仔北街到底，左轉環潭路約800M，紅綠燈左轉(高雄 ...']這些結果都是關於地理位置的，可能是某個地方的名字
+Action: Search
+Action Input: "洲仔 地理位置"['洲仔島，位於中國海南省萬寧市南部神州半島南部海域，北距南榮灣海岸2公里，東距大洲島8海里，面積為0.475平方公里，海岸線長約3.18公里。 洲仔島呈長條形，東西走向，島上有兩峰 ...', '洲仔镇，隶属于广东省肇庆市广宁县，位于广宁县西南部，绥江中游西岸，东南邻横山镇，南依清桂镇，西与石咀 镇、木格镇交界，北与古水镇接壤。辖区总面积152.73平方千米。', '洲仔（英語：Chau Tsai），又稱春花石，是香港一個曾經存在過的島嶼，地區行政上屬於葵青區。位於青衣島南灣角以南海面。 洲仔在填海前的位置。 洲仔上並沒有居民居住。', '洲仔（英文名：Chau Tsai），又称春花石，是香港一个已不存在的岛屿，原位于青衣岛南湾角以南海面，行政上隶属葵青区。该岛屿因填海工程与青衣岛相连，现址已改建为华润公司 ...', '洲仔村舊名為「洲仔底」，位於臥龍港畔，也就是現在荷苞嶼大排水畔。 三百餘年來，在目前的堤防尚未興建完成前，淹水情形司空見慣，因此叫做洲仔底。', '洲仔濕地位於高雄市左營區蓮池潭邊。 · 洲仔濕地公園屬於都市計畫中的左營一號公園，簡稱「左公一」，面積約九公頃，由於洲仔社區長期禁建與土地徵收過程的爭議，導致左公一的 ...', '一、洲仔溼地簡介. 「洲仔濕地」位於蓮池潭畔、這裡原為左營公 園預定地，面積10公頃，原是一片水稻與菱角田輪耕的窪地，一百多年前，英國博物學家Robert Swinhoe在這片大水 ...', '1、, 洲仔濕地地址：813 高雄市左營區環潭路58號. 2、, 交通方式： *自行開車—從國道10號系統下「翠華路」交流道→直走洲仔北街到底，左轉環潭路約800M，紅綠燈左轉(高雄 ...', '吐露港群山圍繞，蜿蜒有致，放眼 小港盡. 處的小島，只見茂密的紫檀、樟樹、桉樹. 和白蘭中，隱藏著一幢別樹一幟的建築. 物，娓娓道出寶安縣一隅成為香港殖民地. 的歷史。']這些結果都是關於島嶼和 地區的介紹，洲仔可能是某個島嶼或地區的名字
+Action: Search
+Action Input: "洲仔 島嶼 地區 介紹"['洲仔（Chau Tsai），又稱春花石（Chun Fa Rock、Chung Hue Rock或Chung Hue Shik），係香港一島，原本係青衣島南灣角以南海 面，現已同青衣島填地連爲一體。島行政歸葵青區，冇人住。', '洲仔，又称春花石，是香港一个曾经存在过的岛屿，地区行政上属于葵青区。位于青衣岛南湾角以南海面。 在香港的官方地图中，洲仔的英文岛名叫Chau Tsai。 洲仔上并没有居民居住 ...', '洲仔岛(Zhōuzǎi Dǎo)在海南省万宁市南部海上，距陆地约3公里。岛屿面积约0.6平方公里。在万宁市的5个海岛中，它的面积也仅次于大洲岛，与大洲岛相距仅8海里,所以称它洲仔岛。', '洲仔（英語：Chau Tsai），又稱春花石，是香港一個曾經存在過的島嶼 ，地區行政上屬於葵青區。位於青衣島南灣角以南海面。 洲仔在填海前的位置。 洲仔上並沒有居民居住。', '【項目豐富】自由浮潛/摩託艇/香蕉船/激情沖浪/圍餐…;【特 色島嶼】未經開發原生態海島，玻璃海，海魚多，沙細白。;【一價全包】海上滑梯玻璃船摩託艇香蕉船水下拍攝.', '洲仔岛位于海南省万宁市，是一个无人岛，距离陆地3公里，人迹罕至，没有被污染。其优质的海水资源和种类繁多的珊瑚使其成为有待开发成旅游景点的热门岛屿。洲仔岛与神州 ...', '洲仔，又稱春花石，是香港一個曾經存在 過的島嶼，地區行政上屬於葵青區。位於青衣島南灣角以南海面。 在香港的官方地圖中，洲仔的英文島名叫Chau Tsai。 洲仔上並沒有居民 ...', '除長洲、南丫島、大澳等熱門離島外，隱世小島如橋咀島（橋咀洲）、鹽田梓、吉澳鴨洲等亦值得到訪。精選香港10大離島打卡、美食、拍拖一天遊好去處，開始你的香港島嶼慢活之 ...', '香港仔 原本稱為石排灣（現多指香港仔半山的石排灣村）。1841年，一批英軍登陸香港仔，並問當地居民所在何地。當地居民回答Hong Kong（香港），所以整個島嶼就被稱為香港島， ...']Traceback (most recent call last):
+  File "C:\Users\user\Desktop\sakura\main.py", line 61, in <module>
+    agent_executor.invoke({"input": "洲仔於是誰啊?"})
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain\chains\base.py", line 165, in invoke
+    self._call(inputs, run_manager=run_manager)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain\agents\agent.py", line 1625, in _call
+    next_step_output = self._take_next_step(
+        name_to_tool_map,
+    ...<3 lines>...
+        run_manager=run_manager,
+    )
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain\agents\agent.py", line 1325, in _take_next_step
+    list(
+    ~~~~^
+        self._iter_next_step(
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        ),
+        ^^
+    ),
+    ^
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain\agents\agent.py", line 1352, in _iter_next_step
+    output = self._action_agent.plan(
+        intermediate_steps,
+        callbacks=run_manager.get_child() if run_manager else None,
+        **inputs,
+    )
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain\agents\agent.py", line 455, in plan
+    for chunk in self.runnable.stream(inputs, config={"callbacks": callbacks}):
+                 ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3649, in stream
+    yield from self.transform(iter([input]), config, **kwargs)
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3635, in transform
+    yield from self._transform_stream_with_config(
+    ...<4 lines>...
+    )
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain_core\runnables\base.py", line 2369, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3594, in _transform
+    yield from final_pipeline
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain_core\runnables\base.py", line 1568, in transform
+    for ichunk in input:
+                  ^^^^^
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain_core\runnables\base.py", line 5926, in transform
+    yield from self.bound.transform(
+    ...<3 lines>...
+    )
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain_core\runnables\base.py", line 1586, in transform
+    yield from self.stream(final, config, **kwargs)
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain_core\language_models\llms.py", line 562, in stream
+    for chunk in self._stream(
+                 ~~~~~~~~~~~~^
+        prompt, stop=stop, run_manager=run_manager, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\langchain_openai\llms\base.py", line 338, in _stream
+    for stream_resp in self.client.create(prompt=prompt, **params):
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\openai\resources\completions.py", line 541, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/completions",
+        ^^^^^^^^^^^^^^^
+    ...<30 lines>...
+        stream_cls=Stream[Completion],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\sakura\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This model's maximum context length is 4097 tokens, however you requested 4105 tokens (3849 in your prompt; 256 for the completion). Please reduce your prompt; or completion length.", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+(venv) PS C:\Users\user\Desktop\sakura> 

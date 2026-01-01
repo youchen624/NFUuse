@@ -1,0 +1,46 @@
+資訊工程導論 2024.11.03 21:20 更新於 : 2024.11.03 21:37  所有人
+溫馨提醒同學，這星期二(11/5)第7~8節考期中考:
+
+範圍: module_1 ~module_3(slide 13)
+題型包含:
+1. 專名術語(中翻英); 如講義裏有如: 演算法(algorithm)
+2. 是非
+3. 選擇(單選或多選)
+4.填空
+等
+
+考試為線上考，請同學務必準時到教室。同學記得帶手機、平板或者筆電。。
+若未到教室考室，確有考試成績，成績以零分計算。
+
+
+
+
+
+
+演算法 algorithm
+
+緒論 introduction
+來源 origin
+Greatest common divisor 最大公因數
+Euclidean Algorithm 歐幾里得算法
+Long division 長除法
+極限 limitations
+抽象化 abstraction
+創造性 creativity 
+程式化 programming 
+影響力 impact
+
+
+順序性 sequencing
+清楚 unambiguous 
+可執行 executable
+原式 primitive
+虛擬碼 pseudocode
+參數 parameter
+乘積 product
+確定性 definiteness
+有效性 effectiveness
+適用性 generality
+迭代 iteration
+遞迴 recursion
+效率 efficiency

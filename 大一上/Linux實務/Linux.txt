@@ -1,0 +1,69 @@
+Linux實務 2024.11.02 18:36  所有人
+上機考試，OPENBOOK，不可帶任何紙張
+
+題庫如下，已包含前次作業
+以下指令操作，皆在使用者目錄下
+01. Linux進入圖形介面(X-Windows)，要切換不同的虛擬主控台，要按下什麼鍵 ?
+[ctrl] + [alt] + [F3~F6]
+
+02. 登入Linux系統後，出現提示文字 「tony@tony-ubuntu:~$」，請說明加上底線部份的意思。
+tony(使用者名稱)@ tony-ubuntu(主機名稱): ~(/home/使用者/ 目錄(使用者根目錄)) $(普通使用者(非管理員))
+
+03. 回到上一層目錄，指令為何 ?
+cd ..
+
+04. 欲顯示 /usr/src 目錄的資料，指令為何 ?
+ls /usr/src
+
+05. 建立「學號」目錄
+mkdir <學號>
+
+06. 接續上題，在「學號」目錄內，利用touch 建立 test01.txt檔案
+cd <學號>
+touch test01.txt
+
+07. 接續上題，將 test01.txt 複製成 test02.txt
+cp test01.txt test02.txt
+
+08. 查詢 shutdown 指令說明指令
+man shutdown
+
+09. 接續上題，將查詢 shutdown 指令說明結果，重導寫入 test03.txt
+man shutdown > test03.txt
+
+10. 接續上題，利用 cat 顯示 test03.txt，並管線輸出給 grep 指令過濾off文字
+cat test03.txt | grep off
+
+11. 接續上題，修改 test03.txt 檔名為 test04.txt
+mv test03.txt test04.txt
+
+12. 將指令cp -R 別名為 copydir
+alias copydir='cp -R'
+
+13. 利用新建指令copydir複製「學號」目錄為tmp目錄
+copydir <學號> tmp
+
+14. 接續上題，刪除 tmp 目錄
+rmdir tmp
+
+15. 3分鐘後關機
+shutdown -h +3
+
+16. 在使用者家目錄，建立「exe」目錄，並其加入PATH環境變數內
+cd ~
+mkdir exe
+PATH="$PATH:./exe"
+
+17. 在背景執行 top 指令
+top&
+
+18. 接續上題，將 gedit 叫回前景執行
+gedit&
+fg 2
+
+19. 接續第6題，修改權限為 rwxrwxrwx
+cd <學號>
+chmod 777 <學號>/test01.txt
+
+20. 接續第6題，修改擁有者為 user
+chown user <學號>/test01.txt
