@@ -1,0 +1,25 @@
+﻿  1Time物件.cpp
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(25,10): error C2001: 常數中包含新行字元
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(26,1): error C2143: 語法錯誤: 遺漏 ';' (在 '}' 之前)
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(44,12): error C2039: 'tick': 並非 'Time' 的成員
+      C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(6,7):
+      請參閱 'Time' 的宣告
+  
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(46,10): error C2065: 'hour': 未宣告的識別項
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(46,16): error C2065: 'minute': 未宣告的識別項
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(46,26): error C2065: 'second': 未宣告的識別項
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(46,2): error C3861: 'setTime': 找不到識別項
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(48,12): error C2039: 'Show': 並非 'Time' 的成員
+      C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(6,7):
+      請參閱 'Time' 的宣告
+  
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(51,6): error C2001: 常數中包含新行字元
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(52,6): error C2065: 'hour': 未宣告的識別項
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(53,6): error C2065: 'minute': 未宣告的識別項
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(54,6): error C2065: 'second': 未宣告的識別項
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(62,5): error C2039: 'tick': 並非 'Time' 的成員
+      C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(6,7):
+      請參閱 'Time' 的宣告
+  
+C:\__C__\___file\_code\c++\2025 0308 作業二-封裝\1Time物件\1Time物件.cpp(57,1): error C1075: '{': 找不到任何相符的語彙基元

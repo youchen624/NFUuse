@@ -1,0 +1,10 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中繼目錄 (x64\Debug\) 包含從其他專案 (SFML 2025 0119 test.vcxproj) 共用的檔案。這可能導致錯誤的清除和重建行為。
+  
+icon.rc(8): error RC2144: PRIMARY LANGUAGE ID not a number
+  
+  
+icon.rc(43): error RC2135: file not found: 104
+  
+  
+icon.rc(59): error RC2135: file not found: "ICON.ICO"
+  

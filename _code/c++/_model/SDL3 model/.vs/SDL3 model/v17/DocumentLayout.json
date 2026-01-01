@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\__C__\\___file\\code\\c\u002B\u002B\\SDL3 model\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A005111C-7DE2-43F1-BD2B-F80BE24688D2}|SDL3 model\\SDL3 model.vcxproj|C:\\__C__\\___file\\code\\c\u002B\u002B\\SDL3 model\\SDL3 model\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A005111C-7DE2-43F1-BD2B-F80BE24688D2}|SDL3 model\\SDL3 model.vcxproj|solutionrelative:SDL3 model\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\__C__\\___file\\code\\c\u002B\u002B\\SDL3 model\\SDL3 model\\main.cpp",
+              "RelativeDocumentMoniker": "SDL3 model\\main.cpp",
+              "ToolTip": "C:\\__C__\\___file\\code\\c\u002B\u002B\\SDL3 model\\SDL3 model\\main.cpp",
+              "RelativeToolTip": "SDL3 model\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T13:38:51.406Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

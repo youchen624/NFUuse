@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\__C__\\___file\\_code\\c\u002B\u002B\\SFML 3D\u6E2C\u8A66\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E53A670-1ADB-4DCD-BE91-38414E3C5A81}|SFML 3D\u6E2C\u8A66\\SFML 3D\u6E2C\u8A66.vcxproj|C:\\__C__\\___file\\_code\\c\u002B\u002B\\SFML 3D\u6E2C\u8A66\\SFML 3D\u6E2C\u8A66\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E53A670-1ADB-4DCD-BE91-38414E3C5A81}|SFML 3D\u6E2C\u8A66\\SFML 3D\u6E2C\u8A66.vcxproj|solutionrelative:SFML 3D\u6E2C\u8A66\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "C:\\__C__\\___file\\_code\\c\u002B\u002B\\SFML 3D\u6E2C\u8A66\\SFML 3D\u6E2C\u8A66\\test.cpp",
+              "RelativeDocumentMoniker": "SFML 3D\u6E2C\u8A66\\test.cpp",
+              "ToolTip": "C:\\__C__\\___file\\_code\\c\u002B\u002B\\SFML 3D\u6E2C\u8A66\\SFML 3D\u6E2C\u8A66\\test.cpp",
+              "RelativeToolTip": "SFML 3D\u6E2C\u8A66\\test.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-17T02:31:02.156Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

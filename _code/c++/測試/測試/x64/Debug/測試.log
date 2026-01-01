@@ -1,0 +1,2 @@
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: 在函式 main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中參考了無法解析的外部符號
+C:\__C__\___file\code\c++\測試\x64\Debug\測試.exe : fatal error LNK1120: 1 個無法解析的外部符號

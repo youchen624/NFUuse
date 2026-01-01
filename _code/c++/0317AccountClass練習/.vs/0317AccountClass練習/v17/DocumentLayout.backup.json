@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\__C__\\___file\\_code\\c\u002B\u002B\\0317AccountClass\u7DF4\u7FD2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{498F8D9E-F29E-4644-9C9B-BF8F3B2CC1D7}|0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2.vcxproj|C:\\__C__\\___file\\_code\\c\u002B\u002B\\0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2\\AccountClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{498F8D9E-F29E-4644-9C9B-BF8F3B2CC1D7}|0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2.vcxproj|solutionrelative:0317AccountClass\u7DF4\u7FD2\\AccountClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498F8D9E-F29E-4644-9C9B-BF8F3B2CC1D7}|0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2.vcxproj|C:\\__C__\\___file\\_code\\c\u002B\u002B\\0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2\\AccountClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{498F8D9E-F29E-4644-9C9B-BF8F3B2CC1D7}|0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2.vcxproj|solutionrelative:0317AccountClass\u7DF4\u7FD2\\AccountClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498F8D9E-F29E-4644-9C9B-BF8F3B2CC1D7}|0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2.vcxproj|C:\\__C__\\___file\\_code\\c\u002B\u002B\\0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{498F8D9E-F29E-4644-9C9B-BF8F3B2CC1D7}|0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2.vcxproj|solutionrelative:0317AccountClass\u7DF4\u7FD2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 216,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountClass.cpp",
+              "DocumentMoniker": "C:\\__C__\\___file\\_code\\c\u002B\u002B\\0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2\\AccountClass.cpp",
+              "RelativeDocumentMoniker": "0317AccountClass\u7DF4\u7FD2\\AccountClass.cpp",
+              "ToolTip": "C:\\__C__\\___file\\_code\\c\u002B\u002B\\0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2\\AccountClass.cpp",
+              "RelativeToolTip": "0317AccountClass\u7DF4\u7FD2\\AccountClass.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-17T02:45:52.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountClass.h",
+              "DocumentMoniker": "C:\\__C__\\___file\\_code\\c\u002B\u002B\\0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2\\AccountClass.h",
+              "RelativeDocumentMoniker": "0317AccountClass\u7DF4\u7FD2\\AccountClass.h",
+              "ToolTip": "C:\\__C__\\___file\\_code\\c\u002B\u002B\\0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2\\AccountClass.h",
+              "RelativeToolTip": "0317AccountClass\u7DF4\u7FD2\\AccountClass.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-17T02:45:48.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\__C__\\___file\\_code\\c\u002B\u002B\\0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2\\main.cpp",
+              "RelativeDocumentMoniker": "0317AccountClass\u7DF4\u7FD2\\main.cpp",
+              "ToolTip": "C:\\__C__\\___file\\_code\\c\u002B\u002B\\0317AccountClass\u7DF4\u7FD2\\0317AccountClass\u7DF4\u7FD2\\main.cpp",
+              "RelativeToolTip": "0317AccountClass\u7DF4\u7FD2\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-17T02:45:12.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

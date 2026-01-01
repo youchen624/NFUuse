@@ -1,0 +1,15 @@
+﻿  main.cpp
+C:\__C__\___file\_code\c++\SFML GUI測試\SFML GUI測試\main.cpp(72,77): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\__C__\___file\_code\c++\SFML GUI測試\SFML GUI測試\main.cpp(72,56): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\__C__\___file\_code\c++\SFML GUI測試\SFML GUI測試\main.cpp(77,81): warning C4244: '引數': 將 'int' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\__C__\___file\_code\c++\SFML GUI測試\SFML GUI測試\main.cpp(77,81): warning C4244:         with
+C:\__C__\___file\_code\c++\SFML GUI測試\SFML GUI測試\main.cpp(77,81): warning C4244:         [
+C:\__C__\___file\_code\c++\SFML GUI測試\SFML GUI測試\main.cpp(77,81): warning C4244:             T=float
+C:\__C__\___file\_code\c++\SFML GUI測試\SFML GUI測試\main.cpp(77,81): warning C4244:         ]
+C:\__C__\___file\_code\c++\SFML GUI測試\SFML GUI測試\main.cpp(77,60): warning C4244: '引數': 將 'int' 轉換為 'T'，由於類型不同，可能導致資料遺失
+C:\__C__\___file\_code\c++\SFML GUI測試\SFML GUI測試\main.cpp(77,60): warning C4244:         with
+C:\__C__\___file\_code\c++\SFML GUI測試\SFML GUI測試\main.cpp(77,60): warning C4244:         [
+C:\__C__\___file\_code\c++\SFML GUI測試\SFML GUI測試\main.cpp(77,60): warning C4244:             T=float
+C:\__C__\___file\_code\c++\SFML GUI測試\SFML GUI測試\main.cpp(77,60): warning C4244:         ]
+  SFML GUI測試.vcxproj -> C:\__C__\___file\_code\c++\SFML GUI測試\x64\Debug\SFML GUI測試.exe
+  'pwsh.exe' 不是內部或外部命令、可執行的程式或批次檔。

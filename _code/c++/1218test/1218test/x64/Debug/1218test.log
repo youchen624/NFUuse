@@ -1,0 +1,4 @@
+﻿  1218test.cpp
+C:\__C__\___file\code\c++\1218test\1218test\1218test.cpp(4,6): warning C4101: 'a': 未參考的區域變數
+C:\__C__\___file\code\c++\1218test\1218test\1218test.cpp(4,14): warning C4101: 'b': 未參考的區域變數
+  1218test.vcxproj -> C:\__C__\___file\code\c++\1218test\x64\Debug\1218test.exe
