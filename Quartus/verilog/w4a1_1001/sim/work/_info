@@ -1,0 +1,81 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vRTL
+Z0 !s110 1759901606
+!i10b 1
+!s100 e84IB6IX=:gPQN0^KhLbA2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IB=_d@k;KjSYZ8SXP7f@e=3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/user/Desktop/TEMP/quartussss____/w4a1_1001/sim
+w1759299338
+8C:/Users/user/Desktop/TEMP/quartussss____/w4a1_1001/RTL.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w4a1_1001/RTL.v
+!i122 6
+L0 1 15
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1759901606.000000
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w4a1_1001/RTL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w4a1_1001/RTL.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@r@t@l
+vstructural
+R0
+!i10b 1
+!s100 8@8W0S;aPh;QbYJkc3Nnb1
+R1
+IoL05?il?B4QYMTb;_<2CT2
+R2
+R3
+w1759298472
+8C:/Users/user/Desktop/TEMP/quartussss____/w4a1_1001/structural.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w4a1_1001/structural.v
+!i122 5
+L0 1 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w4a1_1001/structural.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w4a1_1001/structural.v|
+!i113 1
+R6
+R7
+vtest
+!s110 1759901607
+!i10b 1
+!s100 W1lS3WCYWD2jF;F=O^?MU1
+R1
+IR]]To7`Qj^C[<Bb0F2U[[0
+R2
+R3
+w1759303205
+8C:/Users/user/Desktop/TEMP/quartussss____/w4a1_1001/sim/test.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w4a1_1001/sim/test.v
+!i122 7
+L0 2 22
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w4a1_1001/sim/test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w4a1_1001/sim/test.v|
+!i113 1
+R6
+R7

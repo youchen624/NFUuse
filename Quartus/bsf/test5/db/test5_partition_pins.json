@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "my_or_out",
+					"strict" : false
+				},
+				{
+					"name" : "my_or_a",
+					"strict" : false
+				},
+				{
+					"name" : "my_or_b",
+					"strict" : false
+				},
+				{
+					"name" : "my_or_c",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

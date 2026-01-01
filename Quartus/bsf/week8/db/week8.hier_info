@@ -1,0 +1,144 @@
+|decoder3_8
+DD[0] <= decoder2_4:inst.DD[0]
+DD[1] <= decoder2_4:inst.DD[1]
+DD[2] <= decoder2_4:inst.DD[2]
+DD[3] <= decoder2_4:inst.DD[3]
+DD[4] <= decoder2_4:inst3.DD[0]
+DD[5] <= decoder2_4:inst3.DD[1]
+DD[6] <= decoder2_4:inst3.DD[2]
+DD[7] <= decoder2_4:inst3.DD[3]
+A[0] => decoder2_4:inst.A[0]
+A[0] => decoder2_4:inst3.A[0]
+A[1] => decoder2_4:inst.A[1]
+A[1] => decoder2_4:inst3.A[1]
+A[2] => nbe:inst2.A
+E => nbe:inst2.E
+
+
+|decoder3_8|decoder2_4:inst
+DD[0] <= <GND>
+DD[1] <= <GND>
+DD[2] <= <GND>
+DD[3] <= <GND>
+A[0] => nbe:inst.A
+A[0] => nbe:inst4.A
+A[1] => nbe:inst3.A
+E => nbe:inst3.E
+
+
+|decoder3_8|decoder2_4:inst|nbe:inst
+D[0] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => nb:inst.A
+E => inst1.IN1
+E => inst2.IN1
+
+
+|decoder3_8|decoder2_4:inst|nbe:inst|nb:inst
+D[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => D[1].DATAIN
+A => inst.IN0
+
+
+|decoder3_8|decoder2_4:inst|nbe:inst3
+D[0] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => nb:inst.A
+E => inst1.IN1
+E => inst2.IN1
+
+
+|decoder3_8|decoder2_4:inst|nbe:inst3|nb:inst
+D[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => D[1].DATAIN
+A => inst.IN0
+
+
+|decoder3_8|decoder2_4:inst|nbe:inst4
+D[0] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => nb:inst.A
+E => inst1.IN1
+E => inst2.IN1
+
+
+|decoder3_8|decoder2_4:inst|nbe:inst4|nb:inst
+D[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => D[1].DATAIN
+A => inst.IN0
+
+
+|decoder3_8|nbe:inst2
+D[0] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => nb:inst.A
+E => inst1.IN1
+E => inst2.IN1
+
+
+|decoder3_8|nbe:inst2|nb:inst
+D[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => D[1].DATAIN
+A => inst.IN0
+
+
+|decoder3_8|decoder2_4:inst3
+DD[0] <= <GND>
+DD[1] <= <GND>
+DD[2] <= <GND>
+DD[3] <= <GND>
+A[0] => nbe:inst.A
+A[0] => nbe:inst4.A
+A[1] => nbe:inst3.A
+E => nbe:inst3.E
+
+
+|decoder3_8|decoder2_4:inst3|nbe:inst
+D[0] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => nb:inst.A
+E => inst1.IN1
+E => inst2.IN1
+
+
+|decoder3_8|decoder2_4:inst3|nbe:inst|nb:inst
+D[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => D[1].DATAIN
+A => inst.IN0
+
+
+|decoder3_8|decoder2_4:inst3|nbe:inst3
+D[0] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => nb:inst.A
+E => inst1.IN1
+E => inst2.IN1
+
+
+|decoder3_8|decoder2_4:inst3|nbe:inst3|nb:inst
+D[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => D[1].DATAIN
+A => inst.IN0
+
+
+|decoder3_8|decoder2_4:inst3|nbe:inst4
+D[0] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => nb:inst.A
+E => inst1.IN1
+E => inst2.IN1
+
+
+|decoder3_8|decoder2_4:inst3|nbe:inst4|nb:inst
+D[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => D[1].DATAIN
+A => inst.IN0
+
+

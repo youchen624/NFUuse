@@ -1,0 +1,663 @@
+|the_mainbdf
+to <= 74161:inst9.QB
+CLK => tf_clk_16_6:inst.CLK
+y[0] <= fsm_main:inst1.y[0]
+y[1] <= fsm_main:inst1.y[1]
+y[2] <= fsm_main:inst1.y[2]
+y[3] <= fsm_main:inst1.y[3]
+y[4] <= fsm_main:inst1.y[4]
+y[5] <= fsm_main:inst1.y[5]
+y[6] <= fsm_main:inst1.y[6]
+T => inst8.IN0
+PRS => fsm_main:inst1.PRS
+CLRN => fsm_main:inst1.CLR
+
+
+|the_mainbdf|74161:inst9
+clk => f74161:sub.clk
+ldn => ~NO_FANOUT~
+clrn => ~NO_FANOUT~
+enp => ~NO_FANOUT~
+ent => ~NO_FANOUT~
+d => ~NO_FANOUT~
+c => ~NO_FANOUT~
+b => ~NO_FANOUT~
+a => ~NO_FANOUT~
+qd <= f74161:sub.qd
+qc <= f74161:sub.qc
+qb <= f74161:sub.qb
+qa <= f74161:sub.qa
+rco <= f74161:sub.rco
+
+
+|the_mainbdf|74161:inst9|f74161:sub
+RCO <= 105.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 110.ACLR
+CLRN => 99.ACLR
+CLRN => 87.ACLR
+CLRN => 9.ACLR
+CLK => 110.CLK
+CLK => 99.CLK
+CLK => 87.CLK
+CLK => 9.CLK
+D => 113.IN0
+LDN => 117.IN0
+LDN => 77.IN1
+LDN => 86.IN1
+LDN => 98.IN1
+LDN => 108.IN1
+ENP => 106.IN0
+ENP => 96.IN0
+ENP => 89.IN0
+ENP => 79.IN0
+C => 101.IN0
+B => 91.IN0
+A => 76.IN0
+ENT => 82.DATAIN
+QD <= 110.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 99.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 87.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_mainbdf|tf_clk_16_6:inst
+clock_out <= 74161:inst6.RCO
+CLK => 74161:inst.CLK
+
+
+|the_mainbdf|tf_clk_16_6:inst|74161:inst6
+clk => f74161:sub.clk
+ldn => ~NO_FANOUT~
+clrn => ~NO_FANOUT~
+enp => ~NO_FANOUT~
+ent => ~NO_FANOUT~
+d => ~NO_FANOUT~
+c => ~NO_FANOUT~
+b => ~NO_FANOUT~
+a => ~NO_FANOUT~
+qd <= f74161:sub.qd
+qc <= f74161:sub.qc
+qb <= f74161:sub.qb
+qa <= f74161:sub.qa
+rco <= f74161:sub.rco
+
+
+|the_mainbdf|tf_clk_16_6:inst|74161:inst6|f74161:sub
+RCO <= 105.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 110.ACLR
+CLRN => 99.ACLR
+CLRN => 87.ACLR
+CLRN => 9.ACLR
+CLK => 110.CLK
+CLK => 99.CLK
+CLK => 87.CLK
+CLK => 9.CLK
+D => 113.IN0
+LDN => 117.IN0
+LDN => 77.IN1
+LDN => 86.IN1
+LDN => 98.IN1
+LDN => 108.IN1
+ENP => 106.IN0
+ENP => 96.IN0
+ENP => 89.IN0
+ENP => 79.IN0
+C => 101.IN0
+B => 91.IN0
+A => 76.IN0
+ENT => 82.DATAIN
+QD <= 110.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 99.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 87.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_mainbdf|tf_clk_16_6:inst|74161:inst5
+clk => f74161:sub.clk
+ldn => ~NO_FANOUT~
+clrn => ~NO_FANOUT~
+enp => ~NO_FANOUT~
+ent => ~NO_FANOUT~
+d => ~NO_FANOUT~
+c => ~NO_FANOUT~
+b => ~NO_FANOUT~
+a => ~NO_FANOUT~
+qd <= f74161:sub.qd
+qc <= f74161:sub.qc
+qb <= f74161:sub.qb
+qa <= f74161:sub.qa
+rco <= f74161:sub.rco
+
+
+|the_mainbdf|tf_clk_16_6:inst|74161:inst5|f74161:sub
+RCO <= 105.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 110.ACLR
+CLRN => 99.ACLR
+CLRN => 87.ACLR
+CLRN => 9.ACLR
+CLK => 110.CLK
+CLK => 99.CLK
+CLK => 87.CLK
+CLK => 9.CLK
+D => 113.IN0
+LDN => 117.IN0
+LDN => 77.IN1
+LDN => 86.IN1
+LDN => 98.IN1
+LDN => 108.IN1
+ENP => 106.IN0
+ENP => 96.IN0
+ENP => 89.IN0
+ENP => 79.IN0
+C => 101.IN0
+B => 91.IN0
+A => 76.IN0
+ENT => 82.DATAIN
+QD <= 110.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 99.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 87.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_mainbdf|tf_clk_16_6:inst|74161:inst4
+clk => f74161:sub.clk
+ldn => ~NO_FANOUT~
+clrn => ~NO_FANOUT~
+enp => ~NO_FANOUT~
+ent => ~NO_FANOUT~
+d => ~NO_FANOUT~
+c => ~NO_FANOUT~
+b => ~NO_FANOUT~
+a => ~NO_FANOUT~
+qd <= f74161:sub.qd
+qc <= f74161:sub.qc
+qb <= f74161:sub.qb
+qa <= f74161:sub.qa
+rco <= f74161:sub.rco
+
+
+|the_mainbdf|tf_clk_16_6:inst|74161:inst4|f74161:sub
+RCO <= 105.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 110.ACLR
+CLRN => 99.ACLR
+CLRN => 87.ACLR
+CLRN => 9.ACLR
+CLK => 110.CLK
+CLK => 99.CLK
+CLK => 87.CLK
+CLK => 9.CLK
+D => 113.IN0
+LDN => 117.IN0
+LDN => 77.IN1
+LDN => 86.IN1
+LDN => 98.IN1
+LDN => 108.IN1
+ENP => 106.IN0
+ENP => 96.IN0
+ENP => 89.IN0
+ENP => 79.IN0
+C => 101.IN0
+B => 91.IN0
+A => 76.IN0
+ENT => 82.DATAIN
+QD <= 110.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 99.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 87.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_mainbdf|tf_clk_16_6:inst|74161:inst3
+clk => f74161:sub.clk
+ldn => ~NO_FANOUT~
+clrn => ~NO_FANOUT~
+enp => ~NO_FANOUT~
+ent => ~NO_FANOUT~
+d => ~NO_FANOUT~
+c => ~NO_FANOUT~
+b => ~NO_FANOUT~
+a => ~NO_FANOUT~
+qd <= f74161:sub.qd
+qc <= f74161:sub.qc
+qb <= f74161:sub.qb
+qa <= f74161:sub.qa
+rco <= f74161:sub.rco
+
+
+|the_mainbdf|tf_clk_16_6:inst|74161:inst3|f74161:sub
+RCO <= 105.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 110.ACLR
+CLRN => 99.ACLR
+CLRN => 87.ACLR
+CLRN => 9.ACLR
+CLK => 110.CLK
+CLK => 99.CLK
+CLK => 87.CLK
+CLK => 9.CLK
+D => 113.IN0
+LDN => 117.IN0
+LDN => 77.IN1
+LDN => 86.IN1
+LDN => 98.IN1
+LDN => 108.IN1
+ENP => 106.IN0
+ENP => 96.IN0
+ENP => 89.IN0
+ENP => 79.IN0
+C => 101.IN0
+B => 91.IN0
+A => 76.IN0
+ENT => 82.DATAIN
+QD <= 110.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 99.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 87.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_mainbdf|tf_clk_16_6:inst|74161:inst2
+clk => f74161:sub.clk
+ldn => ~NO_FANOUT~
+clrn => ~NO_FANOUT~
+enp => ~NO_FANOUT~
+ent => ~NO_FANOUT~
+d => ~NO_FANOUT~
+c => ~NO_FANOUT~
+b => ~NO_FANOUT~
+a => ~NO_FANOUT~
+qd <= f74161:sub.qd
+qc <= f74161:sub.qc
+qb <= f74161:sub.qb
+qa <= f74161:sub.qa
+rco <= f74161:sub.rco
+
+
+|the_mainbdf|tf_clk_16_6:inst|74161:inst2|f74161:sub
+RCO <= 105.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 110.ACLR
+CLRN => 99.ACLR
+CLRN => 87.ACLR
+CLRN => 9.ACLR
+CLK => 110.CLK
+CLK => 99.CLK
+CLK => 87.CLK
+CLK => 9.CLK
+D => 113.IN0
+LDN => 117.IN0
+LDN => 77.IN1
+LDN => 86.IN1
+LDN => 98.IN1
+LDN => 108.IN1
+ENP => 106.IN0
+ENP => 96.IN0
+ENP => 89.IN0
+ENP => 79.IN0
+C => 101.IN0
+B => 91.IN0
+A => 76.IN0
+ENT => 82.DATAIN
+QD <= 110.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 99.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 87.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_mainbdf|tf_clk_16_6:inst|74161:inst
+clk => f74161:sub.clk
+ldn => ~NO_FANOUT~
+clrn => ~NO_FANOUT~
+enp => ~NO_FANOUT~
+ent => ~NO_FANOUT~
+d => ~NO_FANOUT~
+c => ~NO_FANOUT~
+b => ~NO_FANOUT~
+a => ~NO_FANOUT~
+qd <= f74161:sub.qd
+qc <= f74161:sub.qc
+qb <= f74161:sub.qb
+qa <= f74161:sub.qa
+rco <= f74161:sub.rco
+
+
+|the_mainbdf|tf_clk_16_6:inst|74161:inst|f74161:sub
+RCO <= 105.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 110.ACLR
+CLRN => 99.ACLR
+CLRN => 87.ACLR
+CLRN => 9.ACLR
+CLK => 110.CLK
+CLK => 99.CLK
+CLK => 87.CLK
+CLK => 9.CLK
+D => 113.IN0
+LDN => 117.IN0
+LDN => 77.IN1
+LDN => 86.IN1
+LDN => 98.IN1
+LDN => 108.IN1
+ENP => 106.IN0
+ENP => 96.IN0
+ENP => 89.IN0
+ENP => 79.IN0
+C => 101.IN0
+B => 91.IN0
+A => 76.IN0
+ENT => 82.DATAIN
+QD <= 110.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 99.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 87.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_mainbdf|fsm_main:inst1
+y[0] <= 7447:inst2.OA
+y[1] <= 7447:inst2.OB
+y[2] <= 7447:inst2.OC
+y[3] <= 7447:inst2.OD
+y[4] <= 7447:inst2.OE
+y[5] <= 7447:inst2.OF
+y[6] <= 7447:inst2.OG
+en => state_3bits_ctler:inst1.en
+PRS => state_3bits_ctler:inst1.PRS
+CLK => state_3bits_ctler:inst1.CLK
+CLR => state_3bits_ctler:inst1.CLR
+
+
+|the_mainbdf|fsm_main:inst1|7447:inst2
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_mainbdf|fsm_main:inst1|data_state_picker_3b_4bitso:inst
+a <= data_replacer_4bits:inst1.y0
+i0 => 74138:inst3.A
+i1 => 74138:inst3.B
+i2 => 74138:inst3.C
+b <= data_replacer_4bits:inst1.y1
+c <= data_replacer_4bits:inst1.y2
+d <= data_replacer_4bits:inst1.y3
+
+
+|the_mainbdf|fsm_main:inst1|data_state_picker_3b_4bitso:inst|data_replacer_4bits:inst1
+y0 <= 74181:inst.F0N
+b0 => 74181:inst.B0N
+a0 => 74181:inst.A0N
+a1 => 74181:inst.A1N
+b1 => 74181:inst.B1N
+a3 => 74181:inst.A3N
+b2 => 74181:inst.B2N
+a2 => 74181:inst.A2N
+b3 => 74181:inst.B3N
+en => 74181:inst.S2
+en => 74181:inst.S0
+y1 <= 74181:inst.F1N
+y2 <= 74181:inst.F2N
+y3 <= 74181:inst.F3N
+
+
+|the_mainbdf|fsm_main:inst1|data_state_picker_3b_4bitso:inst|data_replacer_4bits:inst1|74181:inst
+F1N <= 86.DB_MAX_OUTPUT_PORT_TYPE
+A1N => 14.IN0
+A1N => 13.IN2
+A1N => 44.IN0
+S3 => 14.IN1
+S3 => 9.IN1
+S3 => 24.IN1
+S3 => 19.IN1
+B1N => 14.IN2
+B1N => 28.IN0
+B1N => 11.IN1
+S2 => 13.IN1
+S2 => 8.IN1
+S2 => 23.IN1
+S2 => 18.IN1
+S0 => 11.IN0
+S0 => 6.IN0
+S0 => 21.IN0
+S0 => 16.IN0
+S1 => 12.IN1
+S1 => 7.IN1
+S1 => 22.IN1
+S1 => 17.IN1
+M => 98.IN0
+A0N => 9.IN0
+A0N => 8.IN2
+A0N => 43.IN0
+B0N => 9.IN2
+B0N => 27.IN0
+B0N => 6.IN1
+CN => 66.IN2
+CN => 73.IN0
+CN => 73.IN3
+CN => 69.IN0
+CN => 64.IN0
+CN => 61.IN4
+CN => 61.IN5
+AEQB <= 83.DB_MAX_OUTPUT_PORT_TYPE
+A3N => 24.IN0
+A3N => 23.IN2
+A3N => 51.IN0
+B3N => 24.IN2
+B3N => 25.IN0
+B3N => 21.IN1
+A2N => 19.IN0
+A2N => 18.IN2
+A2N => 45.IN0
+B2N => 19.IN2
+B2N => 31.IN0
+B2N => 16.IN1
+F2N <= 85.DB_MAX_OUTPUT_PORT_TYPE
+F3N <= 84.DB_MAX_OUTPUT_PORT_TYPE
+PN <= 60.DB_MAX_OUTPUT_PORT_TYPE
+CN4 <= 78.DB_MAX_OUTPUT_PORT_TYPE
+GN <= 63.DB_MAX_OUTPUT_PORT_TYPE
+F0N <= 87.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_mainbdf|fsm_main:inst1|data_state_picker_3b_4bitso:inst|data_replacer_4bits:inst
+y0 <= 74181:inst.F0N
+b0 => 74181:inst.B0N
+a0 => 74181:inst.A0N
+a1 => 74181:inst.A1N
+b1 => 74181:inst.B1N
+a3 => 74181:inst.A3N
+b2 => 74181:inst.B2N
+a2 => 74181:inst.A2N
+b3 => 74181:inst.B3N
+en => 74181:inst.S2
+en => 74181:inst.S0
+y1 <= 74181:inst.F1N
+y2 <= 74181:inst.F2N
+y3 <= 74181:inst.F3N
+
+
+|the_mainbdf|fsm_main:inst1|data_state_picker_3b_4bitso:inst|data_replacer_4bits:inst|74181:inst
+F1N <= 86.DB_MAX_OUTPUT_PORT_TYPE
+A1N => 14.IN0
+A1N => 13.IN2
+A1N => 44.IN0
+S3 => 14.IN1
+S3 => 9.IN1
+S3 => 24.IN1
+S3 => 19.IN1
+B1N => 14.IN2
+B1N => 28.IN0
+B1N => 11.IN1
+S2 => 13.IN1
+S2 => 8.IN1
+S2 => 23.IN1
+S2 => 18.IN1
+S0 => 11.IN0
+S0 => 6.IN0
+S0 => 21.IN0
+S0 => 16.IN0
+S1 => 12.IN1
+S1 => 7.IN1
+S1 => 22.IN1
+S1 => 17.IN1
+M => 98.IN0
+A0N => 9.IN0
+A0N => 8.IN2
+A0N => 43.IN0
+B0N => 9.IN2
+B0N => 27.IN0
+B0N => 6.IN1
+CN => 66.IN2
+CN => 73.IN0
+CN => 73.IN3
+CN => 69.IN0
+CN => 64.IN0
+CN => 61.IN4
+CN => 61.IN5
+AEQB <= 83.DB_MAX_OUTPUT_PORT_TYPE
+A3N => 24.IN0
+A3N => 23.IN2
+A3N => 51.IN0
+B3N => 24.IN2
+B3N => 25.IN0
+B3N => 21.IN1
+A2N => 19.IN0
+A2N => 18.IN2
+A2N => 45.IN0
+B2N => 19.IN2
+B2N => 31.IN0
+B2N => 16.IN1
+F2N <= 85.DB_MAX_OUTPUT_PORT_TYPE
+F3N <= 84.DB_MAX_OUTPUT_PORT_TYPE
+PN <= 60.DB_MAX_OUTPUT_PORT_TYPE
+CN4 <= 78.DB_MAX_OUTPUT_PORT_TYPE
+GN <= 63.DB_MAX_OUTPUT_PORT_TYPE
+F0N <= 87.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_mainbdf|fsm_main:inst1|data_state_picker_3b_4bitso:inst|74138:inst3
+Y7N <= 22.DB_MAX_OUTPUT_PORT_TYPE
+G1 => 8.IN0
+G2BN => 1.IN1
+G2AN => 1.IN2
+B => 10.IN0
+A => 9.IN0
+C => 11.IN0
+Y6N <= 21.DB_MAX_OUTPUT_PORT_TYPE
+Y5N <= 20.DB_MAX_OUTPUT_PORT_TYPE
+Y4N <= 19.DB_MAX_OUTPUT_PORT_TYPE
+Y3N <= 18.DB_MAX_OUTPUT_PORT_TYPE
+Y2N <= 17.DB_MAX_OUTPUT_PORT_TYPE
+Y1N <= 16.DB_MAX_OUTPUT_PORT_TYPE
+Y0N <= 15.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_mainbdf|fsm_main:inst1|state_3bits_ctler:inst1
+d0 <= data_3bits_register:inst.o0
+en => fsm_logic_3bits:inst4.en
+PRS => data_3bits_register:inst.PRS
+CLK => data_3bits_register:inst.CLK
+CLR => data_3bits_register:inst.CLR
+d1 <= data_3bits_register:inst.o1
+d2 <= data_3bits_register:inst.o2
+
+
+|the_mainbdf|fsm_main:inst1|state_3bits_ctler:inst1|data_3bits_register:inst
+o0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLR => inst2.ACLR
+CLK => inst.CLK
+CLK => inst1.CLK
+CLK => inst2.CLK
+i0 => inst.DATAIN
+PRS => inst.PRESET
+PRS => inst1.PRESET
+PRS => inst2.PRESET
+o1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+i1 => inst1.DATAIN
+o2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+i2 => inst2.DATAIN
+
+
+|the_mainbdf|fsm_main:inst1|state_3bits_ctler:inst1|fsm_logic_3bits:inst4
+n0 <= 74181:inst.F0N
+i0 => 74181:inst.A0N
+i1 => 74181:inst.A1N
+i1 => inst1.IN1
+i2 => 74181:inst.A2N
+i2 => inst1.IN0
+en => 74181:inst.CN
+n1 <= 74181:inst.F1N
+n2 <= 74181:inst.F2N
+
+
+|the_mainbdf|fsm_main:inst1|state_3bits_ctler:inst1|fsm_logic_3bits:inst4|74181:inst
+F1N <= 86.DB_MAX_OUTPUT_PORT_TYPE
+A1N => 14.IN0
+A1N => 13.IN2
+A1N => 44.IN0
+S3 => 14.IN1
+S3 => 9.IN1
+S3 => 24.IN1
+S3 => 19.IN1
+B1N => 14.IN2
+B1N => 28.IN0
+B1N => 11.IN1
+S2 => 13.IN1
+S2 => 8.IN1
+S2 => 23.IN1
+S2 => 18.IN1
+S0 => 11.IN0
+S0 => 6.IN0
+S0 => 21.IN0
+S0 => 16.IN0
+S1 => 12.IN1
+S1 => 7.IN1
+S1 => 22.IN1
+S1 => 17.IN1
+M => 98.IN0
+A0N => 9.IN0
+A0N => 8.IN2
+A0N => 43.IN0
+B0N => 9.IN2
+B0N => 27.IN0
+B0N => 6.IN1
+CN => 66.IN2
+CN => 73.IN0
+CN => 73.IN3
+CN => 69.IN0
+CN => 64.IN0
+CN => 61.IN4
+CN => 61.IN5
+AEQB <= 83.DB_MAX_OUTPUT_PORT_TYPE
+A3N => 24.IN0
+A3N => 23.IN2
+A3N => 51.IN0
+B3N => 24.IN2
+B3N => 25.IN0
+B3N => 21.IN1
+A2N => 19.IN0
+A2N => 18.IN2
+A2N => 45.IN0
+B2N => 19.IN2
+B2N => 31.IN0
+B2N => 16.IN1
+F2N <= 85.DB_MAX_OUTPUT_PORT_TYPE
+F3N <= 84.DB_MAX_OUTPUT_PORT_TYPE
+PN <= 60.DB_MAX_OUTPUT_PORT_TYPE
+CN4 <= 78.DB_MAX_OUTPUT_PORT_TYPE
+GN <= 63.DB_MAX_OUTPUT_PORT_TYPE
+F0N <= 87.DB_MAX_OUTPUT_PORT_TYPE
+
+

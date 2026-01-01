@@ -1,0 +1,50 @@
+C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/TestBench.v {1 {vlog -work work_w9Wa1_1105 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/TestBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/TestBench_ff_n.v {1 {vlog -work work_w9Wa1_1105 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/TestBench_ff_n.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TestBench_ff_n
+
+Top level modules:
+	TestBench_ff_n
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/ff_n.v {1 {vlog -work work_w9Wa1_1105 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/ff_n.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ff_n
+
+Top level modules:
+	ff_n
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/reg_blocking.v {1 {vlog -work work_w9Wa1_1105 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/reg_blocking.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg_blocking
+
+Top level modules:
+	reg_blocking
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/reg_blocking_4b3.v {1 {vlog -work work_w9Wa1_1105 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/reg_blocking_4b3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg_blocking_4b3
+
+Top level modules:
+	reg_blocking_4b3
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/reg_noblocking.v {1 {vlog -work work_w9Wa1_1105 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/reg_noblocking.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg_noblocking
+
+Top level modules:
+	reg_noblocking
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/reg_noblocking_4b3.v {1 {vlog -work work_w9Wa1_1105 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/reg_noblocking_4b3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg_noblocking_4b3
+
+Top level modules:
+	reg_noblocking_4b3
+
+} {} {}}

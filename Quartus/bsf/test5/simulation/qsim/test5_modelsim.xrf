@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/user/Desktop/TEMP/Quartus_File/test5/my_or3.bdf
+source_file = 1, C:/Users/user/Desktop/TEMP/Quartus_File/test5/main_test5.bdf
+source_file = 1, C:/Users/user/Desktop/TEMP/Quartus_File/test5/db/test5.cbx.xml
+design_name = main_test5
+instance = comp, \my_or_out~output , my_or_out~output, main_test5, 1
+instance = comp, \my_or_b~input , my_or_b~input, main_test5, 1
+instance = comp, \my_or_c~input , my_or_c~input, main_test5, 1
+instance = comp, \my_or_a~input , my_or_a~input, main_test5, 1
+instance = comp, \inst|inst , inst|inst, main_test5, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, main_test5, 1

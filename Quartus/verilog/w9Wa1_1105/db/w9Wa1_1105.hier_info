@@ -1,0 +1,29 @@
+|ff_n
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_n[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pre_n => Q[3].IN0
+pre_n => Q[0]~reg0.PRESET
+pre_n => Q[1]~reg0.PRESET
+pre_n => Q[2]~reg0.PRESET
+pre_n => Q[3]~reg0.PRESET
+clr_n => Q[3].IN1
+clk_n => Q[0]~reg0.CLK
+clk_n => Q[1]~reg0.CLK
+clk_n => Q[2]~reg0.CLK
+clk_n => Q[3]~reg0.CLK
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+CE => Q[0]~reg0.ENA
+CE => Q[3]~reg0.ENA
+CE => Q[2]~reg0.ENA
+CE => Q[1]~reg0.ENA
+
+

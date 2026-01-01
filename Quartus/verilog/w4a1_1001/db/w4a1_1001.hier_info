@@ -1,0 +1,12 @@
+|RTL
+A => always0.IN0
+A => always0.IN0
+B => always0.IN1
+B => Out.DATAB
+C => Out.DATAB
+C => always0.IN1
+D => always0.IN1
+D => always0.IN1
+Out <= Out.DB_MAX_OUTPUT_PORT_TYPE
+
+

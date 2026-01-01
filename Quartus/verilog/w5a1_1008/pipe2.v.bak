@@ -1,0 +1,14 @@
+module pipe2(out, in, clk);
+	output out;
+	input in, clk;
+	
+	reg out;
+	
+	always @(in)
+	begin
+		one <= in;
+		two <= one;
+		out <= in;
+	end
+
+endmodule

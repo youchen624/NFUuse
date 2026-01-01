@@ -1,0 +1,9 @@
+module regtest2(c, a, b, clk);
+	input a, b, clk;
+	output c;
+	reg c;
+
+	always@(posedge clk)
+		c = a + b;
+
+endmodule

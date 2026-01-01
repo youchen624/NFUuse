@@ -1,0 +1,22 @@
+C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/TestBench.v {1 {vlog -work w15Wa1_1224 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/TestBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/decoder3_8.v {1 {vlog -work w15Wa1_1224 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/decoder3_8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder3_8
+
+Top level modules:
+	decoder3_8
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/TestBench2.v {1 {vlog -work w15Wa1_1224 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/TestBench2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TestBench2
+
+Top level modules:
+	TestBench2
+
+} {} {}}

@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim
+vdmux8
+Z0 !s110 1764747140
+!i10b 1
+!s100 ahfn=a6zk?1GnbUC5709L3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IE94Vn]JFQ68k8iQ50;Y]X3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/sim
+w1764746650
+8C:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/dmux8.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/dmux8.v
+!i122 10
+L0 1 8
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1764747140.000000
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/dmux8.v|
+!s90 -reportprogress|300|-work|w13Wa1_1203|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/dmux8.v|
+!i113 1
+Z6 o-work w13Wa1_1203
+Z7 tCvgOpt 0
+vmux2_3b
+R0
+!i10b 1
+!s100 lg^]hb8EiN4>1A_A0OPQL0
+R1
+ISAJkW;1ikKcTPdTK>?j@`0
+R2
+R3
+w1764740879
+8C:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/mux2_3b.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/mux2_3b.v
+!i122 8
+L0 1 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/mux2_3b.v|
+!s90 -reportprogress|300|-work|w13Wa1_1203|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/mux2_3b.v|
+!i113 1
+R6
+R7
+vTestBentch
+R0
+!i10b 1
+!s100 eMSc`X^>e[Uz1A=_FX9960
+R1
+IBoTWkF]k0245>hg6C8j?R2
+R2
+R3
+w1764742049
+8C:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/sim/TestBentch.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/sim/TestBentch.v
+!i122 9
+L0 2 36
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/sim/TestBentch.v|
+!s90 -reportprogress|300|-work|w13Wa1_1203|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/sim/TestBentch.v|
+!i113 1
+R6
+R7
+n@test@bentch
+vTestBentch2
+!s110 1764747168
+!i10b 1
+!s100 6e5OZm6e<FPDfPQGi];lS1
+R1
+I[1CTSmb^<mn6L6QGjPJAE2
+R2
+R3
+w1764747166
+8C:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/sim/TestBentch2.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/sim/TestBentch2.v
+!i122 11
+L0 2 31
+R4
+r1
+!s85 0
+31
+!s108 1764747168.000000
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/sim/TestBentch2.v|
+!s90 -reportprogress|300|-work|w13Wa1_1203|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/sim/TestBentch2.v|
+!i113 1
+R6
+R7
+n@test@bentch2

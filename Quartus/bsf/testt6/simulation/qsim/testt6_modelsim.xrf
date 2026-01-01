@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/user/Desktop/TEMP/Quartus_File/testt6/testt6.bdf
+source_file = 1, C:/Users/user/Desktop/TEMP/Quartus_File/testt6/Block2111.bdf
+source_file = 1, C:/Users/user/Desktop/TEMP/Quartus_File/testt6/db/testt6.cbx.xml
+design_name = Block2111
+instance = comp, \o11~output , o11~output, Block2111, 1
+instance = comp, \i22~input , i22~input, Block2111, 1
+instance = comp, \i11~input , i11~input, Block2111, 1
+instance = comp, \inst|inst , inst|inst, Block2111, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Block2111, 1

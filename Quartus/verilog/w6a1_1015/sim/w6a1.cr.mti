@@ -1,0 +1,15 @@
+C:/Users/user/Desktop/TEMP/quartussss____/w6a1_1015/sim/TestBench.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w6a1_1015/sim/TestBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w6a1_1015/DUT.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w6a1_1015/DUT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DUT
+
+Top level modules:
+	DUT
+
+} {} {}}

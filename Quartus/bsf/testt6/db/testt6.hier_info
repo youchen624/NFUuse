@@ -1,0 +1,12 @@
+|Block2111
+o11 <= testt6:inst.OUT
+i11 => testt6:inst.IN1
+i22 => testt6:inst.IN2
+
+
+|Block2111|testt6:inst
+OUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst.IN0
+IN1 => inst.IN1
+
+

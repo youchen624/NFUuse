@@ -1,0 +1,8 @@
+module regtest1(c, a, b);
+	input a, b;
+	output c;
+	
+	always @(a, b)
+		c = a + b;
+
+endmodule

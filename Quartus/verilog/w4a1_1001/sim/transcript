@@ -1,0 +1,201 @@
+# Compile of FD1.v was successful.
+# Compile of pipe.v was successful.
+# Compile of pipe2.v was successful.
+# Compile of pipes.v was successful.
+# Compile of Test_Bench.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of Test_Bench.v was successful.
+vsim w5a1_sim.Test_Bench
+# vsim w5a1_sim.Test_Bench 
+# Start time: 15:10:42 on Oct 08,2025
+# Loading w5a1_sim.Test_Bench
+add wave -position insertpoint sim:/Test_Bench/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Test_Bench.v failed with 8 errors.
+# Compile of Test_Bench.v failed with 2 errors.
+# Compile of Test_Bench.v failed with 4 errors.
+# Compile of Test_Bench.v was successful.
+vsim w5a1_sim.Test_Bench
+# End time: 15:43:05 on Oct 08,2025, Elapsed time: 0:32:23
+# Errors: 0, Warnings: 13
+# vsim w5a1_sim.Test_Bench 
+# Start time: 15:43:05 on Oct 08,2025
+# Loading w5a1_sim.Test_Bench
+# Loading w5a1_sim.pipes
+# Loading w5a1_sim.FD1
+add wave -position insertpoint sim:/Test_Bench/*
+run
+run
+# Compile of Test_Bench.v was successful.
+vsim w5a1_sim.Test_Bench
+# End time: 15:45:21 on Oct 08,2025, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 2
+# vsim w5a1_sim.Test_Bench 
+# Start time: 15:45:21 on Oct 08,2025
+# Loading w5a1_sim.Test_Bench
+# Loading w5a1_sim.pipes
+# Loading w5a1_sim.FD1
+add wave -position insertpoint sim:/Test_Bench/*
+run
+# Compile of Test_Bench.v was successful.
+vsim w5a1_sim.Test_Bench
+# End time: 15:46:27 on Oct 08,2025, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 2
+# vsim w5a1_sim.Test_Bench 
+# Start time: 15:46:27 on Oct 08,2025
+# Loading w5a1_sim.Test_Bench
+# Loading w5a1_sim.pipes
+# Loading w5a1_sim.FD1
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'out'.
+#    Time: 0 ps  Iteration: 0  Instance: /Test_Bench/u1 File: C:/Users/user/Desktop/TEMP/quartussss____/w5a1_1008/sim/Test_Bench.v Line: 8
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'out'.
+#    Time: 0 ps  Iteration: 0  Instance: /Test_Bench/u2 File: C:/Users/user/Desktop/TEMP/quartussss____/w5a1_1008/sim/Test_Bench.v Line: 9
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'out'.
+#    Time: 0 ps  Iteration: 0  Instance: /Test_Bench/u3 File: C:/Users/user/Desktop/TEMP/quartussss____/w5a1_1008/sim/Test_Bench.v Line: 10
+# Error loading design
+# End time: 15:46:27 on Oct 08,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+# Compile of Test_Bench.v was successful.
+vsim w5a1_sim.Test_Bench
+# vsim w5a1_sim.Test_Bench 
+# Start time: 15:46:41 on Oct 08,2025
+# Loading w5a1_sim.Test_Bench
+# Loading w5a1_sim.pipes
+# Loading w5a1_sim.FD1
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'out'.
+#    Time: 0 ps  Iteration: 0  Instance: /Test_Bench/u1 File: C:/Users/user/Desktop/TEMP/quartussss____/w5a1_1008/sim/Test_Bench.v Line: 8
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'out'.
+#    Time: 0 ps  Iteration: 0  Instance: /Test_Bench/u2 File: C:/Users/user/Desktop/TEMP/quartussss____/w5a1_1008/sim/Test_Bench.v Line: 9
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'out'.
+#    Time: 0 ps  Iteration: 0  Instance: /Test_Bench/u3 File: C:/Users/user/Desktop/TEMP/quartussss____/w5a1_1008/sim/Test_Bench.v Line: 10
+# Error loading design
+# End time: 15:46:41 on Oct 08,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+# Compile of Test_Bench.v was successful.
+vsim w5a1_sim.Test_Bench
+# vsim w5a1_sim.Test_Bench 
+# Start time: 15:47:18 on Oct 08,2025
+# Loading w5a1_sim.Test_Bench
+# Loading w5a1_sim.pipes
+# Loading w5a1_sim.FD1
+add wave -position insertpoint sim:/Test_Bench/*
+run
+# Compile of Test_Bench.v was successful.
+vsim w5a1_sim.Test_Bench
+# End time: 15:48:06 on Oct 08,2025, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 3
+# vsim w5a1_sim.Test_Bench 
+# Start time: 15:48:06 on Oct 08,2025
+# Loading w5a1_sim.Test_Bench
+# Loading w5a1_sim.pipe
+# Loading w5a1_sim.pipe2
+# Loading w5a1_sim.pipes
+# Loading w5a1_sim.FD1
+add wave -position insertpoint sim:/Test_Bench/*
+run
+# Compile of Test_Bench.v was successful.
+vsim w5a1_sim.Test_Bench
+# End time: 15:49:13 on Oct 08,2025, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 2
+# vsim w5a1_sim.Test_Bench 
+# Start time: 15:49:13 on Oct 08,2025
+# Loading w5a1_sim.Test_Bench
+# Loading w5a1_sim.pipe
+# Loading w5a1_sim.pipe2
+# Loading w5a1_sim.pipes
+# Loading w5a1_sim.FD1
+add wave -position insertpoint sim:/Test_Bench/*
+run
+# Compile of pipes.v was successful.
+# Compile of FD1.v was successful.
+# Compile of pipe.v was successful.
+# Compile of pipe2.v was successful.
+# Compile of pipes.v was successful.
+# Compile of Test_Bench.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim w5a1_sim.Test_Bench
+# End time: 15:50:32 on Oct 08,2025, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 3
+# vsim w5a1_sim.Test_Bench 
+# Start time: 15:50:33 on Oct 08,2025
+# Loading w5a1_sim.Test_Bench
+# Loading w5a1_sim.pipe
+# Loading w5a1_sim.pipe2
+# Loading w5a1_sim.pipes
+# Loading w5a1_sim.FD1
+add wave -position insertpoint sim:/Test_Bench/*
+run
+# Compile of FD1.v was successful.
+# Compile of pipe.v was successful.
+# Compile of pipe2.v was successful.
+# Compile of pipes.v was successful.
+# Compile of Test_Bench.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim w5a1_sim.Test_Bench
+# End time: 15:51:18 on Oct 08,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 2
+# vsim w5a1_sim.Test_Bench 
+# Start time: 15:51:18 on Oct 08,2025
+# Loading w5a1_sim.Test_Bench
+add wave -position insertpoint sim:/Test_Bench/*
+run
+# Compile of FD1.v was successful.
+# Compile of pipe.v was successful.
+# Compile of pipe2.v was successful.
+# Compile of pipes.v was successful.
+# Compile of Test_Bench.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim w5a1_sim.Test_Bench
+# End time: 15:53:12 on Oct 08,2025, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 2
+# vsim w5a1_sim.Test_Bench 
+# Start time: 15:53:12 on Oct 08,2025
+# Loading w5a1_sim.Test_Bench
+add wave -position insertpoint sim:/Test_Bench/*
+run
+quit -sim
+# End time: 15:54:09 on Oct 08,2025, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 1
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project nofuckingerrors
+# Compile of FD1.v was successful.
+# Compile of pipe.v was successful.
+# Compile of pipe2.v was successful.
+# Compile of pipes.v was successful.
+# Compile of Test_Bench.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim w5a1_sim_nofuckingerrors.Test_Bench
+# vsim w5a1_sim_nofuckingerrors.Test_Bench 
+# Start time: 15:55:46 on Oct 08,2025
+# Loading w5a1_sim_nofuckingerrors.Test_Bench
+# Loading w5a1_sim_nofuckingerrors.pipe
+# Loading w5a1_sim_nofuckingerrors.pipe2
+# Loading w5a1_sim_nofuckingerrors.pipes
+# Loading w5a1_sim_nofuckingerrors.FD1
+add wave -position insertpoint sim:/Test_Bench/*
+run
+# Compile of FD1.v was successful.
+# Compile of pipe.v was successful.
+# Compile of pipe2.v was successful.
+# Compile of pipes.v was successful.
+# Compile of Test_Bench.v failed with 3 errors.
+# 5 compiles, 1 failed with 3 errors.
+vsim w5a1_sim_nofuckingerrors.pipes
+# End time: 15:57:33 on Oct 08,2025, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 7
+# vsim w5a1_sim_nofuckingerrors.pipes 
+# Start time: 15:57:33 on Oct 08,2025
+# Loading w5a1_sim_nofuckingerrors.pipes
+# Loading w5a1_sim_nofuckingerrors.FD1
+add wave -position insertpoint sim:/pipes/*
+run
+# End time: 16:03:38 on Oct 08,2025, Elapsed time: 0:06:05
+# Errors: 0, Warnings: 1

@@ -1,0 +1,34 @@
+
+`timescale 1ns/100ps
+module Test_Bench();
+	reg clk;
+
+	reg in;
+	wire out;
+	wire out2;
+	wire out3;
+
+pipe u1(.out(out), .in(in), .clk(clk));
+pipe2 u2(.out(out2), .in(in), .clk(clk));
+pipes u3(.out(out3), .in(in), .clk(clk));
+
+
+initial begin
+	clk = 0;
+	in = 0;
+	out = 0;
+	out2 = 0;
+	out3 = 0;
+end
+
+initial begin
+	forever #10 clk = ~clk;
+end
+
+initial begin
+	#11.9 in = 1;
+	#23 in = 0;
+	#15.9 in = 1;
+end
+
+endmodule

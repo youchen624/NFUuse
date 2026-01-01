@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/user/Desktop/TEMP/quartussss____/w10Sat1_1115/hong_t1.bdf
+source_file = 1, C:/Users/user/Desktop/TEMP/quartussss____/w10Sat1_1115/db/w10Sat1_1115.cbx.xml
+design_name = hong_t1
+instance = comp, \Q0~output , Q0~output, hong_t1, 1
+instance = comp, \Q1~output , Q1~output, hong_t1, 1
+instance = comp, \Q2~output , Q2~output, hong_t1, 1
+instance = comp, \clk~input , clk~input, hong_t1, 1
+instance = comp, \inst~0 , inst~0, hong_t1, 1

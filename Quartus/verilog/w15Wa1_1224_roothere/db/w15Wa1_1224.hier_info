@@ -1,0 +1,110 @@
+|lab
+clk => clk.IN2
+key0 => key0.IN2
+led[0] << decoder3_8:u1.a
+led[1] << decoder3_8:u1.a
+led[2] << decoder3_8:u1.a
+led[3] << decoder3_8:u1.a
+led[4] << decoder3_8:u1.a
+led[5] << decoder3_8:u1.a
+led[6] << decoder3_8:u1.a
+led[7] << decoder3_8:u1.a
+
+
+|lab|div50M:u50M
+clk => i[0].CLK
+clk => i[1].CLK
+clk => i[2].CLK
+clk => i[3].CLK
+clk => i[4].CLK
+clk => i[5].CLK
+clk => i[6].CLK
+clk => i[7].CLK
+clk => i[8].CLK
+clk => i[9].CLK
+clk => i[10].CLK
+clk => i[11].CLK
+clk => i[12].CLK
+clk => i[13].CLK
+clk => i[14].CLK
+clk => i[15].CLK
+clk => i[16].CLK
+clk => i[17].CLK
+clk => i[18].CLK
+clk => i[19].CLK
+clk => i[20].CLK
+clk => i[21].CLK
+clk => i[22].CLK
+clk => i[23].CLK
+clk => i[24].CLK
+clk => i[25].CLK
+clk => i[26].CLK
+clk => i[27].CLK
+clk => i[28].CLK
+clk => i[29].CLK
+clk => i[30].CLK
+clk => i[31].CLK
+reset_n => i[0].ACLR
+reset_n => i[1].ACLR
+reset_n => i[2].ACLR
+reset_n => i[3].ACLR
+reset_n => i[4].ACLR
+reset_n => i[5].ACLR
+reset_n => i[6].ACLR
+reset_n => i[7].ACLR
+reset_n => i[8].ACLR
+reset_n => i[9].ACLR
+reset_n => i[10].ACLR
+reset_n => i[11].ACLR
+reset_n => i[12].ACLR
+reset_n => i[13].ACLR
+reset_n => i[14].ACLR
+reset_n => i[15].ACLR
+reset_n => i[16].ACLR
+reset_n => i[17].ACLR
+reset_n => i[18].ACLR
+reset_n => i[19].ACLR
+reset_n => i[20].ACLR
+reset_n => i[21].ACLR
+reset_n => i[22].ACLR
+reset_n => i[23].ACLR
+reset_n => i[24].ACLR
+reset_n => i[25].ACLR
+reset_n => i[26].ACLR
+reset_n => i[27].ACLR
+reset_n => i[28].ACLR
+reset_n => i[29].ACLR
+reset_n => i[30].ACLR
+reset_n => i[31].ACLR
+o <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab|counter_3:u0
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+reset_n => count[0]~reg0.ACLR
+reset_n => count[1]~reg0.ACLR
+reset_n => count[2]~reg0.ACLR
+cnt => count[0]~reg0.ENA
+cnt => count[2]~reg0.ENA
+cnt => count[1]~reg0.ENA
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab|decoder3_8:u1
+d[0] => ShiftLeft0.IN11
+d[1] => ShiftLeft0.IN10
+d[2] => ShiftLeft0.IN9
+a[0] <= ShiftLeft0.DB_MAX_OUTPUT_PORT_TYPE
+a[1] <= ShiftLeft0.DB_MAX_OUTPUT_PORT_TYPE
+a[2] <= ShiftLeft0.DB_MAX_OUTPUT_PORT_TYPE
+a[3] <= ShiftLeft0.DB_MAX_OUTPUT_PORT_TYPE
+a[4] <= ShiftLeft0.DB_MAX_OUTPUT_PORT_TYPE
+a[5] <= ShiftLeft0.DB_MAX_OUTPUT_PORT_TYPE
+a[6] <= ShiftLeft0.DB_MAX_OUTPUT_PORT_TYPE
+a[7] <= ShiftLeft0.DB_MAX_OUTPUT_PORT_TYPE
+
+

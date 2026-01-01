@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Desktop/TEMP/Quartus_File/testt6/simulation/qsim
+vBlock2111
+Z1 !s110 1742275423
+!i10b 1
+!s100 a76b2PbJPza@GHRJeYh]M3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9]Pa4]_05DNj4AmZ3o_Bd2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1742275422
+8testt6.vo
+Ftestt6.vo
+!i122 2
+L0 32 117
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1742275423.000000
+!s107 testt6.vo|
+!s90 -work|work|testt6.vo|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@block2111
+vBlock2111_vlg_vec_tst
+R1
+!i10b 1
+!s100 fdg6HYWb2a@6H9WKzbENf0
+R2
+IZgEA;ceN0`3c<zobT3nWi1
+R3
+R0
+R4
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 36
+R5
+r1
+!s85 0
+31
+R6
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R7
+R8
+n@block2111_vlg_vec_tst

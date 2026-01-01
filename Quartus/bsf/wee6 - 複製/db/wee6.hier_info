@@ -1,0 +1,97 @@
+|t_4mux_2m
+y[1] <= t_2mux_m:inst2.y[1]
+y[0] <= t_2mux_m:inst2.y[0]
+s[1] => t_2mux_m:inst2.s
+s[0] => t_2mux_m:inst.s
+s[0] => t_2mux_m:inst1.s
+a[1] => t_2mux_m:inst.a[1]
+a[0] => t_2mux_m:inst.a[0]
+b[1] => t_2mux_m:inst.b[1]
+b[0] => t_2mux_m:inst.b[0]
+c[1] => t_2mux_m:inst1.a[1]
+c[0] => t_2mux_m:inst1.a[0]
+d[1] => t_2mux_m:inst1.b[1]
+d[0] => t_2mux_m:inst1.b[0]
+
+
+|t_4mux_2m|t_2mux_m:inst2
+y[1] <= t_mux:inst1.y
+y[0] <= t_mux:inst.y
+s => t_mux:inst.s
+s => t_mux:inst1.s
+a[1] => t_mux:inst1.a
+a[0] => t_mux:inst.a
+b[1] => t_mux:inst1.b
+b[0] => t_mux:inst.b
+
+
+|t_4mux_2m|t_2mux_m:inst2|t_mux:inst
+y <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+s => inst1.IN0
+s => inst3.IN0
+b => inst1.IN1
+a => inst.IN1
+
+
+|t_4mux_2m|t_2mux_m:inst2|t_mux:inst1
+y <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+s => inst1.IN0
+s => inst3.IN0
+b => inst1.IN1
+a => inst.IN1
+
+
+|t_4mux_2m|t_2mux_m:inst
+y[1] <= t_mux:inst1.y
+y[0] <= t_mux:inst.y
+s => t_mux:inst.s
+s => t_mux:inst1.s
+a[1] => t_mux:inst1.a
+a[0] => t_mux:inst.a
+b[1] => t_mux:inst1.b
+b[0] => t_mux:inst.b
+
+
+|t_4mux_2m|t_2mux_m:inst|t_mux:inst
+y <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+s => inst1.IN0
+s => inst3.IN0
+b => inst1.IN1
+a => inst.IN1
+
+
+|t_4mux_2m|t_2mux_m:inst|t_mux:inst1
+y <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+s => inst1.IN0
+s => inst3.IN0
+b => inst1.IN1
+a => inst.IN1
+
+
+|t_4mux_2m|t_2mux_m:inst1
+y[1] <= t_mux:inst1.y
+y[0] <= t_mux:inst.y
+s => t_mux:inst.s
+s => t_mux:inst1.s
+a[1] => t_mux:inst1.a
+a[0] => t_mux:inst.a
+b[1] => t_mux:inst1.b
+b[0] => t_mux:inst.b
+
+
+|t_4mux_2m|t_2mux_m:inst1|t_mux:inst
+y <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+s => inst1.IN0
+s => inst3.IN0
+b => inst1.IN1
+a => inst.IN1
+
+
+|t_4mux_2m|t_2mux_m:inst1|t_mux:inst1
+y <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+s => inst1.IN0
+s => inst3.IN0
+b => inst1.IN1
+a => inst.IN1
+
+

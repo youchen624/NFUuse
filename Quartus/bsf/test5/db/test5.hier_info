@@ -1,0 +1,14 @@
+|main_test5
+my_or_out <= my_or3:inst.my_or_out
+my_or_a => my_or3:inst.my_or_a
+my_or_b => my_or3:inst.my_or_b
+my_or_c => my_or3:inst.my_or_c
+
+
+|main_test5|my_or3:inst
+my_or_out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+my_or_b => inst.IN0
+my_or_c => inst.IN1
+my_or_a => inst.IN2
+
+

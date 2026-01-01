@@ -1,0 +1,4 @@
+module dmux2(d, y, s, e);
+
+
+endmodule

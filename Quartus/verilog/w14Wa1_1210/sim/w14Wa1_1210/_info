@@ -1,0 +1,127 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/user/Desktop/TEMP/quartussss____/w13Wa1_1203/sim
+vdecoder3_8
+Z0 !s110 1765952324
+!i10b 1
+!s100 HF0b713L_PPmZW1^e5Wj;3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ii[FMIK60[glABkF3Ud61I1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim
+w1765951234
+8C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/decoder3_8.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/decoder3_8.v
+!i122 41
+L0 1 7
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1765952324.000000
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/decoder3_8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/decoder3_8.v|
+!i113 1
+o-work work
+Z6 tCvgOpt 0
+vdmux8_e
+R0
+!i10b 1
+!s100 @e`Z5;I<mT3b?G4g3hJ_T1
+R1
+IFD[_]WgTiPQD6OaYWYWC>2
+R2
+R3
+w1765346027
+8C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/dmux8_e.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/dmux8_e.v
+!i122 38
+L0 1 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/dmux8_e.v|
+!s90 -reportprogress|300|-work|w14Wa1_1210|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/dmux8_e.v|
+!i113 1
+Z7 o-work w14Wa1_1210
+R6
+vmux4_b8
+R0
+!i10b 1
+!s100 QI5RBbJ=i[X`@]lm0bFgP3
+R1
+Ij?kXP6Z^H27m[<WoKaJ@]1
+R2
+R3
+w1765345734
+8C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/mux4_b8.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/mux4_b8.v
+!i122 39
+L0 1 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/mux4_b8.v|
+!s90 -reportprogress|300|-work|w14Wa1_1210|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/mux4_b8.v|
+!i113 1
+R7
+R6
+vpencoder8_3
+R0
+!i10b 1
+!s100 UGVBW7LMWfnX;jN^QcFi=0
+R1
+I4B?NPdM9RC9JA;MnhkJ_D3
+R2
+R3
+w1765353702
+8C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/pencoder8_3.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/pencoder8_3.v
+!i122 40
+L0 1 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/pencoder8_3.v|
+!s90 -reportprogress|300|-work|w14Wa1_1210|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/pencoder8_3.v|
+!i113 1
+R7
+R6
+vTestBench
+!s110 1765956202
+!i10b 1
+!s100 TT_TFk_hldjzYd`Lo7RWa0
+R1
+I3TUWL]begBUdQcOZTO[h<3
+R2
+R3
+w1765956196
+8C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/TestBench.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/TestBench.v
+!i122 50
+L0 2 86
+R4
+r1
+!s85 0
+31
+!s108 1765956202.000000
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/TestBench.v|
+!s90 -reportprogress|300|-work|w14Wa1_1210|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/TestBench.v|
+!i113 1
+R7
+R6
+n@test@bench

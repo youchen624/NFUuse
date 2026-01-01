@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Desktop/TEMP/Quartus_File/week5/simulation/qsim
+vmy_mux_4_1_bus
+Z1 !s110 1742287980
+!i10b 1
+!s100 1WaX`mK1k3e57KSRWDECo1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IlFFOXG_aj_LS^odd_a=VP1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1742287980
+Z4 8week5.vo
+Z5 Fweek5.vo
+!i122 46
+L0 32 258
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1742287980.000000
+Z8 !s107 week5.vo|
+Z9 !s90 -work|work|week5.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vmy_mux_4_1_bus_vlg_vec_tst
+R1
+!i10b 1
+!s100 j<]fBlJfm@o^f96@SSokA0
+R2
+I>U<TJCNUU<WGRR84SWe`31
+R3
+R0
+w1742287979
+Z12 8Waveform.vwf.vt
+Z13 FWaveform.vwf.vt
+!i122 47
+L0 30 54
+R6
+r1
+!s85 0
+31
+R7
+Z14 !s107 Waveform.vwf.vt|
+Z15 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vweek5_main
+Z16 !s110 1742284176
+!i10b 1
+!s100 ;EIYlf=XYSKi5^Jd_51Cm0
+R2
+IOERP;JQ8M9K`M`i5eTi1n2
+R3
+R0
+Z17 w1742284175
+R4
+R5
+!i122 10
+L0 32 97
+R6
+r1
+!s85 0
+31
+Z18 !s108 1742284176.000000
+R8
+R9
+!i113 1
+R10
+R11
+vweek5_main_vlg_vec_tst
+R16
+!i10b 1
+!s100 V>UfE8gTOYCc]^Q<nI0B<2
+R2
+Ij[bkNg9dzTJ81c_2RBYA13
+R3
+R0
+R17
+R12
+R13
+!i122 11
+L0 30 48
+R6
+r1
+!s85 0
+31
+R18
+R14
+R15
+!i113 1
+R10
+R11

@@ -1,0 +1,122 @@
+|main_work
+Y0[0] <= 2DMUX14:inst.Y0[0]
+Y0[1] <= 2DMUX14:inst.Y0[1]
+E => 2DMUX14:inst.E
+D[0] => 2DMUX14:inst.D[0]
+D[1] => 2DMUX14:inst.D[1]
+S[0] => 2DMUX14:inst.S[0]
+S[1] => 2DMUX14:inst.S[1]
+Y1[0] <= 2DMUX14:inst.Y1[0]
+Y1[1] <= 2DMUX14:inst.Y1[1]
+Y2[0] <= 2DMUX14:inst.Y2[0]
+Y2[1] <= 2DMUX14:inst.Y2[1]
+Y3[0] <= 2DMUX14:inst.Y3[0]
+Y3[1] <= 2DMUX14:inst.Y3[1]
+
+
+|main_work|2DMUX14:inst
+Y0[0] <= DMUX14:inst.Y0
+Y0[1] <= DMUX14:inst2.Y0
+D[0] => DMUX14:inst.D
+D[1] => DMUX14:inst2.D
+E => inst3.IN0
+S[0] => DMUX14:inst.S[0]
+S[0] => DMUX14:inst2.S[0]
+S[1] => DMUX14:inst.S[1]
+S[1] => DMUX14:inst2.S[1]
+Y1[0] <= DMUX14:inst.Y1
+Y1[1] <= DMUX14:inst2.Y1
+Y2[0] <= DMUX14:inst.Y2
+Y2[1] <= DMUX14:inst2.Y2
+Y3[0] <= DMUX14:inst.Y3
+Y3[1] <= DMUX14:inst2.Y3
+
+
+|main_work|2DMUX14:inst|DMUX14:inst
+Y0 <= DMUX21:inst1.Y0
+D => DMUX21:inst.D
+S[0] => DMUX21:inst1.S
+S[0] => DMUX21:inst2.S
+S[1] => DMUX21:inst.S
+EN => DMUX21:inst.EN
+EN => DMUX21:inst1.EN
+EN => DMUX21:inst2.EN
+Y1 <= DMUX21:inst1.Y1
+Y2 <= DMUX21:inst2.Y0
+Y3 <= DMUX21:inst2.Y1
+
+
+|main_work|2DMUX14:inst|DMUX14:inst|DMUX21:inst1
+Y0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S => inst3.IN0
+S => inst1.IN0
+D => inst.IN1
+D => inst1.IN1
+EN => inst2.IN0
+Y1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main_work|2DMUX14:inst|DMUX14:inst|DMUX21:inst
+Y0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S => inst3.IN0
+S => inst1.IN0
+D => inst.IN1
+D => inst1.IN1
+EN => inst2.IN0
+Y1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main_work|2DMUX14:inst|DMUX14:inst|DMUX21:inst2
+Y0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S => inst3.IN0
+S => inst1.IN0
+D => inst.IN1
+D => inst1.IN1
+EN => inst2.IN0
+Y1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main_work|2DMUX14:inst|DMUX14:inst2
+Y0 <= DMUX21:inst1.Y0
+D => DMUX21:inst.D
+S[0] => DMUX21:inst1.S
+S[0] => DMUX21:inst2.S
+S[1] => DMUX21:inst.S
+EN => DMUX21:inst.EN
+EN => DMUX21:inst1.EN
+EN => DMUX21:inst2.EN
+Y1 <= DMUX21:inst1.Y1
+Y2 <= DMUX21:inst2.Y0
+Y3 <= DMUX21:inst2.Y1
+
+
+|main_work|2DMUX14:inst|DMUX14:inst2|DMUX21:inst1
+Y0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S => inst3.IN0
+S => inst1.IN0
+D => inst.IN1
+D => inst1.IN1
+EN => inst2.IN0
+Y1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main_work|2DMUX14:inst|DMUX14:inst2|DMUX21:inst
+Y0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S => inst3.IN0
+S => inst1.IN0
+D => inst.IN1
+D => inst1.IN1
+EN => inst2.IN0
+Y1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|main_work|2DMUX14:inst|DMUX14:inst2|DMUX21:inst2
+Y0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S => inst3.IN0
+S => inst1.IN0
+D => inst.IN1
+D => inst1.IN1
+EN => inst2.IN0
+Y1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+

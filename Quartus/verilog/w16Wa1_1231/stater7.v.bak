@@ -1,0 +1,6 @@
+module stater7(
+	input next,
+	reset
+);
+
+endmodule

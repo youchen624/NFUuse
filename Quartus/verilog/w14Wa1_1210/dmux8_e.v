@@ -1,0 +1,9 @@
+module dmux8_e(y, d, e, s);
+	output [7:0] y;
+	input d, e;
+	input [2:0] s;
+	
+	//reg [7:0] y;
+
+	assign y = ( (e & d) ? (8'b1 << s) : 8'b0);
+endmodule

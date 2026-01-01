@@ -1,0 +1,19 @@
+module U_Counter(Q, Clk, Reset);
+	parameter MAX_S = 7;
+	parameter MAX = MAX_S * MAX_S;
+	output [MAX_S-1:0] Q;
+	input Clk, Reset;
+	
+	reg [MAX_S-1:0] temp;
+	
+	always @(posedge Clk, posedge Reset)
+	begin
+		if (Reset)
+			temp <= 1'b0;
+		else
+			temp <= (temp + 1'b1) % (MAX{1'b1});
+	end
+	
+	assign Q = temp;
+
+endmodule

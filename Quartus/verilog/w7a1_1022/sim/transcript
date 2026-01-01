@@ -1,0 +1,106 @@
+# Compile of regtest1.v was successful.
+# Compile of regtest2.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of regtest3.v was successful.
+# Compile of regtest4.v was successful.
+# Compile of TestBench2.v was successful.
+# Compile of mux4.v was successful.
+# Compile of mux2_4b.v was successful.
+# Compile of TestBench_w8Wa1.v failed with 1 errors.
+# 9 compiles, 1 failed with 1 error.
+# Compile of TestBench_w8Wa1.v failed with 1 errors.
+# Compile of TestBench_w8Wa1.v was successful.
+vsim work_w7a1_1022.TestBench_w8Wa1
+# vsim work_w7a1_1022.TestBench_w8Wa1 
+# Start time: 14:22:19 on Oct 29,2025
+# Loading work_w7a1_1022.TestBench_w8Wa1
+# ** Error: (vsim-3033) Instantiation of 'mux2_b4' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench_w8Wa1 File: C:/Users/user/Desktop/TEMP/quartussss____/w7a1_1022/sim/TestBench_w8Wa1.v Line: 12
+#         Searched libraries:
+#             C:/Users/user/Desktop/TEMP/quartussss____/w7a1_1022/sim/work_w7a1_1022
+# Error loading design
+# End time: 14:22:19 on Oct 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 6
+vsim work_w7a1_1022.TestBench_w8Wa1
+# vsim work_w7a1_1022.TestBench_w8Wa1 
+# Start time: 14:22:34 on Oct 29,2025
+# Loading work_w7a1_1022.TestBench_w8Wa1
+# ** Error: (vsim-3033) Instantiation of 'mux2_b4' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench_w8Wa1 File: C:/Users/user/Desktop/TEMP/quartussss____/w7a1_1022/sim/TestBench_w8Wa1.v Line: 12
+#         Searched libraries:
+#             C:/Users/user/Desktop/TEMP/quartussss____/w7a1_1022/sim/work_w7a1_1022
+# Error loading design
+# End time: 14:22:35 on Oct 29,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of regtest1.v was successful.
+# Compile of regtest2.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of regtest3.v was successful.
+# Compile of regtest4.v was successful.
+# Compile of TestBench2.v was successful.
+# Compile of mux4.v was successful.
+# Compile of mux2_4b.v was successful.
+# Compile of TestBench_w8Wa1.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work_w7a1_1022.TestBench_w8Wa1
+# vsim work_w7a1_1022.TestBench_w8Wa1 
+# Start time: 14:23:03 on Oct 29,2025
+# Loading work_w7a1_1022.TestBench_w8Wa1
+# ** Error: (vsim-3033) Instantiation of 'mux2_b4' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench_w8Wa1 File: C:/Users/user/Desktop/TEMP/quartussss____/w7a1_1022/sim/TestBench_w8Wa1.v Line: 12
+#         Searched libraries:
+#             C:/Users/user/Desktop/TEMP/quartussss____/w7a1_1022/sim/work_w7a1_1022
+# Error loading design
+# End time: 14:23:03 on Oct 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of regtest1.v was successful.
+# Compile of regtest2.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of regtest3.v was successful.
+# Compile of regtest4.v was successful.
+# Compile of TestBench2.v was successful.
+# Compile of mux4.v was successful.
+# Compile of mux2_4b.v was successful.
+# Compile of TestBench_w8Wa1.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work_w7a1_1022.TestBench_w8Wa1
+# vsim work_w7a1_1022.TestBench_w8Wa1 
+# Start time: 14:23:36 on Oct 29,2025
+# Loading work_w7a1_1022.TestBench_w8Wa1
+# Loading work_w7a1_1022.mux2_4b
+add wave -position insertpoint sim:/TestBench_w8Wa1/*
+run
+run
+# Compile of TestBench_w8Wa1.v was successful.
+vsim work_w7a1_1022.TestBench_w8Wa1
+# End time: 14:24:43 on Oct 29,2025, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 3
+# vsim work_w7a1_1022.TestBench_w8Wa1 
+# Start time: 14:24:43 on Oct 29,2025
+# Loading work_w7a1_1022.TestBench_w8Wa1
+# Loading work_w7a1_1022.mux2_4b
+add wave -position insertpoint sim:/TestBench_w8Wa1/*
+run
+run
+run
+run
+run
+run
+run
+# Compile of TestBench_w8Wa1.v was successful.
+vsim work_w7a1_1022.TestBench_w8Wa1
+# End time: 14:26:49 on Oct 29,2025, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 2
+# vsim work_w7a1_1022.TestBench_w8Wa1 
+# Start time: 14:26:49 on Oct 29,2025
+# Loading work_w7a1_1022.TestBench_w8Wa1
+# Loading work_w7a1_1022.mux2_4b
+add wave -position insertpoint sim:/TestBench_w8Wa1/*
+run
+run
+run
+run
+run
+quit -sim
+# End time: 14:45:34 on Oct 29,2025, Elapsed time: 0:18:45
+# Errors: 0, Warnings: 1

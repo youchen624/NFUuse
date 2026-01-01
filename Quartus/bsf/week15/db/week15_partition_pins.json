@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "OB",
+					"strict" : false
+				},
+				{
+					"name" : "OC",
+					"strict" : false
+				},
+				{
+					"name" : "OE",
+					"strict" : false
+				},
+				{
+					"name" : "OD",
+					"strict" : false
+				},
+				{
+					"name" : "OF",
+					"strict" : false
+				},
+				{
+					"name" : "OG",
+					"strict" : false
+				},
+				{
+					"name" : "OA",
+					"strict" : false
+				},
+				{
+					"name" : "i",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "M",
+					"strict" : false
+				},
+				{
+					"name" : "PRS",
+					"strict" : false
+				},
+				{
+					"name" : "CLR",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

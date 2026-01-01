@@ -1,0 +1,32 @@
+# do wee6.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:11:23 on Mar 25,2025
+# vlog -work work wee6.vo 
+# -- Compiling module t_4mux_2m
+# 
+# Top level modules:
+# 	t_4mux_2m
+# End time: 16:11:23 on Mar 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:11:23 on Mar 25,2025
+# vlog -work work Waveform2.vwf.vt 
+# -- Compiling module t_4mux_2m_vlg_vec_tst
+# 
+# Top level modules:
+# 	t_4mux_2m_vlg_vec_tst
+# End time: 16:11:23 on Mar 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.t_4mux_2m_vlg_vec_tst 
+# Start time: 16:11:23 on Mar 25,2025
+# Loading work.t_4mux_2m_vlg_vec_tst
+# Loading work.t_4mux_2m
+# Loading cyclonev_ver.cyclonev_io_obuf
+# Loading cyclonev_ver.cyclonev_io_ibuf
+# Loading cyclonev_ver.cyclonev_lcell_comb
+# after#25
+# ** Note: $finish    : Waveform2.vwf.vt(53)
+#    Time: 1 us  Iteration: 0  Instance: /t_4mux_2m_vlg_vec_tst
+# End time: 16:11:23 on Mar 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

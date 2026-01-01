@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/user/Desktop/TEMP/Quartus_File/test3/my_or2.bdf
+source_file = 1, C:/Users/user/Desktop/TEMP/Quartus_File/test3/test3a.bdf
+source_file = 1, C:/Users/user/Desktop/TEMP/Quartus_File/test3/Waveform.vwf
+source_file = 1, C:/Users/user/Desktop/TEMP/Quartus_File/test3/db/test3.cbx.xml
+design_name = my_or2
+instance = comp, \OUT~output , OUT~output, my_or2, 1
+instance = comp, \IN2~input , IN2~input, my_or2, 1
+instance = comp, \IN1~input , IN1~input, my_or2, 1

@@ -1,0 +1,24 @@
+`timescale 1ns/1ns
+module test;
+	reg clk;
+	reg a, b, c, d;
+	wire out;
+structural ul(.A(a), .B(b), .C(c), .D(d), .OUT(out));
+
+initial begin
+	clk = 0;
+	a = 0;
+	b = 0;
+	c = 0;
+	d = 0;
+end
+
+initial begin
+	forever #5 clk = ~clk;
+end
+
+
+
+
+endmodule
+

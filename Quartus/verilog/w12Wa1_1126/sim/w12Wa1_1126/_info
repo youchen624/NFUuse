@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/user/Desktop/TEMP/quartussss____/w11Wa1_1119/sim
+vD_Counter
+Z0 !s110 1764139897
+!i10b 1
+!s100 V[=26MJSKES3YfZUnV`231
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IeblCo39Qm0FE?g?CES]]f0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim
+w1764135900
+8C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/D_Counter.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/D_Counter.v
+!i122 42
+Z4 L0 1 17
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1764139897.000000
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/D_Counter.v|
+!s90 -reportprogress|300|-work|w12Wa1_1126|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/D_Counter.v|
+!i113 1
+Z7 o-work w12Wa1_1126
+Z8 tCvgOpt 0
+n@d_@counter
+vD_Counter_7
+R0
+!i10b 1
+!s100 nk4e1bf^_@m^KTPKbR5JV2
+R1
+IdBMGf66Ve>3F7EP^[l=b11
+R2
+R3
+w1764138395
+8C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/D_Counter_7.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/D_Counter_7.v
+!i122 44
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/D_Counter_7.v|
+!s90 -reportprogress|300|-work|w12Wa1_1126|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/D_Counter_7.v|
+!i113 1
+R7
+R8
+n@d_@counter_7
+vTestBench
+R0
+!i10b 1
+!s100 80hA@07AH9gN9^o1z[3cX2
+R1
+IU5`mICm:lnd2j?FQV06^l3
+R2
+R3
+w1764139751
+8C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/TestBench.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/TestBench.v
+!i122 43
+L0 2 36
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/TestBench.v|
+!s90 -reportprogress|300|-work|w12Wa1_1126|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/TestBench.v|
+!i113 1
+R7
+R8
+n@test@bench
+vU_Counter
+!s110 1764140142
+!i10b 1
+!s100 :4i<e`dUBX?LUge7NDmHz2
+R1
+I_m[fgP5dO>mGUP8=:M]:41
+R2
+R3
+w1764140139
+8C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/U_Counter.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/U_Counter.v
+!i122 48
+L0 1 19
+R5
+r1
+!s85 0
+31
+!s108 1764140142.000000
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/U_Counter.v|
+!s90 -reportprogress|300|-work|w12Wa1_1126|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/U_Counter.v|
+!i113 1
+R7
+R8
+n@u_@counter

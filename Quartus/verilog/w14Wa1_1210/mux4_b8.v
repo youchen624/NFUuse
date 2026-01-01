@@ -1,0 +1,19 @@
+module mux4_b8(y, a, b, c, d, s);
+	output [7:0] y;
+	input [7:0] a, b, c, d;
+	input [1:0] s;
+	
+	reg [7:0] y;
+	
+	always @(*)
+	begin
+		case(s)
+			2'b00: y = a;
+			2'b01: y = b;
+			2'b10: y = c;
+			2'b11: y = d;
+			default: y = 8'b0000_0000;
+		endcase
+	end
+	
+endmodule

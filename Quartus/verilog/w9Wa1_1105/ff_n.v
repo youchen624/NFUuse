@@ -1,0 +1,20 @@
+module ff_n(Q, Q_n, pre_n, clr_n, clk_n, D, CE);
+	output [3:0] Q, Q_n;
+	input [3:0] D;
+	input pre_n, clr_n, CE, clk_n;
+	
+	reg [3:0] Q;
+
+	always @(negedge clk_n, negedge pre_n, negedge clr_n)
+	begin
+		if (!pre_n)
+			Q <= 4'HF;
+		else if (!clr_n)
+			Q <= 4'H0;
+		else if (CE)
+			Q <= D;
+	end
+	
+	assign Q_n = ~Q;
+
+endmodule

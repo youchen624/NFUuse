@@ -1,0 +1,29 @@
+C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/D_Counter.v {1 {vlog -work w12Wa1_1126 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/D_Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module D_Counter
+
+Top level modules:
+	D_Counter
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/TestBench.v {1 {vlog -work w12Wa1_1126 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/TestBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/U_Counter.v {1 {vlog -work w12Wa1_1126 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/U_Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module U_Counter
+
+Top level modules:
+	U_Counter
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/D_Counter_7.v {1 {vlog -work w12Wa1_1126 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w12Wa1_1126/sim/D_Counter_7.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module D_Counter_7
+
+Top level modules:
+	D_Counter_7
+
+} {} {}}

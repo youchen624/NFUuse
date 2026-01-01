@@ -1,0 +1,864 @@
+|the_main
+OB <= 7447:inst3.OB
+sw[0] => 74191:inst1.A
+sw[1] => 74191:inst1.B
+sw[2] => 74191:inst1.C
+sw[3] => 74191:inst1.D
+CLK => 74191:inst1.CLK
+CLK => 24bits_counter_d16777216:inst.CLK
+M => 74191:inst1.DNUP
+PRS => 24bits_counter_d16777216:inst.PRS
+i => 24bits_counter_d16777216:inst.i
+CLR => 24bits_counter_d16777216:inst.CLR
+OC <= 7447:inst3.OC
+OE <= 7447:inst3.OE
+OD <= 7447:inst3.OD
+OF <= 7447:inst3.OF
+OG <= 7447:inst3.OG
+OA <= 7447:inst3.OA
+
+
+|the_main|7447:inst3
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|74191:inst1
+clk => f74191:sub.clk
+gn => f74191:sub.gn
+ldn => ~NO_FANOUT~
+dnup => f74191:sub.dnup
+d => f74191:sub.d
+c => f74191:sub.c
+b => f74191:sub.b
+a => f74191:sub.a
+qd <= f74191:sub.qd
+qc <= f74191:sub.qc
+qb <= f74191:sub.qb
+qa <= f74191:sub.qa
+mxmn <= f74191:sub.mxmn
+rcon <= f74191:sub.rcon
+
+
+|the_main|74191:inst1|f74191:sub
+QD <= 19.DB_MAX_OUTPUT_PORT_TYPE
+D => 105.IN0
+D => 111.IN0
+LDN => 105.IN1
+LDN => 91.IN1
+LDN => 69.IN1
+LDN => 60.IN1
+LDN => 59.IN1
+LDN => 71.IN1
+LDN => 98.IN1
+LDN => 112.IN1
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+C => 91.IN0
+C => 97.IN0
+B => 69.IN0
+B => 70.IN0
+A => 60.IN0
+A => 61.IN0
+GN => 116.DATAIN
+DNUP => 67.IN0
+DNUP => 63.IN1
+DNUP => 76.IN0
+DNUP => 73.IN1
+DNUP => 87.IN0
+DNUP => 86.IN1
+DNUP => 103.IN0
+DNUP => 100.IN1
+RCON <= 102.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 18.DB_MAX_OUTPUT_PORT_TYPE
+MXMN <= 114.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 16.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 17.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|74191:inst1|f74191:sub|inhb:55
+1 <= 5.DB_MAX_OUTPUT_PORT_TYPE
+2 => 5.IN0
+3 => 4.IN0
+
+
+|the_main|24bits_counter_d16777216:inst
+RE <= 4bits_counter_d16:inst2.RE
+PRS => 4bits_counter_d16:inst2.PRS
+PRS => 10bits_counter_d1024:inst1.PRS
+PRS => 10bits_counter_d1024:inst.PRS
+i => 10bits_counter_d1024:inst.i
+CLK => 10bits_counter_d1024:inst.CLK
+CLK => 10bits_counter_d1024:inst1.CLK
+CLK => 4bits_counter_d16:inst2.CLK
+CLR => 10bits_counter_d1024:inst.CLR
+CLR => 10bits_counter_d1024:inst1.CLR
+CLR => 4bits_counter_d16:inst2.CLR
+Q[0] <= 4bits_counter_d16:inst2.Q[0]
+Q[1] <= 4bits_counter_d16:inst2.Q[1]
+Q[2] <= 4bits_counter_d16:inst2.Q[2]
+Q[3] <= 4bits_counter_d16:inst2.Q[3]
+Q[4] <= 10bits_counter_d1024:inst1.Q[0]
+Q[5] <= 10bits_counter_d1024:inst1.Q[1]
+Q[6] <= 10bits_counter_d1024:inst1.Q[2]
+Q[7] <= 10bits_counter_d1024:inst1.Q[3]
+Q[8] <= 10bits_counter_d1024:inst1.Q[4]
+Q[9] <= 10bits_counter_d1024:inst1.Q[5]
+Q[10] <= 10bits_counter_d1024:inst1.Q[6]
+Q[11] <= 10bits_counter_d1024:inst1.Q[7]
+Q[12] <= 10bits_counter_d1024:inst1.Q[8]
+Q[13] <= 10bits_counter_d1024:inst1.Q[9]
+Q[14] <= 10bits_counter_d1024:inst.Q[0]
+Q[15] <= 10bits_counter_d1024:inst.Q[1]
+Q[16] <= 10bits_counter_d1024:inst.Q[2]
+Q[17] <= 10bits_counter_d1024:inst.Q[3]
+Q[18] <= 10bits_counter_d1024:inst.Q[4]
+Q[19] <= 10bits_counter_d1024:inst.Q[5]
+Q[20] <= 10bits_counter_d1024:inst.Q[6]
+Q[21] <= 10bits_counter_d1024:inst.Q[7]
+Q[22] <= 10bits_counter_d1024:inst.Q[8]
+Q[23] <= 10bits_counter_d1024:inst.Q[9]
+
+
+|the_main|24bits_counter_d16777216:inst|4bits_counter_d16:inst2
+RE <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+PRS => 2bits_counter_d4:inst.PRS
+PRS => 2bits_counter_d4:inst1.PRS
+i => 2bits_counter_d4:inst.i
+CLK => 2bits_counter_d4:inst.CLK
+CLK => 2bits_counter_d4:inst1.CLK
+CLR => 2bits_counter_d4:inst.CLR
+CLR => 2bits_counter_d4:inst1.CLR
+Q[0] <= 2bits_counter_d4:inst.Q[0]
+Q[1] <= 2bits_counter_d4:inst.Q[1]
+Q[2] <= 2bits_counter_d4:inst1.Q[0]
+Q[3] <= 2bits_counter_d4:inst1.Q[1]
+
+
+|the_main|24bits_counter_d16777216:inst|4bits_counter_d16:inst2|2bits_counter_d4:inst
+Re <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+i => inst2.IN0
+i => ff_T:inst.T
+Q[0] <= ff_T:inst.Q
+Q[1] <= ff_T:inst1.Q
+PRS => ff_T:inst1.PRS
+PRS => ff_T:inst.PRS
+CLK => ff_T:inst1.CLK
+CLK => ff_T:inst.CLK
+CLR => ff_T:inst1.CLR
+CLR => ff_T:inst.CLR
+
+
+|the_main|24bits_counter_d16777216:inst|4bits_counter_d16:inst2|2bits_counter_d4:inst|ff_T:inst1
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|4bits_counter_d16:inst2|2bits_counter_d4:inst|ff_T:inst1|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|4bits_counter_d16:inst2|2bits_counter_d4:inst|ff_T:inst
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|4bits_counter_d16:inst2|2bits_counter_d4:inst|ff_T:inst|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|4bits_counter_d16:inst2|2bits_counter_d4:inst1
+Re <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+i => inst2.IN0
+i => ff_T:inst.T
+Q[0] <= ff_T:inst.Q
+Q[1] <= ff_T:inst1.Q
+PRS => ff_T:inst1.PRS
+PRS => ff_T:inst.PRS
+CLK => ff_T:inst1.CLK
+CLK => ff_T:inst.CLK
+CLR => ff_T:inst1.CLR
+CLR => ff_T:inst.CLR
+
+
+|the_main|24bits_counter_d16777216:inst|4bits_counter_d16:inst2|2bits_counter_d4:inst1|ff_T:inst1
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|4bits_counter_d16:inst2|2bits_counter_d4:inst1|ff_T:inst1|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|4bits_counter_d16:inst2|2bits_counter_d4:inst1|ff_T:inst
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|4bits_counter_d16:inst2|2bits_counter_d4:inst1|ff_T:inst|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1
+RE <= 2bits_counter_d4:inst2.Re
+PRS => 2bits_counter_d4:inst2.PRS
+PRS => 4bits_counter_d16:inst1.PRS
+PRS => 4bits_counter_d16:inst.PRS
+i => 4bits_counter_d16:inst.i
+CLK => 4bits_counter_d16:inst.CLK
+CLK => 4bits_counter_d16:inst1.CLK
+CLK => 2bits_counter_d4:inst2.CLK
+CLR => 4bits_counter_d16:inst.CLR
+CLR => 4bits_counter_d16:inst1.CLR
+CLR => 2bits_counter_d4:inst2.CLR
+Q[0] <= 4bits_counter_d16:inst.Q[0]
+Q[1] <= 4bits_counter_d16:inst.Q[1]
+Q[2] <= 4bits_counter_d16:inst.Q[2]
+Q[3] <= 4bits_counter_d16:inst.Q[3]
+Q[4] <= 4bits_counter_d16:inst1.Q[0]
+Q[5] <= 4bits_counter_d16:inst1.Q[1]
+Q[6] <= 4bits_counter_d16:inst1.Q[2]
+Q[7] <= 4bits_counter_d16:inst1.Q[3]
+Q[8] <= 2bits_counter_d4:inst2.Q[0]
+Q[9] <= 2bits_counter_d4:inst2.Q[1]
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|2bits_counter_d4:inst2
+Re <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+i => inst2.IN0
+i => ff_T:inst.T
+Q[0] <= ff_T:inst.Q
+Q[1] <= ff_T:inst1.Q
+PRS => ff_T:inst1.PRS
+PRS => ff_T:inst.PRS
+CLK => ff_T:inst1.CLK
+CLK => ff_T:inst.CLK
+CLR => ff_T:inst1.CLR
+CLR => ff_T:inst.CLR
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|2bits_counter_d4:inst2|ff_T:inst1
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|2bits_counter_d4:inst2|ff_T:inst1|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|2bits_counter_d4:inst2|ff_T:inst
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|2bits_counter_d4:inst2|ff_T:inst|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst1
+RE <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+PRS => 2bits_counter_d4:inst.PRS
+PRS => 2bits_counter_d4:inst1.PRS
+i => 2bits_counter_d4:inst.i
+CLK => 2bits_counter_d4:inst.CLK
+CLK => 2bits_counter_d4:inst1.CLK
+CLR => 2bits_counter_d4:inst.CLR
+CLR => 2bits_counter_d4:inst1.CLR
+Q[0] <= 2bits_counter_d4:inst.Q[0]
+Q[1] <= 2bits_counter_d4:inst.Q[1]
+Q[2] <= 2bits_counter_d4:inst1.Q[0]
+Q[3] <= 2bits_counter_d4:inst1.Q[1]
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst1|2bits_counter_d4:inst
+Re <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+i => inst2.IN0
+i => ff_T:inst.T
+Q[0] <= ff_T:inst.Q
+Q[1] <= ff_T:inst1.Q
+PRS => ff_T:inst1.PRS
+PRS => ff_T:inst.PRS
+CLK => ff_T:inst1.CLK
+CLK => ff_T:inst.CLK
+CLR => ff_T:inst1.CLR
+CLR => ff_T:inst.CLR
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst1|2bits_counter_d4:inst|ff_T:inst1
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst1|2bits_counter_d4:inst|ff_T:inst1|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst1|2bits_counter_d4:inst|ff_T:inst
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst1|2bits_counter_d4:inst|ff_T:inst|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst1|2bits_counter_d4:inst1
+Re <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+i => inst2.IN0
+i => ff_T:inst.T
+Q[0] <= ff_T:inst.Q
+Q[1] <= ff_T:inst1.Q
+PRS => ff_T:inst1.PRS
+PRS => ff_T:inst.PRS
+CLK => ff_T:inst1.CLK
+CLK => ff_T:inst.CLK
+CLR => ff_T:inst1.CLR
+CLR => ff_T:inst.CLR
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst1|2bits_counter_d4:inst1|ff_T:inst1
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst1|2bits_counter_d4:inst1|ff_T:inst1|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst1|2bits_counter_d4:inst1|ff_T:inst
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst1|2bits_counter_d4:inst1|ff_T:inst|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst
+RE <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+PRS => 2bits_counter_d4:inst.PRS
+PRS => 2bits_counter_d4:inst1.PRS
+i => 2bits_counter_d4:inst.i
+CLK => 2bits_counter_d4:inst.CLK
+CLK => 2bits_counter_d4:inst1.CLK
+CLR => 2bits_counter_d4:inst.CLR
+CLR => 2bits_counter_d4:inst1.CLR
+Q[0] <= 2bits_counter_d4:inst.Q[0]
+Q[1] <= 2bits_counter_d4:inst.Q[1]
+Q[2] <= 2bits_counter_d4:inst1.Q[0]
+Q[3] <= 2bits_counter_d4:inst1.Q[1]
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst|2bits_counter_d4:inst
+Re <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+i => inst2.IN0
+i => ff_T:inst.T
+Q[0] <= ff_T:inst.Q
+Q[1] <= ff_T:inst1.Q
+PRS => ff_T:inst1.PRS
+PRS => ff_T:inst.PRS
+CLK => ff_T:inst1.CLK
+CLK => ff_T:inst.CLK
+CLR => ff_T:inst1.CLR
+CLR => ff_T:inst.CLR
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst|2bits_counter_d4:inst|ff_T:inst1
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst|2bits_counter_d4:inst|ff_T:inst1|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst|2bits_counter_d4:inst|ff_T:inst
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst|2bits_counter_d4:inst|ff_T:inst|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst|2bits_counter_d4:inst1
+Re <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+i => inst2.IN0
+i => ff_T:inst.T
+Q[0] <= ff_T:inst.Q
+Q[1] <= ff_T:inst1.Q
+PRS => ff_T:inst1.PRS
+PRS => ff_T:inst.PRS
+CLK => ff_T:inst1.CLK
+CLK => ff_T:inst.CLK
+CLR => ff_T:inst1.CLR
+CLR => ff_T:inst.CLR
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst|2bits_counter_d4:inst1|ff_T:inst1
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst|2bits_counter_d4:inst1|ff_T:inst1|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst|2bits_counter_d4:inst1|ff_T:inst
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst1|4bits_counter_d16:inst|2bits_counter_d4:inst1|ff_T:inst|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst
+RE <= 2bits_counter_d4:inst2.Re
+PRS => 2bits_counter_d4:inst2.PRS
+PRS => 4bits_counter_d16:inst1.PRS
+PRS => 4bits_counter_d16:inst.PRS
+i => 4bits_counter_d16:inst.i
+CLK => 4bits_counter_d16:inst.CLK
+CLK => 4bits_counter_d16:inst1.CLK
+CLK => 2bits_counter_d4:inst2.CLK
+CLR => 4bits_counter_d16:inst.CLR
+CLR => 4bits_counter_d16:inst1.CLR
+CLR => 2bits_counter_d4:inst2.CLR
+Q[0] <= 4bits_counter_d16:inst.Q[0]
+Q[1] <= 4bits_counter_d16:inst.Q[1]
+Q[2] <= 4bits_counter_d16:inst.Q[2]
+Q[3] <= 4bits_counter_d16:inst.Q[3]
+Q[4] <= 4bits_counter_d16:inst1.Q[0]
+Q[5] <= 4bits_counter_d16:inst1.Q[1]
+Q[6] <= 4bits_counter_d16:inst1.Q[2]
+Q[7] <= 4bits_counter_d16:inst1.Q[3]
+Q[8] <= 2bits_counter_d4:inst2.Q[0]
+Q[9] <= 2bits_counter_d4:inst2.Q[1]
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|2bits_counter_d4:inst2
+Re <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+i => inst2.IN0
+i => ff_T:inst.T
+Q[0] <= ff_T:inst.Q
+Q[1] <= ff_T:inst1.Q
+PRS => ff_T:inst1.PRS
+PRS => ff_T:inst.PRS
+CLK => ff_T:inst1.CLK
+CLK => ff_T:inst.CLK
+CLR => ff_T:inst1.CLR
+CLR => ff_T:inst.CLR
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|2bits_counter_d4:inst2|ff_T:inst1
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|2bits_counter_d4:inst2|ff_T:inst1|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|2bits_counter_d4:inst2|ff_T:inst
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|2bits_counter_d4:inst2|ff_T:inst|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst1
+RE <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+PRS => 2bits_counter_d4:inst.PRS
+PRS => 2bits_counter_d4:inst1.PRS
+i => 2bits_counter_d4:inst.i
+CLK => 2bits_counter_d4:inst.CLK
+CLK => 2bits_counter_d4:inst1.CLK
+CLR => 2bits_counter_d4:inst.CLR
+CLR => 2bits_counter_d4:inst1.CLR
+Q[0] <= 2bits_counter_d4:inst.Q[0]
+Q[1] <= 2bits_counter_d4:inst.Q[1]
+Q[2] <= 2bits_counter_d4:inst1.Q[0]
+Q[3] <= 2bits_counter_d4:inst1.Q[1]
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst1|2bits_counter_d4:inst
+Re <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+i => inst2.IN0
+i => ff_T:inst.T
+Q[0] <= ff_T:inst.Q
+Q[1] <= ff_T:inst1.Q
+PRS => ff_T:inst1.PRS
+PRS => ff_T:inst.PRS
+CLK => ff_T:inst1.CLK
+CLK => ff_T:inst.CLK
+CLR => ff_T:inst1.CLR
+CLR => ff_T:inst.CLR
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst1|2bits_counter_d4:inst|ff_T:inst1
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst1|2bits_counter_d4:inst|ff_T:inst1|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst1|2bits_counter_d4:inst|ff_T:inst
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst1|2bits_counter_d4:inst|ff_T:inst|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst1|2bits_counter_d4:inst1
+Re <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+i => inst2.IN0
+i => ff_T:inst.T
+Q[0] <= ff_T:inst.Q
+Q[1] <= ff_T:inst1.Q
+PRS => ff_T:inst1.PRS
+PRS => ff_T:inst.PRS
+CLK => ff_T:inst1.CLK
+CLK => ff_T:inst.CLK
+CLR => ff_T:inst1.CLR
+CLR => ff_T:inst.CLR
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst1|2bits_counter_d4:inst1|ff_T:inst1
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst1|2bits_counter_d4:inst1|ff_T:inst1|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst1|2bits_counter_d4:inst1|ff_T:inst
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst1|2bits_counter_d4:inst1|ff_T:inst|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst
+RE <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+PRS => 2bits_counter_d4:inst.PRS
+PRS => 2bits_counter_d4:inst1.PRS
+i => 2bits_counter_d4:inst.i
+CLK => 2bits_counter_d4:inst.CLK
+CLK => 2bits_counter_d4:inst1.CLK
+CLR => 2bits_counter_d4:inst.CLR
+CLR => 2bits_counter_d4:inst1.CLR
+Q[0] <= 2bits_counter_d4:inst.Q[0]
+Q[1] <= 2bits_counter_d4:inst.Q[1]
+Q[2] <= 2bits_counter_d4:inst1.Q[0]
+Q[3] <= 2bits_counter_d4:inst1.Q[1]
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst|2bits_counter_d4:inst
+Re <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+i => inst2.IN0
+i => ff_T:inst.T
+Q[0] <= ff_T:inst.Q
+Q[1] <= ff_T:inst1.Q
+PRS => ff_T:inst1.PRS
+PRS => ff_T:inst.PRS
+CLK => ff_T:inst1.CLK
+CLK => ff_T:inst.CLK
+CLR => ff_T:inst1.CLR
+CLR => ff_T:inst.CLR
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst|2bits_counter_d4:inst|ff_T:inst1
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst|2bits_counter_d4:inst|ff_T:inst1|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst|2bits_counter_d4:inst|ff_T:inst
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst|2bits_counter_d4:inst|ff_T:inst|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst|2bits_counter_d4:inst1
+Re <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+i => inst2.IN0
+i => ff_T:inst.T
+Q[0] <= ff_T:inst.Q
+Q[1] <= ff_T:inst1.Q
+PRS => ff_T:inst1.PRS
+PRS => ff_T:inst.PRS
+CLK => ff_T:inst1.CLK
+CLK => ff_T:inst.CLK
+CLR => ff_T:inst1.CLR
+CLR => ff_T:inst.CLR
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst|2bits_counter_d4:inst1|ff_T:inst1
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst|2bits_counter_d4:inst1|ff_T:inst1|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst|2bits_counter_d4:inst1|ff_T:inst
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|the_main|24bits_counter_d16777216:inst|10bits_counter_d1024:inst|4bits_counter_d16:inst|2bits_counter_d4:inst1|ff_T:inst|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+

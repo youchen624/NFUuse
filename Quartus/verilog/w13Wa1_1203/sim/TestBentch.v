@@ -1,0 +1,37 @@
+`timescale 1ns/1ns
+module TestBentch();
+	reg [2:0] A, B;
+	wire [2:0] Y;
+	reg E, S, CLK;
+
+	integer i, j;
+
+mux2_3b u(.a(A), .b(B), .y(Y), .s(S), .e(E));
+
+initial begin
+	CLK = 0;
+	E = 0;
+	S = 0;
+	i = 0;
+	j = 0;
+	#20 E = 1;
+end
+
+always #10 CLK = ~CLK;
+always #17 S = ~S;
+
+initial begin
+	for (i = 0; i < 8; i = i + 1)
+		begin
+		#1 A = i[2:0];
+		#1 B = j[2:0];
+		repeat(8) @(posedge CLK);
+		for (j = 0; j < 8; j = j + 1)
+		begin
+			#1 B = j[2:0];
+			@(posedge CLK);
+		end
+	end
+end
+
+endmodule

@@ -1,0 +1,51 @@
+|my_mux_4_1_bus
+m_outffffff <= the_mux:inst2.the_OUT
+m_s[1] => the_mux:inst2.the_s
+m_s[0] => my_mux2:inst.thes
+m_s[0] => my_mux2:inst1.thes
+m_in[3] => my_mux2:inst1.ta[1]
+m_in[2] => my_mux2:inst1.ta[0]
+m_in[1] => my_mux2:inst.ta[1]
+m_in[0] => my_mux2:inst.ta[0]
+pin_name1 <= my_mux2:inst1.the_OUT2
+pin_name2 <= my_mux2:inst.the_OUT2
+
+
+|my_mux_4_1_bus|the_mux:inst2
+the_OUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+the_s => inst2.IN0
+the_s => inst3.IN0
+the_1 => inst2.IN1
+the_0 => inst1.IN0
+
+
+|my_mux_4_1_bus|my_mux2:inst
+the_OUT2 <= the_mux:inst.the_OUT
+thes => the_mux:inst.the_s
+ta[1] => the_mux:inst.the_1
+ta[0] => the_mux:inst.the_0
+
+
+|my_mux_4_1_bus|my_mux2:inst|the_mux:inst
+the_OUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+the_s => inst2.IN0
+the_s => inst3.IN0
+the_1 => inst2.IN1
+the_0 => inst1.IN0
+
+
+|my_mux_4_1_bus|my_mux2:inst1
+the_OUT2 <= the_mux:inst.the_OUT
+thes => the_mux:inst.the_s
+ta[1] => the_mux:inst.the_1
+ta[0] => the_mux:inst.the_0
+
+
+|my_mux_4_1_bus|my_mux2:inst1|the_mux:inst
+the_OUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+the_s => inst2.IN0
+the_s => inst3.IN0
+the_1 => inst2.IN1
+the_0 => inst1.IN0
+
+

@@ -1,0 +1,11 @@
+module pipes(out, in, clk)
+	output out;
+	input in, clk;
+	
+	wire one, two;
+	
+	FD1 u1(.Q(one),D(in), .CP(clk));
+	FD1 u1(.Q(one),D(in), .CP(clk));
+	FD1 u1(.Q(one),D(in), .CP(clk));
+
+endmodule

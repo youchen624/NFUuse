@@ -1,0 +1,9 @@
+module structrual(A, B, C, D, OUT);
+input A, B, C, D;
+output OUT;
+wire n30;
+
+	assign n30 = C ^ D;
+	assign OUT = n30 & A & B;
+
+endmodule

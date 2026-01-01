@@ -1,0 +1,87 @@
+# Compile of counter_3.v was successful.
+# Compile of decoder3_8.v was successful.
+# Compile of TestBench.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim w15Wa1_1224.TestBench
+# vsim w15Wa1_1224.TestBench 
+# Start time: 14:47:33 on Dec 24,2025
+# Loading w15Wa1_1224.TestBench
+# ** Error: (vsim-3033) Instantiation of 'counter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench File: C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/TestBench.v Line: 10
+#         Searched libraries:
+#             C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/w15Wa1_1224
+# Loading work.decoder3_8
+# Error loading design
+# End time: 14:47:33 on Dec 24,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 6
+# Compile of counter_3.v was successful.
+# Compile of decoder3_8.v was successful.
+# Compile of TestBench.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim w15Wa1_1224.TestBench
+# vsim w15Wa1_1224.TestBench 
+# Start time: 14:47:54 on Dec 24,2025
+# Loading w15Wa1_1224.TestBench
+# Loading w15Wa1_1224.counter_3
+# Loading w15Wa1_1224.decoder3_8
+add wave -position insertpoint sim:/TestBench/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/TestBench.v(31)
+#    Time: 2550 ns  Iteration: 1  Instance: /TestBench
+# Break in Module TestBench at C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/TestBench.v line 31
+# Compile of counter_3.v was successful.
+# Compile of decoder3_8.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of div50M.v was successful.
+# Compile of TestBench2.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim w15Wa1_1224.TestBench2
+# End time: 15:42:17 on Dec 24,2025, Elapsed time: 0:54:23
+# Errors: 0, Warnings: 5
+# vsim w15Wa1_1224.TestBench2 
+# Start time: 15:42:17 on Dec 24,2025
+# Loading w15Wa1_1224.TestBench2
+# Loading w15Wa1_1224.div50M
+add wave -position insertpoint sim:/TestBench2/*
+run
+run
+run
+# Compile of counter_3.v was successful.
+# Compile of decoder3_8.v was successful.
+# Compile of TestBench.v was successful.
+# Compile of div50M.v was successful.
+# Compile of TestBench2.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim w15Wa1_1224.TestBench2
+# End time: 15:45:14 on Dec 24,2025, Elapsed time: 0:02:57
+# Errors: 0, Warnings: 2
+# vsim w15Wa1_1224.TestBench2 
+# Start time: 15:45:14 on Dec 24,2025
+# Loading w15Wa1_1224.TestBench2
+# Loading w15Wa1_1224.div50M
+add wave -position insertpoint sim:/TestBench2/*
+run
+# End time: 16:16:29 on Dec 24,2025, Elapsed time: 0:31:15
+# Errors: 0, Warnings: 1

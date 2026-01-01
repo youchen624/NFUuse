@@ -1,0 +1,23 @@
+|lab0
+b[0] << a[0].DB_MAX_OUTPUT_PORT_TYPE
+b[1] << a[1].DB_MAX_OUTPUT_PORT_TYPE
+b[2] << a[2].DB_MAX_OUTPUT_PORT_TYPE
+b[3] << a[3].DB_MAX_OUTPUT_PORT_TYPE
+b[4] << a[4].DB_MAX_OUTPUT_PORT_TYPE
+b[5] << a[5].DB_MAX_OUTPUT_PORT_TYPE
+b[6] << a[6].DB_MAX_OUTPUT_PORT_TYPE
+b[7] << a[7].DB_MAX_OUTPUT_PORT_TYPE
+b[8] << a[8].DB_MAX_OUTPUT_PORT_TYPE
+b[9] << a[9].DB_MAX_OUTPUT_PORT_TYPE
+a[0] => b[0].DATAIN
+a[1] => b[1].DATAIN
+a[2] => b[2].DATAIN
+a[3] => b[3].DATAIN
+a[4] => b[4].DATAIN
+a[5] => b[5].DATAIN
+a[6] => b[6].DATAIN
+a[7] => b[7].DATAIN
+a[8] => b[8].DATAIN
+a[9] => b[9].DATAIN
+
+

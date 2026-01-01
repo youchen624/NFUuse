@@ -1,0 +1,34 @@
+`timescale 1ns/1ps
+module TestBench_w8Wa2_1029();
+	reg clk;
+	integer i;
+	integer j;
+	reg [2:0] a, b;
+	wire [3:0] s_su, s_s;
+
+Adder_sign u1(.X(i[2:0]), .Y(j[2:0]), .S_unsigned(s_su), .S_signed(s_s));
+
+initial begin
+	clk = 0;
+end
+
+initial begin
+	forever #10 clk = ~clk;
+end
+
+initial begin
+	for(i = 0; i < 10000; i=i+1)
+	begin
+		a = i[2:0];
+		@(posedge clk);
+	end
+//	$stop;
+end
+
+initial begin
+	for(j=0; j<100;j=j+1)
+		repeat(3) @(posedge clk);
+	$stop;
+end
+
+endmodule

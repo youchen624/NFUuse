@@ -1,0 +1,6 @@
+module dmux8(d, y, s, e);
+	input d, e;
+	input [2:0] s;
+	output [7:0] y;
+
+endmodule

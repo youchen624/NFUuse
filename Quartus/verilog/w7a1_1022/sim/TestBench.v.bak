@@ -1,0 +1,50 @@
+`timescale 1ns/100ps
+module TestBench();
+	reg clk, clk2;
+	//reg [1:0] A, B;
+	reg [3:0] Ap, Bp;
+
+	//wire [2:0] C1, C2;
+	wire [4:0] C3, C4;
+	integer i, j;
+
+//regtest1 u1(.c(C1), .a(A), .b(B));
+//regtest2 u2(.c(C2), .a(A), .b(B), .clk(clk2));
+
+regtest3 u3(.c(C3), .a(Ap), .b(Bp));
+regtest4 u4(.c(C4), .a(Ap), .b(Bp), .clk(clk2));
+
+initial begin
+	clk = 0;
+	clk2 = 0;
+//	A = 0;
+//	B = 0;
+	Ap = 0;
+	Bp = 0;
+end
+
+initial begin
+	forever #10 clk = ~clk;
+end
+
+initial begin
+	forever #27 clk2 = ~clk2;
+end
+
+initial begin
+	for(i =0;i<1000;i=i+1)
+	begin
+		Ap = i[1:0];
+		repeat(2) @(posedge clk);
+	end
+end
+
+initial begin
+	for(j =0;j<1000;j=j+1)
+	begin
+		Bp = j[1:0];
+		repeat(3) @(posedge clk);
+	end
+end
+
+endmodule

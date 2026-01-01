@@ -1,0 +1,48 @@
+|week3p_main_block
+pos_out <= week3p_pos_block:inst1.OUT
+pin_name3 => week3p_pos_block:inst1.pos_x
+pin_name3 => sop_block:inst3.sop_z
+pin_name2 => week3p_pos_block:inst1.pos_y
+pin_name2 => sop_block:inst3.sop_y
+pin_name1 => week3p_pos_block:inst1.pos_z
+pin_name1 => sop_block:inst3.sop_x
+sop_out <= sop_block:inst3.OUT
+
+
+|week3p_main_block|week3p_pos_block:inst1
+OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+pos_z => inst.IN0
+pos_z => inst7.IN0
+pos_z => inst2.IN1
+pos_z => inst3.IN1
+pos_x => inst.IN1
+pos_x => inst1.IN1
+pos_x => inst5.IN0
+pos_y => inst6.IN0
+pos_y => inst2.IN0
+
+
+|week3p_main_block|sop_block:inst3
+OUT <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+sop_x => 74138:inst.A
+sop_y => 74138:inst.B
+sop_z => 74138:inst.C
+
+
+|week3p_main_block|sop_block:inst3|74138:inst
+Y7N <= 22.DB_MAX_OUTPUT_PORT_TYPE
+G1 => 8.IN0
+G2BN => 1.IN1
+G2AN => 1.IN2
+B => 10.IN0
+A => 9.IN0
+C => 11.IN0
+Y6N <= 21.DB_MAX_OUTPUT_PORT_TYPE
+Y5N <= 20.DB_MAX_OUTPUT_PORT_TYPE
+Y4N <= 19.DB_MAX_OUTPUT_PORT_TYPE
+Y3N <= 18.DB_MAX_OUTPUT_PORT_TYPE
+Y2N <= 17.DB_MAX_OUTPUT_PORT_TYPE
+Y1N <= 16.DB_MAX_OUTPUT_PORT_TYPE
+Y0N <= 15.DB_MAX_OUTPUT_PORT_TYPE
+
+

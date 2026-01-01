@@ -1,0 +1,36 @@
+`timescale 1ns/100ps
+module TestBench();
+	reg Clk, Set, Reset;
+
+	wire [6:0] Q;
+
+	integer i;
+
+D_Counter_7 n0(.Q(Q), .Clk(Clk), .Set(Set));
+U_Counter n1(.Q(Q), .Clk(Clk), .Reset(Reset));
+
+initial begin
+	Clk = 0;
+	Set = 0;
+	Reset = 0;
+end
+
+always
+	#1 Clk = ~Clk;
+
+initial begin
+	for (i = 0; i < 128; i = i + 1)
+	begin
+		@(posedge Clk);
+		if (i == 10)
+			#1 Set = 1;
+		if (i == 18)
+			#1 Set = 0;
+		if (i == 5)
+			#1 Reset = 1;
+		if (i == 14)
+			#1 Reset = 0;
+	end
+end
+
+endmodule

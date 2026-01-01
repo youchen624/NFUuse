@@ -1,0 +1,25 @@
+|test1
+o <= ff_T:inst.Q
+prs => ff_T:inst.PRS
+CLK => ff_T:inst.CLK
+clr => ff_T:inst.CLR
+
+
+|test1|ff_T:inst
+Q <= ff_D:inst.Q
+PRS => ff_D:inst.PRS
+T => inst1.IN1
+CLK => ff_D:inst.CLK
+CLR => ff_D:inst.CLR
+Qn <= ff_D:inst.Qn
+
+
+|test1|ff_T:inst|ff_D:inst
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+PRS => inst.PRESET
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+

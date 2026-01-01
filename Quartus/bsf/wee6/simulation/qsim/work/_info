@@ -1,0 +1,149 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Desktop/TEMP/Quartus_File/wee6/simulation/qsim
+vt_2mux_m
+Z1 !s110 1742887581
+!i10b 1
+!s100 <RMdhj@TZbl]MF>A<eNE23
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@ADbaWYI7BFjHBE4aHeeT3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1742887580
+Z4 8wee6.vo
+Z5 Fwee6.vo
+!i122 0
+L0 32 200
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1742887581.000000
+Z8 !s107 wee6.vo|
+Z9 !s90 -work|work|wee6.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vt_2mux_m_vlg_vec_tst
+R1
+!i10b 1
+!s100 5EXilU9ih2@KSjYzFKQ<F1
+R2
+IW@8<:C><hRH4=B6H3NVG61
+R3
+R0
+w1742887579
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 66
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vt_4mux_2m
+Z12 !s110 1742891847
+!i10b 1
+!s100 gNkh`IVL02K12Mk7;bZUI1
+R2
+IXd[g8AlUfPPSQG2BoGK[U3
+R3
+R0
+w1742891846
+R4
+R5
+!i122 8
+L0 32 271
+R6
+r1
+!s85 0
+31
+Z13 !s108 1742891847.000000
+R8
+R9
+!i113 1
+R10
+R11
+vt_4mux_2m_vlg_vec_tst
+R12
+!i10b 1
+!s100 ?ZE:Jnd9fgFHSnmRI<0B03
+R2
+IVnT;<HJSXAS_hTQmJJ=DW1
+R3
+R0
+w1742891845
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+!i122 9
+L0 30 858
+R6
+r1
+!s85 0
+31
+R13
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+R11
+vt_4mux_m
+!s110 1742889009
+!i10b 1
+!s100 P7Vbo`Z8HdBiC:gICMSaQ0
+R2
+IWFN_]DA<T^YN2ICgd0:=I2
+R3
+R0
+w1742889008
+R4
+R5
+!i122 2
+L0 32 336
+R6
+r1
+!s85 0
+31
+Z14 !s108 1742889009.000000
+R8
+R9
+!i113 1
+R10
+R11
+vt_4mux_m_vlg_vec_tst
+!s110 1742889010
+!i10b 1
+!s100 i0RL>_9hO9K4[HnQBz[zL1
+R2
+IGbkWkdMLj92T[?bFklbon3
+R3
+R0
+w1742889007
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 3
+L0 30 109
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11

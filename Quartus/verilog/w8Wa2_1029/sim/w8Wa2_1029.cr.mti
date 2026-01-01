@@ -1,0 +1,15 @@
+C:/Users/user/Desktop/TEMP/quartussss____/w8Wa2_1029/sim/TestBench_w8Wa2_1029.v {1 {vlog -work work_w8Wa2 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w8Wa2_1029/sim/TestBench_w8Wa2_1029.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TestBench_w8Wa2_1029
+
+Top level modules:
+	TestBench_w8Wa2_1029
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w8Wa2_1029/Adder_sign.v {1 {vlog -work work_w8Wa2 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w8Wa2_1029/Adder_sign.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder_sign
+
+Top level modules:
+	Adder_sign
+
+} {} {}}

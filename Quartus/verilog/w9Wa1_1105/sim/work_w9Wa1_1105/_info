@@ -1,0 +1,174 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/user/Desktop/TEMP/quartussss____/w8Wa2_1029/sim
+vff_n
+Z0 !s110 1762328997
+!i10b 1
+!s100 `PC_f1AcWIB>=?kdoRAH40
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9dl:8iQI=43f[l:2a9`zW1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim
+w1762326937
+8C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/ff_n.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/ff_n.v
+!i122 21
+L0 1 20
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1762328997.000000
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/ff_n.v|
+!s90 -reportprogress|300|-work|work_w9Wa1_1105|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/ff_n.v|
+!i113 1
+Z6 o-work work_w9Wa1_1105
+Z7 tCvgOpt 0
+vreg_blocking
+R0
+!i10b 1
+!s100 nJSZz5XIlV7Y@QOjYSQmA3
+R1
+I3>ahB@VQiWn5]eELoG_zD3
+R2
+R3
+w1762322340
+8C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/reg_blocking.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/reg_blocking.v
+!i122 16
+Z8 L0 1 15
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/reg_blocking.v|
+!s90 -reportprogress|300|-work|work_w9Wa1_1105|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/reg_blocking.v|
+!i113 1
+R6
+R7
+vreg_blocking_4b3
+R0
+!i10b 1
+!s100 PZ]QmN?BNSfe3gF_Q6z[h0
+R1
+IP`mJL1:j>2<f=F6T8JI<:0
+R2
+R3
+w1762324646
+8C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/reg_blocking_4b3.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/reg_blocking_4b3.v
+!i122 19
+Z9 L0 1 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/reg_blocking_4b3.v|
+!s90 -reportprogress|300|-work|work_w9Wa1_1105|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/reg_blocking_4b3.v|
+!i113 1
+R6
+R7
+vreg_noblocking
+R0
+!i10b 1
+!s100 8?1Z0UY`IS<@G9JCba^P@0
+R1
+I0g4R7B;8OH5hCnke=E^U]2
+R2
+R3
+w1762322541
+8C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/reg_noblocking.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/reg_noblocking.v
+!i122 17
+R8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/reg_noblocking.v|
+!s90 -reportprogress|300|-work|work_w9Wa1_1105|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/reg_noblocking.v|
+!i113 1
+R6
+R7
+vreg_noblocking_4b3
+R0
+!i10b 1
+!s100 be70c3eM5GgC;RaRmK19z1
+R1
+IFH[Q4H;PLM9d<dkgnMbHk3
+R2
+R3
+w1762324697
+8C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/reg_noblocking_4b3.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/reg_noblocking_4b3.v
+!i122 20
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/reg_noblocking_4b3.v|
+!s90 -reportprogress|300|-work|work_w9Wa1_1105|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/reg_noblocking_4b3.v|
+!i113 1
+R6
+R7
+vTestBench
+R0
+!i10b 1
+!s100 RP3Aa=ZJ2L92T<@LmzH@@0
+R1
+Iz=KVaHozbNenU^bfbSKa<2
+R2
+R3
+w1762324761
+8C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/TestBench.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/TestBench.v
+!i122 18
+L0 2 32
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/TestBench.v|
+!s90 -reportprogress|300|-work|work_w9Wa1_1105|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/TestBench.v|
+!i113 1
+R6
+R7
+n@test@bench
+vTestBench_ff_n
+!s110 1762329128
+!i10b 1
+!s100 H[m7<U1<1EG>eY70Rnz5_1
+R1
+IlhN?U=WVNT9KG<JEd`R3l1
+R2
+R3
+w1762329124
+8C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/TestBench_ff_n.v
+FC:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/TestBench_ff_n.v
+!i122 24
+L0 2 45
+R4
+r1
+!s85 0
+31
+!s108 1762329127.000000
+!s107 C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/TestBench_ff_n.v|
+!s90 -reportprogress|300|-work|work_w9Wa1_1105|-stats=none|C:/Users/user/Desktop/TEMP/quartussss____/w9Wa1_1105/sim/TestBench_ff_n.v|
+!i113 1
+R6
+R7
+n@test@bench_ff_n

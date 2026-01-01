@@ -1,0 +1,195 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Desktop/TEMP/week15/simulation/qsim
+vt4bit_as
+Z1 !s110 1748335020
+!i10b 1
+!s100 5<XNY`J;P>2<cL4@BEKSf3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[mZU;G3N>d7TYX@h6z1882
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1748335019
+Z5 8week15.vo
+Z6 Fweek15.vo
+!i122 19
+L0 32 384
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1748335020.000000
+Z9 !s107 week15.vo|
+Z10 !s90 -work|work|week15.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vt4bit_as_vlg_vec_tst
+R1
+!i10b 1
+!s100 IgWkjAP[aC:6>edgA7E[80
+R2
+IB]_^nQ;I2MVlm7>^d<38L0
+R3
+R0
+R4
+8Waveform5.vwf.vt
+FWaveform5.vwf.vt
+!i122 20
+L0 30 101
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform5.vwf.vt|
+!s90 -work|work|Waveform5.vwf.vt|
+!i113 1
+R11
+R12
+vt4bits_as_main
+Z13 !s110 1748337626
+!i10b 1
+!s100 `IN>QgET?MC?jHjRm<i0L2
+R2
+I8CVYC>JMa@Y@CiQXhIGoE3
+R3
+R0
+w1748337625
+R5
+R6
+!i122 41
+L0 32 1029
+R7
+r1
+!s85 0
+31
+Z14 !s108 1748337626.000000
+R9
+R10
+!i113 1
+R11
+R12
+vt4bits_as_main_vlg_vec_tst
+R13
+!i10b 1
+!s100 R803>g3klfZgmZFXna^S81
+R2
+IN]?3Kl8USbDYK4Nm3h9;<1
+R3
+R0
+w1748337624
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+!i122 42
+L0 30 110
+R7
+r1
+!s85 0
+31
+R14
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R11
+R12
+vtest01
+Z15 !s110 1748328667
+!i10b 1
+!s100 NDeaP[]D]zm@GRRFYG:D=1
+R2
+I>>3TW1AeffNnM5CzXRd_g2
+R3
+R0
+Z16 w1748328666
+R5
+R6
+!i122 2
+L0 32 491
+R7
+r1
+!s85 0
+31
+Z17 !s108 1748328667.000000
+R9
+R10
+!i113 1
+R11
+R12
+vtest01_vlg_vec_tst
+R15
+!i10b 1
+!s100 @AY_h7L_iT@^O[0Ba8_2M3
+R2
+IfoJekbnEVUPTD7]]eD<>Y0
+R3
+R0
+R16
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 78
+R7
+r1
+!s85 0
+31
+R17
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+vthe_main
+Z18 !s110 1748338736
+!i10b 1
+!s100 WP4z6k>CbcHBY4]`cIzKN2
+R2
+I6TC1@;mIh_PAA_W:;7FiF3
+R3
+R0
+w1748338735
+R5
+R6
+!i122 53
+L0 32 2774
+R7
+r1
+!s85 0
+31
+Z19 !s108 1748338736.000000
+R9
+R10
+!i113 1
+R11
+R12
+vthe_main_vlg_vec_tst
+R18
+!i10b 1
+!s100 IEE`=ReSOK4W:kHN37Q463
+R2
+I^]PWfB?jZV7_UKOW7S`Q=0
+R3
+R0
+w1748338734
+8Waveform6.vwf.vt
+FWaveform6.vwf.vt
+!i122 54
+L0 30 86
+R7
+r1
+!s85 0
+31
+R19
+!s107 Waveform6.vwf.vt|
+!s90 -work|work|Waveform6.vwf.vt|
+!i113 1
+R11
+R12

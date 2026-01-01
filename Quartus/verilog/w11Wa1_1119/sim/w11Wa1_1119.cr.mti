@@ -1,0 +1,36 @@
+C:/Users/user/Desktop/TEMP/quartussss____/w11Wa1_1119/sim/TestBench2.v {1 {vlog -work w11Wa1_1119 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w11Wa1_1119/sim/TestBench2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TestBench2
+
+Top level modules:
+	TestBench2
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w11Wa1_1119/Adder_5.v {1 {vlog -work w11Wa1_1119 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w11Wa1_1119/Adder_5.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder_5
+
+Top level modules:
+	Adder_5
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w11Wa1_1119/sim/TestBench.v {1 {vlog -work w11Wa1_1119 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w11Wa1_1119/sim/TestBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w11Wa1_1119/Adder_n.v {1 {vlog -work w11Wa1_1119 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w11Wa1_1119/Adder_n.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder_n
+
+Top level modules:
+	Adder_n
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w11Wa1_1119/sim/Adder_6.v {1 {vlog -work w11Wa1_1119 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w11Wa1_1119/sim/Adder_6.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder_6
+
+Top level modules:
+	Adder_6
+
+} {} {}}

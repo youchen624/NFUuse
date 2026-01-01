@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "tty",
+					"strict" : false
+				},
+				{
+					"name" : "tta[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tta[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tta[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tta[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tts[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tts[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

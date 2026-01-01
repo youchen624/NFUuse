@@ -1,0 +1,36 @@
+C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/mux4_b8.v {1 {vlog -work w14Wa1_1210 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/mux4_b8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4_b8
+
+Top level modules:
+	mux4_b8
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/decoder3_8.v {1 {vlog -work work -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/decoder3_8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder3_8
+
+Top level modules:
+	decoder3_8
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/TestBench.v {1 {vlog -work w14Wa1_1210 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/TestBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/dmux8_e.v {1 {vlog -work w14Wa1_1210 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/dmux8_e.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dmux8_e
+
+Top level modules:
+	dmux8_e
+
+} {} {}} C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/pencoder8_3.v {1 {vlog -work w14Wa1_1210 -stats=none C:/Users/user/Desktop/TEMP/quartussss____/w14Wa1_1210/sim/pencoder8_3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pencoder8_3
+
+Top level modules:
+	pencoder8_3
+
+} {} {}}

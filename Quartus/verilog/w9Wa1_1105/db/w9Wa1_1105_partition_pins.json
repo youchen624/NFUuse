@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Q[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_n[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_n[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_n[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_n[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pre_n",
+					"strict" : false
+				},
+				{
+					"name" : "D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_n",
+					"strict" : false
+				},
+				{
+					"name" : "CE",
+					"strict" : false
+				},
+				{
+					"name" : "clr_n",
+					"strict" : false
+				},
+				{
+					"name" : "D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

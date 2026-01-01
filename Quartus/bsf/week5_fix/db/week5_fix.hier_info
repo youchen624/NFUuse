@@ -1,0 +1,49 @@
+|main_test
+tty <= mux21:inst2.y
+tts[1] => mux21:inst2.s
+tts[0] => mux21_sub:inst.ts
+tts[0] => mux21_sub:inst1.ts
+tta[3] => mux21_sub:inst.ta[1]
+tta[2] => mux21_sub:inst.ta[0]
+tta[1] => mux21_sub:inst1.ta[1]
+tta[0] => mux21_sub:inst1.ta[0]
+
+
+|main_test|mux21:inst2
+y <= inst.DB_MAX_OUTPUT_PORT_TYPE
+s => inst2.IN0
+s => inst3.IN0
+a1 => inst2.IN1
+a0 => inst1.IN1
+
+
+|main_test|mux21_sub:inst
+ty <= mux21:inst.y
+ts => mux21:inst.s
+ta[1] => mux21:inst.a1
+ta[0] => mux21:inst.a0
+
+
+|main_test|mux21_sub:inst|mux21:inst
+y <= inst.DB_MAX_OUTPUT_PORT_TYPE
+s => inst2.IN0
+s => inst3.IN0
+a1 => inst2.IN1
+a0 => inst1.IN1
+
+
+|main_test|mux21_sub:inst1
+ty <= mux21:inst.y
+ts => mux21:inst.s
+ta[1] => mux21:inst.a1
+ta[0] => mux21:inst.a0
+
+
+|main_test|mux21_sub:inst1|mux21:inst
+y <= inst.DB_MAX_OUTPUT_PORT_TYPE
+s => inst2.IN0
+s => inst3.IN0
+a1 => inst2.IN1
+a0 => inst1.IN1
+
+
