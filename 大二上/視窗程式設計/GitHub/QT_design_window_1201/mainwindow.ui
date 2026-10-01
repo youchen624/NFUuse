@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>檔案</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionClose"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionASave"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>編輯</string>
+    </property>
+    <addaction name="actionUndo"/>
+    <addaction name="actionCut"/>
+    <addaction name="actionAll"/>
+    <addaction name="actionCopy"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>工具</string>
+    </property>
+    <addaction name="actionShowTime"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/.res/images/new.png</normaloff>:/images/.res/images/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>新增(&amp;N)</string>
+   </property>
+   <property name="toolTip">
+    <string>新增</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/.res/images/open.png</normaloff>:/images/.res/images/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>開啟(&amp;O)</string>
+   </property>
+   <property name="toolTip">
+    <string>開啟</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>關閉(&amp;C)</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/.res/images/save.png</normaloff>:/images/.res/images/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>儲存(&amp;S)</string>
+   </property>
+   <property name="toolTip">
+    <string>儲存</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionASave">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/.res/images/asave.png</normaloff>:/images/.res/images/asave.png</iconset>
+   </property>
+   <property name="text">
+    <string>另存(&amp;A)</string>
+   </property>
+   <property name="toolTip">
+    <string>另存</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>退出(&amp;X)</string>
+   </property>
+   <property name="toolTip">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/.res/images/undo.png</normaloff>:/images/.res/images/undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>還原(&amp;U)</string>
+   </property>
+   <property name="toolTip">
+    <string>還原</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/.res/images/cut.png</normaloff>:/images/.res/images/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>剪下(&amp;T)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/.res/images/copy.png</normaloff>:/images/.res/images/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>複製(&amp;C)</string>
+   </property>
+  </action>
+  <action name="actionAll">
+   <property name="text">
+    <string>全選(&amp;A)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionShowTime">
+   <property name="text">
+    <string>顯示時間(&amp;T)</string>
+   </property>
+   <property name="toolTip">
+    <string>顯示目前時間</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>關於(&amp;B)</string>
+   </property>
+   <property name="toolTip">
+    <string>關於本程式</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="designwindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>
