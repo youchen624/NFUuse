@@ -1,0 +1,18 @@
+創建
+ssh-keygen -t ed25519 -b 4096 -C "<註解>"
+
+測試
+ssh -T git@github.com -i "<私鑰路徑>"
+/非反斜"\"
+
+SSH登入
+ssh git@github.com -i "C:/Users/user/.ssh/id_ed25519_github"
+ssh git@github.com -i "C:\Users\user\.ssh\id_ed25519_github"
+
+
+```config
+Host `<github.com 自訂名稱>
+    HostName github.com
+    IdentityFile ~/.ssh/id_ed25519
+    User git
+``
