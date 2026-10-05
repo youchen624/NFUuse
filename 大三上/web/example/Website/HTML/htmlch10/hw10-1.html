@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+  <meta charset="utf-8" />
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const table = document.getElementById("tablet");
+      let a = 1;
+      for (let x = 0; x < 3; ++x) {
+        const tr_new = document.createElement('tr');
+        table.appendChild(tr_new);
+        for (let y = 0; y < 3; ++y) {
+          const td_new = document.createElement('td');
+          tr_new.appendChild(td_new);
+          for (let b = 1; b <= 9; ++b) {
+            const p_new = document.createElement('p');
+            p_new.textContent = `${a} * ${b} = ${a * b}`;
+            td_new.appendChild(p_new);
+          }
+          ++a;
+        }
+      }
+    });
+  </script>
+
+  <style>
+    p {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <table border="2" id="tablet"></table>
+</body>
+
+</html>

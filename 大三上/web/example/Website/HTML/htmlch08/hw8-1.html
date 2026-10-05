@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+  <meta charset="utf-8" />
+
+  <style>
+    p,
+    h2 {
+      margin: 0;
+    }
+
+    textarea {
+      overflow-y: scroll;
+      resize: none;
+    }
+
+    .red {
+      color: red;
+    }
+
+    .fx-ac {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .fx-jc {
+      justify-content: center;
+    }
+
+    .fx-jcsa {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    #the-form {
+      max-width: 860px;
+    }
+
+    #div-suggestion {
+      /* display: ; */
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="" id="the-form">
+    <h2 class="red">請輸入下面資料</h2>
+    <!-- <fieldset> -->
+    <!-- <legend class="red">請輸入下面資料</legend> -->
+
+    <div class="fx-jcsa">
+      <!-- S1 -->
+      <div class="fx-ac">
+        <div>
+          <label for="input-email">E-MAIL：</label>
+          <input type="email" id="input-email" name="email" autocomplete="email">
+        </div>
+        <div class="fx-ac">
+          <p>喜歡吃的東西：</p>
+          <div>
+            <input type="radio" id="input-like_to_eat-fruit" name="like_to_eat" value="fruit">
+            <label for="input-like_to_eat-fruit">水果</label>
+          </div>
+          <div>
+            <input type="radio" id="input-like_to_eat-icy" name="like_to_eat" value="icy">
+            <label for="input-like_to_eat-icy">冰品</label>
+          </div>
+          <div>
+            <input type="radio" id="input-like_to_eat-hot_drink" name="like_to_eat" value="hot_drink" checked>
+            <label for="input-like_to_eat-hot_drink">熱飲</label>
+          </div>
+          <div>
+            <input type="radio" id="input-like_to_eat-western" name="like_to_eat" value="western">
+            <label for="input-like_to_eat-western">西餐</label>
+          </div>
+          <div>
+            <input type="radio" id="input-like_to_eat-others" name="like_to_eat_none" value="others" checked>
+            <label for="input-like_to_eat-others">其他</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- S2 -->
+      <div class="fx-ac">
+        <div>
+          <label for="input-name">姓名：</label>
+          <input type="text" id="input-name" name="name" autocomplete="name" placeholder="必填欄位" required>
+        </div>
+        <div class="fx-ac">
+          <p>最大的興趣：</p>
+          <div>
+            <input type="checkbox" id="input-interest-sleep" name="interest" value="sleep">
+            <label for="input-interest-sleep">睡覺</label>
+          </div>
+          <div>
+            <input type="checkbox" id="input-interest-sports" name="interest" value="sports">
+            <label for="input-interest-sports">運動</label>
+          </div>
+          <div>
+            <input type="checkbox" id="input-interest-movie" name="interest" value="movie" checked>
+            <label for="input-interest-movie">電影</label>
+          </div>
+          <div>
+            <input type="checkbox" id="input-interest-music" name="interest" value="music">
+            <label for="input-interest-music">音樂</label>
+          </div>
+          <div>
+            <input type="checkbox" id="input-interest-others" name="interest" value="others">
+            <label for="input-interest-others">其他</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- S3 -->
+      <div class="fx-ac">
+        <div>
+          <label for="input-education">學歷:</label>
+          <select id="input-education" name="education">
+            <option value="nope">幼稚園</option>
+            <option value="nope">帝丹小學</option>
+            <option value="nope">木之葉忍者學校</option>
+            <option value="nope">烏野高中</option>
+            <option value="nope">常盤台中學校</option>
+            <option value="nope">咒術高專</option>
+            <option value="專科" selected>專科</option>
+            <option value="nope">魔法大學</option>
+          </select>
+        </div>
+        <div class="fx-ac" id="div-suggestion">
+          <p>請輸入您的意見：</p>
+          <textarea rows="4" name="suggestion" id=""></textarea>
+        </div>
+      </div>
+    </div>
+    <!-- </fieldset> -->
+  </form>
+
+</body>
+
+</html>

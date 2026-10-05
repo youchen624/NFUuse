@@ -8,6 +8,11 @@
 
   <style>
     body {
+      background-image: url("img/bg1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -17,9 +22,36 @@
       width: 100%;
     }
 
-    .mc {
-      margin: auto;
+    tr {
+      display: flex;
+      justify-content: center;
     }
+    th {
+      display: flex;
+      align-items: center;
+      margin: 10px 20px;
+    }
+
+    .l-img {
+      background-image: url("img/l.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      border-radius: 40px;
+      height: 12vh;
+      width: 90vw;
+
+      margin: 0 0 40px 0;
+    }
+
+    .icon {
+      background: none;
+      height: 4vh;
+    }
+
+    /* .mc {
+      margin: auto;
+    } */
   </style>
 </head>
 
@@ -39,17 +71,36 @@
       <font size="3" color="green">歡迎光臨</font>
     </i><br>
   </div>
-  <hr>
+  <div class="l-img"></div>
+  <!-- <hr> -->
   <table width="90%">
     <tr>
-      <th><a href="../homepage/dir-1/index-a.html">伊蔻的基本資料</a></th>
-      <th><a href="../homepage/dir-2/index-b.html">伊蔻的日記告白</a></th>
-      <th><a href="../homepage/dir-3/index-c.html">伊蔻的行囊背包</a></th>
+      <th>
+        <img class="icon" src="img/smile01.png" alt="icon-smile01">
+        <a href="../homepage/dir-1/index-a.html">伊蔻的基本資料</a>
+      </th>
+      <th>
+        <img class="icon" src="img/smile01.png" alt="icon-smile01">
+        <a href="../homepage/dir-2/index-b.html">伊蔻的日記告白</a>
+      </th>
+      <th>
+        <img class="icon" src="img/smile01.png" alt="icon-smile01">
+        <a href="../homepage/dir-3/index-c.html">伊蔻的行囊背包</a>
+      </th>
     </tr>
     <tr>
-      <th><a href="../homepage/dir-4/index-d.html">伊蔻的狐群狗黨</a></th>
-      <th><a href="../homepage/dir-5/index-e.html">伊蔻的郵件信箱</a></th>
-      <th><a href="../homepage/dir-6/index-f.html">飛向浩瀚的天空</a></th>
+      <th>
+        <img class="icon" src="img/smile01.png" alt="icon-smile01">
+        <a href="../homepage/dir-4/index-d.html">伊蔻的狐群狗黨</a>
+      </th>
+      <th>
+        <img class="icon" src="img/smile01.png" alt="icon-smile01">
+        <a href="../homepage/dir-5/index-e.html">伊蔻的郵件信箱</a>
+      </th>
+      <th>
+        <img class="icon" src="img/smile01.png" alt="icon-smile01">
+        <a href="../homepage/dir-6/index-f.html">飛向浩瀚的天空</a>
+      </th>
     </tr>
   </table>
 

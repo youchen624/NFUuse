@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+<!-- //
+var str;
+var counter=0;
+var messagestr="這是虎科大資工-(學生姓名)的首頁的網站，記錄著本人成長過程的歡樂與喜悅。 ";
+function banner()
+ {
+   str="                    "+messagestr;
+   str=str.substring(counter,str.length)+str.substring(0,counter);
+   document.fname.scroll.value=str;
+   counter=counter+2;
+   if(counter >= str.length)
+      { counter=0;
+         document.fname.scroll.value=""};
+   setTimeout('banner()',300);
+}
+// -->
+    </script>
+</head>
+<body onload="banner()">
+    <form name="fname">
+        <table width="420">
+            <tr bgcolor="#f27900">
+                <th><input type="text" name="scroll" size="36"></th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
