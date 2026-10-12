@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<item productId="X123-782-890">
+  <productName>電視機</productName>
+  <category>家電</category>
+  <quantity>1</quantity>
+  <price currency="NT">12100</price>
+  <discount>2000</discount>
+  <makeDate>2000-01-22</makeDate>
+  <img src="gif"/>
+</item>

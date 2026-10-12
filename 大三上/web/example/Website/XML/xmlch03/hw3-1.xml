@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<旅遊紀錄>
+  <旅遊>
+    <date timestamp="4000809600">20961012</date>
+    <location>Kepler-452b</location>
+    <distance unit="LY">1401</distance>
+    <cost-time unit="years">8</cost-time>
+    <path>
+      <Node node-type="Planet" node-state="suitable">Solar System:Earth</Node>
+      <Node node-type="Boundary" node-state="stable">Heliosphere:Heliopause</Node>
+      <Node node-type="StellarSystem" node-state="stable">Local Interstellar Cloud:Alpha Centauri
+        System</Node>
+      <Node node-type="StellarSystem" node-state="stable">Local Bubble:Vega System</Node>
+      <Node node-type="StellarSystem" node-state="unstable">Local Bubble Border:Deneb System</Node>
+      <Node node-type="Station" node-state="safe">Local Bubble Border:Deneb System:Deneb Waystation</Node>
+      <Node node-type="Outpost" node-state="ruined">Local Bubble Border:Deneb System:Outpost Omega</Node>
+      <Node node-type="StellarSystem" node-state="stable">Kepler-452 System:Kepler-452</Node>
+      <Node node-type="Planet" node-state="suitable">Kepler-452 System:Kepler-452b</Node>
+    </path>
+    <experience>
+      How a "SPECIAL" experience!! But there are most dangers near the Deneb System, there some
+      broken structures, asteroid...
+    </experience>
+  </旅遊>
+  <旅遊>
+    <date timestamp="2990966400">20641012</date>
+    <location>M2υ3 Space</location>
+    <distance unit="none">unknown</distance>
+    <cost-time unit="months">3</cost-time>
+    <path>
+      <Node node-type="Ground" node-state="suitable">Solar System:Earth</Node>
+      <Node node-type="Wormhole" node-state="unknown">2Ba1 Wormhole</Node>
+      <Node node-type="Wormhole" node-state="unknown">2Bc1 Wormhole</Node>
+      <Node node-type="Wormhole" node-state="unknown">2Ψa1 Wormhole</Node>
+      <Node node-type="Void" node-state="unknown">void</Node>
+      <Node node-type="LightWay" node-state="unknown">996 LightWay</Node>
+      <Node node-type="Space" node-state="unknown">M2υ3 Space</Node>
+    </path>
+    <experience>
+      Uh.. HMmm... idk where am I just now, I feel dizziness, and headache...
+    </experience>
+  </旅遊>
+  <旅遊>
+    <date timestamp="undefined">unknown</date>
+    <location>PAST</location>
+    <distance unit="none">undefined</distance>
+    <cost-time unit="years">-10</cost-time>
+    <path>
+      <Node node-type="Ground" node-state="suitable">Solar System:Earth: Real Now 2026</Node>
+      <Node node-type="Ground" node-state="suitable">Solar System:Earth: 2016</Node>
+    </path>
+    <experience>
+      Wait... what?? why? Did I traveled?? It is 2016? OMG! hmm.. 'headache' I want get some chocolate milk.
+    </experience>
+  </旅遊>
+</旅遊紀錄>
