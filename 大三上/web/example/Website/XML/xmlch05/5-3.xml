@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="Big5"?>
+<op:purchaseOrder xmlns:op="http://www.aecro.com.tw/ns/op/1.0"
+                                xmlns:aw="http://www.aecro.com.tw/ns/aw/1.2">
+ <op:title>購買電腦</op:title> 
+ <op:customer>
+  <aw:person>
+      <aw:name>陳彼德</aw:name>
+      <aw:title>先生</aw:title>
+      <aw:birthday>02/21/1972</aw:birthday>
+  </aw:person>
+ </op:customer>
+</op:purchaseOrder>

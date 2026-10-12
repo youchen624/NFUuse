@@ -1,0 +1,12 @@
+occupation
+{  COLOR: green;
+    DISPLAY: block;
+    FONT-SIZE: 12pt;
+    FONT-WEIGHT: bold;}
+
+email,birthday,name,spouse
+{  COLOR: blue;
+    DISPLAY: block;
+    FONT-SIZE: 12pt;
+    FONT-WEIGHT: bold;}
+

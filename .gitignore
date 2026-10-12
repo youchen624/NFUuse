@@ -1,16 +1,34 @@
 # ### public
 *.mp4
 
-
+secrets.json
 *.idx
 
 hide/
 
+# lib
+**/wwwroot/lib/
+libs/
+node_modules/
+bower_components/
+
+# build
+dist/
+build/
+out/
+
 
 # ### VS
 .vs/
-bin/
-obj/
+[Bb]in/
+[Oo]bj/
+
+# XML | VS
+*.suo
+*.user
+*.csproj.user
+*.vbproj.user
+*.sln.docstates
 
 
 

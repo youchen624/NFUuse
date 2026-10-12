@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="Big5"?>
+<PersonData id="N120123672">
+<productName>電視機</productName>
+<category>家電</category>
+<quantity>1</quantity>
+<price><currency>NT$</currency>12100</price>
+<discount>2000</discount>
+<makeDate>2000-01-22</makeDate>
+</item>
+<name>陳彼德</name>
+<birthday>02/21/1972</birthday>
+<occupation>teacher</occupation>
+<spouse sex="female">王美麗</spouse>
+<email space="3MB">peter@hpdiy.zzn.com</email>
+</PersonData>

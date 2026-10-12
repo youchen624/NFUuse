@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="3-2.css"?>
+<?php 
+  mysql_connect("mysql-a.com.tw", "allan", "password"); 
+  $result = mysql("CYNW", "SELECT LastName, FirstName FROM Customer 
+    ORDER BY LastName, FirstName"); 
+  $i = 0;
+  while ($i < mysql_numrows ($result)) 
+  {
+     $fields = mysql_fetch_row($result);
+     echo "<person>$fields[1] $fields[0] </person>\r\n";
+     $i++;
+   }
+   mysql_close();
+?>
+<PersonData>
+<name>陳彼德</name>
+<birthday>02/21/1972</birthday>
+<occupation>teacher</occupation>
+<spouse>王美麗</spouse>
+<email>peter@hpdiy.zzn.com</email>
+</PersonData>

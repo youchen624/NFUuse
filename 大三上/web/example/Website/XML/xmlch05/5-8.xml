@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Big5"?>
+<op:purchaseOrder xmlns:op="http://www.aecro.com.tw/ns/op/1.0">
+  <op:title>購買電腦</op:title> 
+  <op:customer>
+   <op:person xmlns:op="http://www.aecro.com.tw/ns/aw/1.2">
+      <op:name>陳彼德</op:name>
+      <op:title>先生</op:title>
+      <op:birthday>02/21/1972</op:birthday>
+   </op:person>
+  </op:customer>
+</op:purchaseOrder>

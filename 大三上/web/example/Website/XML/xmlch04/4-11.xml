@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PersonData id="N120123672" class="A">
+<name class="A">陳彼德</name>
+<birthday class="A">02/21/1972</birthday>
+<occupation class="A">teacher</occupation>
+<occupation class="A">doctor</occupation>
+<spouse sex="female" class="A">王美麗</spouse>
+<email space="3MB" class="A">peter@hpdiy.zzn.com</email>
+</PersonData>
