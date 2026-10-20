@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE PersonData [
+<!ELEMENT PersonData (name,birthday,occupation,spouse,email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+<!ELEMENT occupation (#PCDATA)>
+<!ELEMENT spouse (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+<PersonData>
+<name>陳彼德</name>
+  
+<occupation>teacher</occupation>
+  
+<spouse>王美麗</spouse>
+</PersonData>

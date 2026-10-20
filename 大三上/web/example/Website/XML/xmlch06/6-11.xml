@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Big5"?>
+<!DOCTYPE PersonData [
+<!ELEMENT PersonData (name,birthday,occupation+,spouse?,email*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+<!ELEMENT occupation (#PCDATA)>
+
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT husband (#PCDATA)>
+<!ELEMENT wife (#PCDATA)>
+]>
+<PersonData>
+<name>陳彼德</name>
+<birthday>02/21/1972</birthday>
+<occupation>teacher</occupation>
+<occupation>doctor</occupation>
+<spouse>王美麗</spouse>
+</PersonData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN"
+                      "http://www.wapforum.org/DTD/wml12.dtd">
+<wml>
+<card id="first" title="手機網頁">
+<p>
+<anchor title="執行">數學成績查詢
+<go href="#second"/>
+</anchor>
+</p>
+</card>
+<card id="second" title="查詢結果">
+<p>
+<b>恭喜!</b><br/>
+數學成績：92分<br/>
+<anchor title="執行">重新顯示
+<refresh/>
+</anchor>
+</p>
+</card>
+</wml>

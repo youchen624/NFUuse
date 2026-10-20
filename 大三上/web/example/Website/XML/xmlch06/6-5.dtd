@@ -1,0 +1,6 @@
+<!ELEMENT PersonData (name,birthday,occupation,spouse,email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+<!ELEMENT occupation (#PCDATA)>
+<!ELEMENT spouse (#PCDATA)>
+<!ELEMENT email (#PCDATA)>

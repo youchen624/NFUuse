@@ -1,0 +1,10 @@
+<!ELEMENT PersonData (name,birthday,occupation,spouse,email)>
+<!-- PersonData根元素依序包含有底下5個元素：
+       name、birthday、occupation、spouse與email 
+       建構者：陳長念                                              -->
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+<!ELEMENT occupation (#PCDATA)>
+<!ELEMENT spouse (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!-- 建構日期：07/20/2002 -->

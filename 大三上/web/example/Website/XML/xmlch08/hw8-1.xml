@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE BookCatalogue [
+<!ELEMENT BookCatalogue (Book)*>
+<!ELEMENT Book (Title, Author+, ReleaseDate, ISBN?, Publisher)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT ReleaseDate (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT Publisher (Country,Company)>
+<!ELEMENT Country (#PCDATA)>
+<!ELEMENT Company (#PCDATA)>
+<!ATTLIST Book category CDATA #REQUIRED>
+<!ATTLIST Book page CDATA #REQUIRED>
+<!ATTLIST Author sex (男|女|male|female) "男">
+<!ATTLIST Author mail CDATA #IMPLIED>
+<!ATTLIST Publisher city NMTOKEN "Taipei">
+<!ATTLIST Publisher address NMTOKENS #REQUIRED>
+]>
+
+<BookCatalogue>
+  <Book category="科技魔法" page="999">
+    <Title>魔法術1</Title>
+    <Author>阿波羅</Author>
+    <ReleaseDate>20961019</ReleaseDate>
+    <!-- <ISBN>none</ISBN> -->
+    <Publisher address="雙魚-鯨魚座超星系團複合體 拉尼亞凱亞超星系團 室女座超星系團 本星系群 銀河系 獵戶臂 太陽系 第四行星-火星 MC-13大瑟提斯區 耶澤羅撞擊坑 MARS-89302">
+      <Country>火星共和國</Country>
+      <Company>火星工業</Company>
+    </Publisher>
+  </Book>
+  <Book category="科技魔法" page="999">
+    <Title>魔法術2</Title>
+    <Author>阿波羅</Author>
+    <ReleaseDate>20961019</ReleaseDate>
+    <!-- <ISBN>none</ISBN> -->
+    <Publisher address="雙魚-鯨魚座超星系團複合體 拉尼亞凱亞超星系團 室女座超星系團 本星系群 銀河系 獵戶臂 太陽系 第四行星-火星 MC-13大瑟提斯區 耶澤羅撞擊坑 MARS-89302">
+      <Country>火星共和國</Country>
+      <Company>火星工業</Company>
+    </Publisher>
+  </Book>
+</BookCatalogue>

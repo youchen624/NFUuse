@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="Big5"?>
+<!ELEMENT PersonData (name,生日,occupation,spouse,email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT 生日 (#PCDATA)>
+<!ELEMENT occupation (#PCDATA)>
+<!ELEMENT spouse (#PCDATA)>
+<!ELEMENT email (#PCDATA)>

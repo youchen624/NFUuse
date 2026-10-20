@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE PersonData [
+<!ELEMENT PersonData >
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+<!ELEMENT occupation (#PCDATA)>
+<!ELEMENT spouse (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+<PersonData>
+
+<email>peter@hpdiy.zzn.com</email>
+<name>陳彼德</name>
+<occupation>teacher</occupation>
+<spouse>王美麗</spouse>
+
+</PersonData>

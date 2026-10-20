@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE PDataBase [
+<!ELEMENT PDataBase (PersonData*)>
+<!ELEMENT PersonData (name,birthday)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+<!ATTLIST PersonData sex (男|女|male|female) "男">
+<!ATTLIST PersonData id ID #REQUIRED>
+
+  
+]>
+<PDataBase>
+<PersonData id="N120123879">
+<name>陳彼德</name>
+<birthday>02/21/1972</birthday>
+</PersonData>
+<PersonData sex="女" id="Q220043576">
+<name>王美麗</name>
+<birthday>02/21/1975</birthday>
+</PersonData>
+<PersonData sex="female" id="Q220153129">
+<name>陳香蕾</name>
+<birthday>07/21/1999</birthday>
+</PersonData>
+<PersonData sex="女" id="Q220173670">
+<name>陳嘉婍</name>
+<birthday>07/06/2002</birthday>
+</PersonData>
+</PDataBase>
+

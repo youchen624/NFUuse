@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE book [
+<!ELEMENT book (title,author,breakline,publisher,language)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT breakline EMPTY>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+]>
+
+<book>
+  <title>標題</title>
+  <author>作者</author>
+  <breakline />
+  <publisher>出版商</publisher>
+  <language>語言</language>
+</book>
