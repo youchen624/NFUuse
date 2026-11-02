@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>dom-1.html</title>
+</head>
+<body>
+    <script type="text/javascript">
+        fetch('book1.xml')
+            .then(response => response.text())
+            .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
+            .then(xmlDom => {
+                let title = xmlDom.getElementsByTagName("title")[0].textContent;
+                let author = xmlDom.getElementsByTagName("author")[0].textContent;
+                let year = xmlDom.getElementsByTagName("year")[0].textContent;
+                document.write(title + "<br />");
+                document.write(author + "<br />");
+                document.write(year);
+            })
+            .catch(error => console.error('Error loading XML:', error));
+    </script>
+</body></html>
+

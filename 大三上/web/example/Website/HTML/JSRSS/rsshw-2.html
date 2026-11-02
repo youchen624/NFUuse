@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+  <meta charset="utf-8" />
+
+  <style>
+    p {
+      margin: 0;
+    }
+
+    .fixed-top {
+      position: fixed;
+      z-index: 800;
+      top: 95%;
+      left: 80%;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    table {
+      margin-top: 20px;
+      width: 100%;
+    }
+
+    table,
+    table p {
+      border: 1px solid black;
+    }
+
+    .glime {
+      background-color: #CEF2A3;
+    }
+  </style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const tar = [
+        {content: "標題"      , class: "title"},
+        {content: "鏈結網址"  , class: "link"},
+        {content: "發布日期時間", class: "pubDate"},
+      ];
+      const list = document.getElementById('list');
+      const title = document.getElementById('title');
+      fetch('freewayrss1.xml')
+        .then(res => res.text())
+        .then(str => (new window.DOMParser()).parseFromString(str, 'text/xml'))
+        .then(xDOM => {
+          const channel = xDOM.querySelector('channel');
+          const tp = document.createElement('p');
+          const tp2 = document.createElement('p');
+          const tp3 = document.createElement('p');
+          title.appendChild(tp);
+          title.appendChild(tp2);
+          title.appendChild(tp3);
+          tp.textContent  = `標題: ${channel.querySelector('title')?.textContent ?? ""}`;
+          tp2.textContent = `發行日期: ${channel.querySelector('pubDate')?.textContent ?? ""}`;
+          tp3.textContent = `語言: ${channel.querySelector('language')?.textContent ?? ""}`;
+          const items = channel.querySelectorAll('item') ?? [];
+          let i = 1;
+          for(const item of items) {
+            const table = list.appendChild(document.createElement('table'));
+            const thead = table.appendChild(document.createElement('thead'));
+            const tr    = thead.appendChild(document.createElement('tr'));
+            const th    = tr.appendChild(document.createElement('th'));
+            const p     = th.appendChild(document.createElement('p'));
+            if (i%2) table.classList.add('glime');
+            p.textContent   = `第 ${i++} 筆資訊`;
+
+            for (const tar_obj of tar) {
+              const pp = table
+                .appendChild(document.createElement('tr'))
+                .appendChild(document.createElement('td'))
+                .appendChild(document.createElement('p'));
+              pp.textContent = `${tar_obj.content ?? ''}: ${item.querySelector(tar_obj.class)?.textContent ?? ""}`;
+            }
+          }
+        })
+        .catch(e => { console.error(e); });
+    });
+  </script>
+</header>
+
+<body>
+  <div>
+    <div id="title"></div>
+    <hr>
+  </div>
+  <section id="list"></section>
+  <div class="fixed-top">
+    <p>作業 rsshw-2.html</p>
+  </div>
+</body>
+
+</html>

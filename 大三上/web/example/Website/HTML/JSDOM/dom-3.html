@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>dom-1.html</title>
+</head>
+<body>
+    <script type="text/javascript">
+        fetch('book3.xml')
+            .then(response => response.text())
+            .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
+            .then(xmlDom => {
+                document.write("<h2>資料顯示</h2><hr />");
+                let title = xmlDom.getElementsByTagName("title")[0].textContent;
+                let author = xmlDom.getElementsByTagName("author")[0].textContent;
+                let year = xmlDom.getElementsByTagName("year")[0].textContent;
+                document.write(title + "<br />");
+                document.write(author + "<br />");
+                document.write(year);
+                document.write("<hr />課程:Web技術與應用");
+            })
+            .catch(error => console.error('Error loading XML:', error));
+    </script>
+</body></html>

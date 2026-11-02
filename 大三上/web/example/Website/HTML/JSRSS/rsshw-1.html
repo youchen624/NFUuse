@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+  <meta charset="utf-8" />
+
+  <style>
+    p {
+      margin: 0;
+    }
+
+    p.label {
+      margin: 32px 0 0 0;
+    }
+
+    .fixed-top {
+      position: fixed;
+      z-index: 800;
+      top: 40%;
+      left: 70%;
+      font-weight: bold;
+      font-size: 24px;
+    }
+  </style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const tar = [
+        "sitename",
+        "county",
+        "pm2.5",
+        "publishtime",
+      ];
+      const list = document.getElementById('list');
+      const title = document.getElementById('title');
+      fetch('freewayrss1.xml')
+        .then(res => res.text())
+        .then(str => (new window.DOMParser()).parseFromString(str, 'text/xml'))
+        .then(xDOM => {
+          const channel = xDOM.querySelector('channel');
+          const tp = document.createElement('p');
+          const tp2 = document.createElement('p');
+          const tp3 = document.createElement('p');
+          title.appendChild(tp);
+          title.appendChild(tp2);
+          title.appendChild(tp3);
+          tp.textContent  = `標題: ${channel.querySelector('title')?.textContent ?? ""}`;
+          tp2.textContent = `發行日期: ${channel.querySelector('pubDate')?.textContent ?? ""}`;
+          tp3.textContent = `語言: ${channel.querySelector('language')?.textContent ?? ""}`;
+          const items = channel.querySelectorAll('item') ?? [];
+          let i = 1;
+          for(const item of items) {
+            const data = document.createElement('div');
+            const p = document.createElement('p');
+            const p2 = document.createElement('p');
+            const p3 = document.createElement('p');
+            const p4 = document.createElement('p');
+            list.appendChild(data);
+            data.appendChild(p);
+            data.appendChild(document.createElement('hr'));
+            data.appendChild(p2);
+            data.appendChild(p3);
+            data.appendChild(p4);
+            p.classList.add('label');
+            p.textContent   = `第 ${i} 筆資訊`;
+            p2.textContent = `標題: ${item.querySelector('title')?.textContent ?? ""}`;
+            p3.textContent = `鏈結網址: ${item.querySelector('link')?.textContent ?? ""}`;
+            p4.textContent = `發布日期時間: ${item.querySelector('pubDate')?.textContent ?? ""}`;
+            ++i;
+          }
+        })
+        .catch(e => { console.error(e); });
+    });
+  </script>
+</header>
+
+<body>
+  <div>
+    <div id="title"></div>
+    <hr>
+  </div>
+  <section id="list"></section>
+  <div class="fixed-top">
+    <p>作業 rsshw-1.html</p>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>dom-8.html</title>
+</head>
+<body>
+    <script type="text/javascript">
+        fetch('book4.xml')
+            .then(response => response.text())
+            .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
+            .then(xmlDom => {
+                //顯示根元素名稱(booklist)
+                document.write(xmlDom.documentElement.tagName);
+                //顯示根元素內所有子元素的內容
+                document.write("(" + xmlDom.documentElement.textContent + ")<br />");
+                //取出根元素中所有children
+                fnodeList = xmlDom.documentElement.childNodes;
+                // 顯示所有子節點
+                for (let i = 0; i < fnodeList.length; i++) {
+                    if (fnodeList[i].nodeType == 1) {//Process only element nodes (type 1)
+                        //顯示第i個子元素名稱
+                        document.write("&nbsp;&nbsp;+-- " + i + ":" + fnodeList[i].tagName);
+                        //顯示第i個子元素內所有子元素的內容
+                        document.write("(" + fnodeList[i].textContent + ") <br />");
+                        // 如果擁有子節點, 顯示子節點
+                        if (fnodeList[i].hasChildNodes()) {
+                            //取出第i個子元素中所有children
+                            snodeList = fnodeList[i].childNodes
+                            // 顯示所有子節點
+                            for (let j = 0; j < snodeList.length; j++) {
+                                if (snodeList[j].nodeType == 1) {//Process only element nodes (type 1)
+                                    //顯示第i個子元素中第j個子子元素名稱
+                                    document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-- " + snodeList[j].tagName)
+                                    //顯示第i個子元素中第j個子子元素內所有子元素的內容
+                                    document.write("(" + snodeList[j].textContent + ")<br />")
+                                }
+                            }
+                        }
+                    }
+                }
+            })
+            .catch(error => console.error('Error loading XML:', error));
+    </script>
+</body>
+</html>

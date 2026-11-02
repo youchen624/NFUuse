@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<booklist>
+  <book sales="N">
+    <code>P12345</code>
+    <title>XML入門與應用</title>
+    <author>陳長念</author>
+    <price>680</price>
+  </book>
+  <book sales="Y">
+    <code>X987656</code>
+    <title>XML與資料庫</title>
+    <author>陳長念</author>
+    <price>650</price>
+  </book>
+  <book sales="Y">
+    <code>Y55667</code>
+    <title>XHTML網頁設計</title>
+    <author>陳長念</author>
+    <price>580</price>
+  </book>
+</booklist>

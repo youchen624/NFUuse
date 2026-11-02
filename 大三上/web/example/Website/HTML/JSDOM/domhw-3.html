@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+  <meta charset="utf-8" />
+
+  <style>
+    table,
+    table td {
+      border: 2px solid;
+    }
+  </style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const books = [
+        { url: 'book5.xml', tid: 'table' },
+      ];
+      for (const book of books) {
+        const table = document.getElementById(book.tid);
+        fetch(book.url)
+          .then(res => res.text())
+          .then(str => (new window.DOMParser()).parseFromString(str, 'text/xml'))
+          .then(xDOM => {
+            const x_data = xDOM.documentElement.childNodes;
+            for (const data of x_data) {
+              if (data.nodeType != 1) continue;
+              const tr = document.createElement('tr');
+              table.appendChild(tr);
+              for (const d of data.childNodes ?? []) {
+                if (d.nodeType != 1) continue;
+                const td = document.createElement('td');
+                td.textContent = d.textContent;
+                tr.appendChild(td);
+              }
+              const td = document.createElement('td');
+              td.textContent = data.getAttribute("sales");
+              tr.appendChild(td);
+            }
+          })
+          .catch(e => { console.error(e); });
+      }
+    });
+  </script>
+</header>
+
+<body>
+  <div>
+    <h2>書名表格顯示</h2>
+    <hr>
+    <table id="table">
+      <thead>
+        <tr>
+          <td>書號</td>
+          <td>書名</td>
+          <td>作者</td>
+          <td>價錢</td>
+          <td>是否有存貨</td>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</body>
+
+</html>

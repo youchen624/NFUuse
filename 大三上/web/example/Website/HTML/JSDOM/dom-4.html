@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>dom-4.html</title>
+</head>
+<body>
+    <script type="text/javascript">
+        fetch('book2.xml')
+            .then(response => response.text())
+            .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
+            .then(xmlDom => {
+                let books = xmlDom.documentElement.childNodes;
+                for (let i = 0; i < books.length; i++) {
+                    if (books[i].nodeType == 1) {//Process only element nodes (type 1)
+                        document.write("nodeType: " + books[i].nodeType + ", tagName: "+books[i].tagName);
+                        document.write("<br />");
+                    }
+                }
+            })
+            .catch(error => console.error('Error loading XML:', error));
+    </script>
+</body></html>

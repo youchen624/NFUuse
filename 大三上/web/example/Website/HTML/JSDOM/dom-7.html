@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>dom-7.html</title>
+</head>
+<body>
+    <script type="text/javascript">
+        fetch('book3.xml')
+            .then(response => response.text())
+            .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
+            .then(xmlDom => {
+                document.write("<table border=1><tr><th>節點</th><td>內容</td></tr >");
+                let xnodeList = xmlDom.getElementsByTagName("book")[0].childNodes;
+                let xnode = xmlDom.getElementsByTagName("book")[0].firstChild;
+                for (let i = 0; i < xnodeList.length; i++) {
+                    if (xnode.nodeType == 1) {//Process only element nodes (type 1)
+                        document.write("<tr><th>" + xnodeList[i].tagName + "</th>");
+                        document.write("<td>" + xnodeList[i].textContent + "</td></tr>");
+                    }
+                    xnode = xnode.nextSibling;
+                }
+            })
+            .catch(error => console.error('Error loading XML:', error));
+    </script>
+</body>
+</html>

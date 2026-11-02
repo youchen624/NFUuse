@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+  <meta charset="utf-8" />
+
+  <style>
+    table,
+    table td {
+      border: 2px solid;
+    }
+  </style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const books = [
+        { url: 'domhw-4.json', tid: 'table' },
+      ];
+      const tar = [
+        "sitename",
+        "county",
+        "pm2.5",
+        "publishtime",
+      ];
+      for (const book of books) {
+        const table = document.getElementById(book.tid);
+        fetch(book.url)
+          .then(res => res.text())
+          .then(str => JSON.parse(str))
+          .then(list => {
+            for(const data of list) {
+              const tr = document.createElement('tr');
+              table.appendChild(tr);
+              for(const key of tar) {
+                const td = document.createElement('td');
+                tr.append(td);
+                td.textContent = data[key];
+              }
+            }
+          })
+          /*
+          .then(str => (new window.DOMParser()).parseFromString(str, 'text/xml'))
+          .then(xDOM => {
+            const x_data = xDOM.documentElement.childNodes;
+            for (const data of x_data) {
+              if (data.nodeType != 1) continue;
+              const tr = document.createElement('tr');
+              table.appendChild(tr);
+              for (const d of data.childNodes ?? []) {
+                if (d.nodeType != 1) continue;
+                const td = document.createElement('td');
+                td.textContent = d.textContent;
+                tr.appendChild(td);
+              }
+              const td = document.createElement('td');
+              td.textContent = data.getAttribute("sales");
+              tr.appendChild(td);
+            }
+          })
+          */
+          .catch(e => { console.error(e); });
+      }
+    });
+  </script>
+</header>
+
+<body>
+  <div>
+    <h2>台灣各區域PM 2.5值</h2>
+    <hr>
+    <table id="table">
+      <thead>
+        <tr>
+          <td>區域</td>
+          <td>縣市</td>
+          <td>PM2.5</td>
+          <td>發布時間</td>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</body>
+
+</html>
