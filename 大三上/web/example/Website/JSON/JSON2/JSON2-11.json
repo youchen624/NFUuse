@@ -1,0 +1,25 @@
+{
+  "title": "PM25Record",
+  "type": "object",
+  "properties": {
+    "siteName": {
+      "type": "string"
+    },
+    "county": {
+      "type": "string"
+    },
+    "pm25": {
+      "type": "number",
+      "minimum": 0
+    },
+    "publishTime": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "siteName",
+    "county",
+    "pm25",
+    "publishTime"
+  ]
+}

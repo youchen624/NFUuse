@@ -1,0 +1,38 @@
+{
+  "title": "CourseScores",
+  "type": "object",
+  "properties": {
+    "course": {
+      "type": "string"
+    },
+    "students": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "scores": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "scores"
+        ]
+      }
+    }
+  },
+  "required": [
+    "course",
+    "students"
+  ]
+}

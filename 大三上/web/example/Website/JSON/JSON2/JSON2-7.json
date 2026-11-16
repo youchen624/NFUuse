@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "course": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "week": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "name",
+        "week"
+      ]
+    }
+  },
+  "required": [
+    "course"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "oneOf": [
+    {
+      "required": [
+        "email"
+      ]
+    },
+    {
+      "required": [
+        "phone"
+      ]
+    }
+  ],
+  "properties": {
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

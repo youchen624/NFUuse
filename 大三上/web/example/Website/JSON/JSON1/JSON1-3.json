@@ -1,0 +1,17 @@
+[
+  {
+    "id": "C001",
+    "title": "HTML 基礎",
+    "hours": 3
+  },
+  {
+    "id": "C002",
+    "title": "XML 與 DTD",
+    "hours": 3
+  },
+  {
+    "id": "C003",
+    "title": "JSON 資料交換",
+    "hours": 3
+  }
+]

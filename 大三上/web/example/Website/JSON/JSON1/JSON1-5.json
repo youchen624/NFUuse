@@ -1,0 +1,18 @@
+{
+  "orderNo": "A20260626001",
+  "customer": "林同學",
+  "paid": false,
+  "items": [
+    {
+      "name": "鍵盤",
+      "price": 790,
+      "qty": 1
+    },
+    {
+      "name": "滑鼠",
+      "price": 390,
+      "qty": 2
+    }
+  ],
+  "total": 1570
+}

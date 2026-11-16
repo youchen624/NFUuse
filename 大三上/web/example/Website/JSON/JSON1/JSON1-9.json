@@ -1,0 +1,20 @@
+{
+  "source": "Open Data 範例資料",
+  "records": [
+    {
+      "siteName": "斗六",
+      "county": "雲林縣",
+      "pm25": 12
+    },
+    {
+      "siteName": "崙背",
+      "county": "雲林縣",
+      "pm25": 18
+    },
+    {
+      "siteName": "新港",
+      "county": "嘉義縣",
+      "pm25": 15
+    }
+  ]
+}

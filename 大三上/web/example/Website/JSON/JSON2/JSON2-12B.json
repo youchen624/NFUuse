@@ -1,0 +1,14 @@
+{
+  "$schema": "JSON2-12.json",
+  "course": "Web技術與應用",
+  "students": [
+    {
+      "id": "S114001",
+      "name": "王小明",
+      "scores": [
+        85,
+        "A"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Student",
+  "type": "object",
+  "properties": {
+    "studentId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "studentId",
+    "name"
+  ]
+}

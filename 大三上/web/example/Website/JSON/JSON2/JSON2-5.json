@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "studentId": {
+      "type": "string",
+      "pattern": "^S[0-9]{6}$"
+    }
+  },
+  "required": [
+    "email",
+    "studentId"
+  ]
+}

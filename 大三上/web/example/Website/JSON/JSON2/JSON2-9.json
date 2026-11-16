@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "siteName": {
+      "type": "string"
+    },
+    "county": {
+      "type": "string"
+    },
+    "pm25": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "siteName",
+    "county",
+    "pm25"
+  ],
+  "additionalProperties": false
+}

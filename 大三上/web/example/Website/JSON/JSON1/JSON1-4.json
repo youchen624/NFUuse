@@ -1,0 +1,12 @@
+{
+  "school": "虎尾科技大學",
+  "course": {
+    "name": "Web技術與應用",
+    "week": 8,
+    "topic": "JSON介紹"
+  },
+  "teacher": {
+    "name": "許乙清",
+    "email": "husic@nfu.edu.tw"
+  }
+}

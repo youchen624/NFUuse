@@ -1,0 +1,15 @@
+{
+  "stringValue": "Web技術與應用",
+  "numberValue": 95.5,
+  "booleanValue": true,
+  "nullValue": null,
+  "objectValue": {
+    "room": "EC101",
+    "teacher": "許乙清"
+  },
+  "arrayValue": [
+    "HTML",
+    "XML",
+    "JSON"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "level": {
+      "enum": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "courseType": {
+      "const": "Web"
+    }
+  },
+  "required": [
+    "level",
+    "courseType"
+  ]
+}

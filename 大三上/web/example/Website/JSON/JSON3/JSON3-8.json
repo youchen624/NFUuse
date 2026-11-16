@@ -1,0 +1,31 @@
+{
+  "columns": [
+    "siteName",
+    "county",
+    "pm25",
+    "publishTime"
+  ],
+  "records": [
+    {
+      "siteName": "斗六",
+      "county": "雲林縣",
+      "pm25": 12,
+      "status": "良好",
+      "publishTime": "2026-06-26 10:00"
+    },
+    {
+      "siteName": "崙背",
+      "county": "雲林縣",
+      "pm25": 18,
+      "status": "普通",
+      "publishTime": "2026-06-26 10:00"
+    },
+    {
+      "siteName": "新港",
+      "county": "嘉義縣",
+      "pm25": 15,
+      "status": "普通",
+      "publishTime": "2026-06-26 10:00"
+    }
+  ]
+}

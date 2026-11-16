@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="utf-8">
+  <title>作業JSON3-hw</title>
+  <style>
+    body {
+      font-family: Arial, "Microsoft JhengHei", sans-serif;
+      margin: 24px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      color: #0b3b70;
+      margin-bottom: 8px;
+    }
+
+    /* .note { color: #4b5563; margin-bottom: 16px; } */
+    table {
+      border-collapse: collapse;
+      min-width: 720px;
+      margin-top: 12px;
+    }
+
+    th,
+    td {
+      border: 1px solid #cbd5e1;
+      padding: 8px 10px;
+      text-align: left;
+    }
+
+    th {
+      background: #0f766e;
+      color: white;
+    }
+
+    .high {
+      background: #fff7ed;
+      color: #9a3412;
+      font-weight: bold;
+    }
+
+    .error {
+      color: #991b1b;
+      font-weight: bold;
+    }
+
+    .summary {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 12px;
+      margin: 12px 0;
+    }
+
+    pre {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 12px;
+      overflow: auto;
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      const keys = ["姓名", ,"學號", "性別", "年紀"];
+      const link = "https://raw.githubusercontent.com/youchen624/NFUuse/refs/heads/main/%E5%A4%A7%E4%B8%89%E4%B8%8A/web/example/Website/JSON/JSON3/JSON3-hw.json";
+      const data = await fetch(
+        link, { cache: "no-store" }
+      ).then(r => r.json());
+      const tbody = document.getElementById("result");
+      data?.forEach((student,i) => {
+        const tr = document.createElement('tr');
+        tbody.appendChild(tr);
+        keys.forEach(key=>{
+          const td = document.createElement('td');
+          td.textContent = student[key];
+          tr.appendChild(td);
+        });
+      });
+    })
+  </script>
+</head>
+
+<body>
+  <h1>作業JSON3-hw</h1>
+  <table>
+    <thead>
+      <tr id="head">
+        <th>姓名</th>
+        <th>學號</th>
+        <th>性別</th>
+        <th>年紀</th>
+      </tr>
+    </thead>
+    <tbody id="result"></tbody>
+  </table>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+    <!doctype html>
+    <html lang="zh-Hant">
+    <head>
+      <meta charset="utf-8">
+      <title>[範例3-9] 錯誤回應範例</title>
+      <style>
+        body { font-family: Arial, "Microsoft JhengHei", sans-serif; margin: 24px; line-height: 1.6; }
+        h1 { color: #0b3b70; margin-bottom: 8px; }
+        .note { color: #4b5563; margin-bottom: 16px; }
+        table { border-collapse: collapse; min-width: 720px; margin-top: 12px; }
+        th, td { border: 1px solid #cbd5e1; padding: 8px 10px; text-align: left; }
+        th { background: #0f766e; color: white; }
+        .high { background: #fff7ed; color: #9a3412; font-weight: bold; }
+        .error { color: #991b1b; font-weight: bold; }
+        .summary { background: #f8fafc; border: 1px solid #cbd5e1; padding: 12px; margin: 12px 0; }
+        pre { background: #f8fafc; border: 1px solid #cbd5e1; padding: 12px; overflow: auto; }
+      </style>
+    </head>
+    <body>
+      <h1>[範例3-9] 錯誤回應範例</h1>
+      <p class="note">本範例使用 fetch() 載入遠端 JSON 檔，並加上時間戳與 cache: no-store，避免重新整理時讀到舊快取。</p>
+      <div id="message" class="error"></div>
+      <script>
+            async function main() {
+          const base = "http://140.130.35.72/ppt/web/json/json3/";
+          const data = await fetch(
+            base + "json3-9.json?t=" + Date.now(),
+            { cache: "no-store" }
+          )
+            .then(r => r.json());
+          if (!data.success) {
+            document.querySelector("#message").textContent =
+              data.message;
+          }
+        }
+        main();
+      </script>
+    </body>
+    </html>

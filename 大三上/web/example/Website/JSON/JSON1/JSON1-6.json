@@ -1,0 +1,8 @@
+{
+  "appName": "CourseWeb",
+  "debug": true,
+  "pageSize": 20,
+  "theme": "light",
+  "apiBaseUrl": "https://example.edu/api",
+  "lastLogin": null
+}

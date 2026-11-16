@@ -1,0 +1,2 @@
+console.log([{"id": "S114001","name": "王小明","scores": [85,92,88]},{"id": "S114002","name": "李小芬","scores": [90,91,95]},{"id": "S114003","name": "李忠芬","scores": [98,88,78]},{"id": "S114004","name": "李大芬","scores": [0,12,52]},{"id": "S114005","name": "李芬芬","scores": [76,65,78]}]
+  .reduce((p, v, i, a) => {return p += v.scores?.reduce((p, v, i) => p += v, 0);}, 0));

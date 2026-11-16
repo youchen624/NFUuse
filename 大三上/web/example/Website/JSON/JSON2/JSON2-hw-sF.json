@@ -1,0 +1,12 @@
+{
+  "$schema": "JSON2-hw.json",
+  "teacher": {},
+  "students": [
+    {
+      "id": 666,
+      "name": "",
+      "scores": [1, 9, 999]
+    },
+    {}
+  ]
+}

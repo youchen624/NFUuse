@@ -1,0 +1,7 @@
+{
+  "$schema": "JSON2-7.json",
+  "course": {
+    "name": "Web技術與應用",
+    "week": 0
+  }
+}
