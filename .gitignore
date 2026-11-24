@@ -1,3 +1,7 @@
+
+大三上/web/example/MVC/AEL022900範例檔/
+
+
 # ### public
 *.mp4
 
@@ -22,6 +26,14 @@ out/
 .vs/
 [Bb]in/
 [Oo]bj/
+[Pp]ackages/
+*.nupkg
+*.cache
+*.log
+
+**/Scripts/bootstrap*
+**/Scripts/jquery*
+**/Content/bootstrap*
 
 # XML | VS
 *.suo
