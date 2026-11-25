@@ -1,0 +1,601 @@
+#include <stdio.h>
+#include "NUC1xx.h"
+#include "Driver\DrvSYS.h"
+#include "Driver\DrvGPIO.h"
+#include "LCD_Driver.h"
+#include "Seven_Segment.h"
+
+#define ULL unsigned long long
+#define DELAY(x) DrvSYS_Delay(x)
+// #define ms(t) (1000*(t))
+#define IS_BUTTON_PRESS (!DrvGPIO_GetBit(E_GPB, 15))
+
+#define RGB_BLUE 12
+#define RGB_RED 14
+#define RGB_GREEN 13
+
+#define BUZZER 11
+
+/*
+## ?? THIS IS A FALSE TABLE / FROM PPT / **SHOULD NOT TRUST**
+| GPE | S | fake | real | &t | hex |
+| 0 | 1 | A | g | 1 | |
+| 1 | 2 | B | f | 2 | |
+| 2 | 3 | C | a | 4 | |
+| 3 | 4 | D | b | 8 | |
+| 4 | 5 | E | e | 16 | 0x10 |
+| 5 | 6 | F | d | 32 | 0x20 |
+| 6 | 7 | G | c | 64 | 0x40 |
+| 7 | 8 | H | p | 128 | 0x80 |
+
+REAL REAL
+1   : c : >>0
+2   : p : >>1
+4   : f : >>2
+8   : a : >>3
+16  : b : >>4
+32  : d : >>5
+64  : e : >>6
+128 : g : >>7
+255' 253'
+
+REAL REAL
+* --a-- *
+|       |
+f       b
+|       |
+* --g-- *
+|       |
+e       c
+|       |
+* --d-- p
+
+3210.
+*/
+
+const unsigned char SEG_num[16] = {
+    0x7D, // 0
+    0x11, // 1
+    0xF8, // 2
+    0xB9, // 3
+    0x95, // 4
+    0xAD, // 5
+    0xED, // 6
+    0x19, // 7
+    0xFD, // 8
+    0xBD, // 9
+
+    0xDD, // A
+    0xE5, // B
+    0x6C, // C
+    0xF1, // D
+    0xEC, // E
+    0xCC, // F
+};
+// DO NOT USE #FAKE by PPT
+int SEG_num_FUCK[] = {
+    0x82, // 0
+    0xEE, // 1
+    0x07, // 2
+    0x46, // 3
+    0x6A, // 4
+    0x52, // 5
+    0x12, // 6
+    0xE6, // 7
+    0x02, // 8
+    0x62, // 9
+};
+// seg >3210>
+void SEG_on(int n, int seg)
+{
+  int i;
+  int t = 0x01;
+  for (i = 0; i < 4; ++i)
+  {
+    DrvGPIO_ClrBit(E_GPC, (i + 4));
+  }
+  DrvGPIO_SetBit(E_GPC, seg + 4);
+
+  for (i = 0; i < 8; ++i, t *= 2)
+  {
+    if (SEG_num[n] & t)
+      DrvGPIO_ClrBit(E_GPE, i);
+    else
+      DrvGPIO_SetBit(E_GPE, i);
+  }
+};
+void SEG_on_raw(int data, int seg)
+{
+  int i;
+  int t = 0x01;
+  for (i = 0; i < 4; ++i)
+  {
+    DrvGPIO_ClrBit(E_GPC, (i + 4));
+  }
+  DrvGPIO_SetBit(E_GPC, seg + 4);
+
+  for (i = 0; i < 8; ++i, t *= 2)
+  {
+    if (data & t)
+      DrvGPIO_ClrBit(E_GPE, i);
+    else
+      DrvGPIO_SetBit(E_GPE, i);
+  }
+};
+void SEG_off()
+{
+  int i;
+  for (i = 0; i < 4; ++i)
+  {
+    DrvGPIO_ClrBit(E_GPC, (i + 4));
+  }
+};
+
+// reset
+void reset()
+{
+  // turn off all
+  DrvGPIO_SetBit(E_GPB, BUZZER);
+  DrvGPIO_SetBit(E_GPC, 12);
+  DrvGPIO_SetBit(E_GPC, 13);
+  DrvGPIO_SetBit(E_GPC, 14);
+  DrvGPIO_SetBit(E_GPC, 15);
+  DrvGPIO_SetBit(E_GPA, RGB_BLUE);
+  DrvGPIO_SetBit(E_GPA, RGB_RED);
+  DrvGPIO_SetBit(E_GPA, RGB_GREEN);
+};
+
+// REAL DELAY
+void delay(int ms)
+{
+  int i;
+  for (i = 0; i < ms; ++i)
+  {
+    DELAY(1000);
+  }
+};
+
+/**
+ * delay_pro
+ * @returns {int 1|0}
+ * - 1 meaning end by a button pressed;
+ * - 0 meaning end by the time's up;
+ */
+int delay_pro(int ms)
+{
+  while (ms--)
+  {
+    if (!DrvGPIO_GetBit(E_GPB, 15))
+    {
+      reset();
+      delay(40); // debouncing
+      // until
+      while (!DrvGPIO_GetBit(E_GPB, 15))
+        delay(1);
+      return 1;
+    }
+    delay(1);
+  }
+  return 0;
+};
+
+// init
+void Init_PINs()
+{
+  int i = 0;
+  // Buzzer
+  DrvGPIO_Open(E_GPB, BUZZER, E_IO_OUTPUT);
+  // LED
+  DrvGPIO_Open(E_GPC, 12, E_IO_OUTPUT);
+  DrvGPIO_Open(E_GPC, 13, E_IO_OUTPUT);
+  DrvGPIO_Open(E_GPC, 14, E_IO_OUTPUT);
+  DrvGPIO_Open(E_GPC, 15, E_IO_OUTPUT);
+
+  // RGB LED
+  DrvGPIO_Open(E_GPA, RGB_RED, E_IO_OUTPUT);
+  DrvGPIO_Open(E_GPA, RGB_BLUE, E_IO_OUTPUT);
+  DrvGPIO_Open(E_GPA, RGB_GREEN, E_IO_OUTPUT);
+
+  // SW button
+  DrvGPIO_Open(E_GPB, 15, E_IO_INPUT);
+
+  // 7SEG
+  for (i = 4; i <= 7; i++) {
+    DrvGPIO_Open(E_GPC, i, E_IO_OUTPUT);
+  }
+  // 7-Segment Segment Control Pins (GPE0 ~ GPE7)
+  for (i = 0; i <= 7; i++) {
+    DrvGPIO_Open(E_GPE, i, E_IO_OUTPUT);
+  }
+
+  // reset
+  reset();
+}
+
+void LED_4(int i)
+{
+  DrvGPIO_SetBit(E_GPC, 12);
+  DrvGPIO_SetBit(E_GPC, 13);
+  DrvGPIO_SetBit(E_GPC, 14);
+  DrvGPIO_SetBit(E_GPC, 15);
+
+  if (i == 0)
+    DrvGPIO_ClrBit(E_GPC, 12);
+  else if (i == 1)
+    DrvGPIO_ClrBit(E_GPC, 13);
+  else if (i == 2)
+    DrvGPIO_ClrBit(E_GPC, 14);
+  else if (i == 3)
+    DrvGPIO_ClrBit(E_GPC, 15);
+}
+
+void LED_hex(int i)
+{
+  DrvGPIO_SetBit(E_GPC, 12);
+  DrvGPIO_SetBit(E_GPC, 13);
+  DrvGPIO_SetBit(E_GPC, 14);
+  DrvGPIO_SetBit(E_GPC, 15);
+
+  if (i & 0x01)
+    DrvGPIO_ClrBit(E_GPC, 12);
+  if (i & 0x02)
+    DrvGPIO_ClrBit(E_GPC, 13);
+  if (i & 0x04)
+    DrvGPIO_ClrBit(E_GPC, 14);
+  if (i & 0x08)
+    DrvGPIO_ClrBit(E_GPC, 15);
+}
+
+/* // Key Pad
+GPA_*
+O 2 1 0
+3 s s s
+4 s s s
+5 s s s
+---- ----
+function(x,y)
+O 0 1 2 x
+0 s s s
+1 s s s
+2 s s s
+y
+*/
+int is_key_press(int x, int y)
+{
+  static const int xt[] = {2, 1, 0};
+  static const int yt[] = {3, 4, 5};
+  int i = 0;
+  for (i = 0; i < 3; ++i)
+  {
+    DrvGPIO_SetBit(E_GPA, xt[i]);
+  }
+  DrvGPIO_ClrBit(E_GPA, xt[x]);
+  return (DrvGPIO_GetBit(E_GPA, yt[y]) == 0);
+};
+
+#define GREEN 0x03
+#define RED 0x05
+#define BLUE 0x06
+#define NONE 0x07
+#define YELLOW 0x01
+#define WHITE 0x00
+
+/**
+ * RGB_LED(state);
+ * 0x01 YELLOW
+ * 0X07 NONE
+ * 0x06 BLUE
+ * 0x05 RED
+ * 0x03 GREEN
+ */
+void RGB_LED(int i)
+{
+  if (i & 0x01)
+    DrvGPIO_SetBit(E_GPA, RGB_BLUE); // off
+  else
+    DrvGPIO_ClrBit(E_GPA, RGB_BLUE); // on
+
+  if (i & 0x02)
+    DrvGPIO_SetBit(E_GPA, RGB_RED);
+  else
+    DrvGPIO_ClrBit(E_GPA, RGB_RED);
+
+  if (i & 0x04)
+    DrvGPIO_SetBit(E_GPA, RGB_GREEN);
+  else
+    DrvGPIO_ClrBit(E_GPA, RGB_GREEN);
+}
+
+// play music-1
+void sing()
+{
+  int i = 0;   // use for cheap-timer
+  int t = 0;   // use for cheap-timer
+  int t_s = 0; // user for cheap-timer
+  int state = 0;
+  const int song[] = {5, 5, 5, 5, 1, 1, 1, 1, 1, 6, 1, 1, 1, 1, 1, 1, 1, 6, 1, 1, 1, 3};
+
+  for (i = 0; i < 22; ++i)
+  {
+    if (state)
+    {
+      // off
+      DrvGPIO_SetBit(E_GPB, BUZZER);
+      RGB_LED(RED);
+    }
+    else
+    {
+      // on
+      DrvGPIO_ClrBit(E_GPB, BUZZER);
+      RGB_LED(GREEN);
+    }
+    // delay
+    for (t = 0; t < song[i]; ++t)
+    {
+      for (t_s = 0; t_s < 80; ++t_s)
+      {
+        if (!DrvGPIO_GetBit(E_GPB, 15))
+        {
+          reset();
+          delay(40);
+          while (!DrvGPIO_GetBit(E_GPB, 15))
+            delay(1);
+          return;
+        }
+        delay(1);
+      }
+    }
+    state = !state;
+  }
+
+  // end song
+  reset();
+  for (i = 0; i < 3; ++i)
+  {
+    RGB_LED(WHITE);
+    if (delay_pro(500))
+      return;
+    RGB_LED(NONE);
+    if (delay_pro(500))
+      return;
+  }
+};
+
+volatile uint32_t bounce_counter = 0;
+volatile uint8_t measuring_flag = 0;
+// for button bouncing counting
+void GPIOAB_INT_CallBack(uint32_t GPA_IntStatus, uint32_t GPB_IntStatus)
+{
+  if (measuring_flag)
+  {
+    bounce_counter++;
+  }
+}
+
+// t_ms data, t ticks
+void seg7_ms(t_ms, t)
+{
+  int i;
+  int num;
+  int s = (t % 5);                        // 0~4
+  int dp = ((t % 1000) > 500) || (!t_ms); // 500ms / 0/1
+  if (s >= 4)
+    return; // 0 1 2 3
+
+  for (i = 0; i <= s; ++i)
+  {
+    t_ms /= 10;
+    num = (t_ms % 10);
+  }
+  SEG_on_raw((SEG_num[num] | ((dp && (s == 2)) ? 0x02 : 0x00)), s);
+};
+
+
+// return 1~4 4>3>2>1
+int scanKey4() {
+  if (is_key_press(1, 1)) return 4;
+  if (is_key_press(0, 1)) return 3;
+  if (is_key_press(1, 0)) return 2;
+  if (is_key_press(0, 0)) return 1;
+  return 0;
+};
+
+/* return 1~9 9>8>7>...>2>1
+|________.
+|> 7 8 9 |
+|> 4 5 6 |
+|> 1 2 3 |
+|--------*
+*/
+int scanKey9() {
+  if (is_key_press(2, 0)) return 9;
+  if (is_key_press(1, 0)) return 8;
+  if (is_key_press(0, 0)) return 7;
+  if (is_key_press(2, 1)) return 6;
+  if (is_key_press(1, 1)) return 5;
+  if (is_key_press(0, 1)) return 4;
+  if (is_key_press(2, 2)) return 3;
+  if (is_key_press(1, 2)) return 2;
+  if (is_key_press(0, 2)) return 1;
+  return 0;
+};
+
+void seg7_4m_wreset(int t, int next_state, int reset) {
+  static int state = 0;
+  int st = state;
+  int num;
+  int s = t % 5;
+  int i = 0;
+  if (next_state) {
+    state *= 10;          // Shift
+    state += next_state;  // LSB (Least Significant  Bit)
+    state %= 10000;       // keep 4 bits
+  };
+  if (reset) state = 0;
+  if (!state) {
+    // SEG_off();
+    SEG_on_raw(0x20, s);
+    return;
+  }
+
+  if (s >= 4) return; // 0 1 2 3
+  for(i; i <= s; ++i) {
+    num = st % 10;
+    st /= 10;
+    if(num) {
+      SEG_on(num, i);
+    }
+  }
+};
+
+// next_state allow 0
+void seg7_4m_wreset_16(int t, int next_state, int push_state, int hex_mode, int reset) {
+  static int state = 0;
+  int st;
+  int num;
+  int s = t % 5;
+  int i = 0;
+  if (reset) state = 0;
+  st = state;
+  if (push_state && (state < 1000)) {
+    state *= 10;          // Shift
+    if (next_state)       // LSB (Least Significant  Bit)
+      state += next_state;  // not 0
+    state %= 10000;       // keep 4 bits
+  };
+  if (!st) {
+    SEG_on(0, 0);
+    // SEG_off();
+    // SEG_on_raw(0x20, s);
+    return;
+  }
+
+  if (s >= 4) return; // 0 1 2 3
+  if (hex_mode) {
+    // in bin, get 4bits === 0000 1111 0000 => 1111
+    num = (st >> (4*s)) & 0x0F;
+    if (!num && !(st >> (4*(s+1)))) return;
+    SEG_on(num, s);
+  } else {
+    for (i; i <= s; ++i) {
+      num = st % 10;
+      st /= 10;
+    }
+    if (!num && !st) return;
+    SEG_on(num, s);
+  }
+  /*
+  for(i; i <= s; ++i) {
+    if (hex_mode) {
+      // in bin, get 4bits === 0000 1111 0000 => 1111
+      num = (st >> (4*i)) & 0x0F;
+      // if (num > 0) {
+        SEG_on(num, i);
+        // }
+    } else {
+        num = st % 10;
+        st /= 10;
+        SEG_on(num, i);
+    }
+  }
+  */
+};
+
+int main(void)
+{
+  // const int RGB_LEG_cycle[] = { RED, GREEN, BLUE };
+  // 24
+
+  // char TEXT[16];
+
+  const int id[] = {1, 3, 1, 3};
+  int state = 0;
+  int key_state = 0;
+  // const int cc[] = {0x6C, 0xAD, 0x11, 0xEC};
+  // const int tttt[] = {3, 2, 1, 0};
+
+  int i = 0;       // use for cheap-timer
+  int j = 0;       // use for cheap-timer
+  int t = 0;       // use for cheap-timer
+  int t_ms = 0;    // user for cheap-timer
+  int t_clock = 0; // user for cheap-timer
+  int t_s = 0;     // user for cheap-timer
+  int st = 0;      // button press-time
+  int r = -1;      // rotation
+  int count = 0;
+  ULL btick_ms = 0;
+  // int L_LED = 0x07;
+
+  int mode = 1;   // 1 => normal;; 0 => reverse num only
+  int i_nseg = 3; // number of seg 0~3 >>
+  int i_nseg_debug = 3;
+  int i_rseg = -1; // rotation of seg +>> -<<
+
+  // IMPORTANT
+  UNLOCKREG();           // unlock register for programming
+  DrvSYS_Open(48000000); // set System Clock to run at 48MHz (PLL with 12MHz crystal input)
+  LOCKREG();             // lock register from programming
+
+  // interrupt
+  // DrvGPIO_EnableEINT1(E_IO_RISING, E_MODE_EDGE, GPIOAB_INT_CallBack);
+
+  // panel
+  // Initial_pannel();
+  // clr_all_pannal();
+
+  // init all others
+  Init_PINs(); // Initialize LEDs
+
+  // debounce using
+  // debounce enable (buildin)
+  // DrvGPIO_SetDebounceTime(5, 1);
+  // DrvGPIO_EnableDebounce(E_GPB, 15);
+
+  // do {
+  //   key_state = scanKey9();
+  // } while (!key_state && !IS_BUTTON_PRESS);
+
+  while (1)
+  {
+    // SEG 7
+    seg7_4m_wreset_16(t_ms, 0, 0, 0, 0);
+
+    // key pad
+    key_state = scanKey9();
+    if (key_state) {
+      seg7_4m_wreset_16(t_ms, key_state, 1, 0, 0);
+      delay(10);
+      while(key_state == scanKey9()) {
+        delay(1);
+        if (++t_ms >= 10) t_ms = 0;
+        seg7_4m_wreset_16(t_ms, 0, 0, 0, 0);
+      }
+    }
+
+    // reset key(SW)
+    t_s = 0;
+    if (IS_BUTTON_PRESS) {
+      delay(40);
+      while(IS_BUTTON_PRESS) {
+        delay(1);
+        if (++t_s > 500) {    // lock
+          while(1) {
+            seg7_4m_wreset_16(t_ms, 0, 0, 1, 0);
+            if (++t_ms >= 10) t_ms = 0;
+            delay(1);
+          }
+        }
+        if (++t_ms >= 10) t_ms = 0;
+        seg7_4m_wreset_16(t_ms, 0, 0, 0, 0);
+      }
+      seg7_4m_wreset_16(t_ms, 0, 1, 0, 0);
+    }
+
+    // Timer
+    if (++t_ms >= 10) t_ms = 0;
+    delay(1);
+  }
+}
+
+//
+//

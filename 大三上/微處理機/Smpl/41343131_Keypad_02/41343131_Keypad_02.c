@@ -383,7 +383,7 @@ void seg7_ms(t_ms, t)
 
 
 // return 1~4 4>3>2>1
-int ScanKey4() {
+int scanKey4() {
   if (is_key_press(1, 1)) return 4;
   if (is_key_press(0, 1)) return 3;
   if (is_key_press(1, 0)) return 2;
@@ -449,7 +449,7 @@ int main(void)
     }
 
     // state
-    state = ScanKey4();
+    state = scanKey4();
 
     // Timer
     if (++t_ms >= 10) t_ms = 0;
