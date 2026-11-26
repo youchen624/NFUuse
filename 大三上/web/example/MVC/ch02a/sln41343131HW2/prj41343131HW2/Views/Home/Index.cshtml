@@ -1,0 +1,55 @@
+﻿@model IEnumerable<prj41343131HW2.Models.user>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @*@Html.DisplayNameFor(model => model.fAccount)*@
+            帳號
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.fPassword)*@
+            密碼(明文)
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.fEmail)*@
+            電子信箱
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.fDate)*@
+            創建日期
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.fAccount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fDate)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.fId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.fId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.fId }, new{onclick="return confirm('確定刪除嗎?')", @class="btn btn-danger"})
+        </td>
+    </tr>
+}
+
+</table>
